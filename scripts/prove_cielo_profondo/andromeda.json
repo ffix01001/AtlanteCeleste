@@ -1,0 +1,32 @@
+[
+ {
+  "nome": "e_0450_fov50",
+  "js": "a.deselect(); a.view.camera.fov=50; a.view.camera.updateProjectionMatrix(); const mw=P.by('gal:mw'), m31=P.by('dso:m31'); const v=m31.scenePos.clone().sub(mw.scenePos); P.orbit('gal:mw', 450*3.0857e16, Math.atan2(v.z,v.x), Math.asin(v.y/v.length())); return null;",
+  "attesa": 3500,
+  "dopo": "return {drawn:a.view.galaxy.drawn};"
+ },
+ {
+  "nome": "e_0650_fov50",
+  "js": "a.view.camera.fov=50; a.view.camera.updateProjectionMatrix(); const mw=P.by('gal:mw'), m31=P.by('dso:m31'); const v=m31.scenePos.clone().sub(mw.scenePos); P.orbit('gal:mw', 650*3.0857e16, Math.atan2(v.z,v.x), Math.asin(v.y/v.length())); return null;",
+  "attesa": 3500,
+  "dopo": "return {drawn:a.view.galaxy.drawn};"
+ },
+ {
+  "nome": "e_0769_fov50",
+  "js": "a.view.camera.fov=50; a.view.camera.updateProjectionMatrix(); const mw=P.by('gal:mw'), m31=P.by('dso:m31'); const v=m31.scenePos.clone().sub(mw.scenePos); P.orbit('gal:mw', 769*3.0857e16, Math.atan2(v.z,v.x), Math.asin(v.y/v.length())); return null;",
+  "attesa": 3500,
+  "dopo": "return {drawn:a.view.galaxy.drawn};"
+ },
+ {
+  "nome": "e_0769_fov08",
+  "js": "a.view.camera.fov=8; a.view.camera.updateProjectionMatrix(); const mw=P.by('gal:mw'), m31=P.by('dso:m31'); const v=m31.scenePos.clone().sub(mw.scenePos); P.orbit('gal:mw', 769*3.0857e16, Math.atan2(v.z,v.x), Math.asin(v.y/v.length())); return null;",
+  "attesa": 3500,
+  "dopo": "return {drawn:a.view.galaxy.drawn};"
+ },
+ {
+  "nome": "e_2000_fov50",
+  "js": "a.view.camera.fov=50; a.view.camera.updateProjectionMatrix(); const mw=P.by('gal:mw'), m31=P.by('dso:m31'); const v=m31.scenePos.clone().sub(mw.scenePos); P.orbit('gal:mw', 2000*3.0857e16, Math.atan2(v.z,v.x), Math.asin(v.y/v.length())); return null;",
+  "attesa": 3500,
+  "dopo": "return {drawn:a.view.galaxy.drawn};"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "nome": "q1_pleiadi_terra",
+  "js": "const b=P.by('dso:m45'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:m45', b.radius*4, Math.atan2(v.z,v.x)+0, el0); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:m45'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ },
+ {
+  "nome": "q2_pleiadi_lato",
+  "js": "const b=P.by('dso:m45'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:m45', b.radius*4, Math.atan2(v.z,v.x)+1.57, 0.2); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:m45'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ },
+ {
+  "nome": "q3_pleiadi_dietro",
+  "js": "const b=P.by('dso:m45'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:m45', b.radius*4, Math.atan2(v.z,v.x)+3.14, -el0); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:m45'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ },
+ {
+  "nome": "q4_pleiadi_vicino_terra",
+  "js": "const b=P.by('dso:m45'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:m45', b.radius*1.2, Math.atan2(v.z,v.x)+0, el0); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:m45'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ },
+ {
+  "nome": "q5_iadi_lato",
+  "js": "const b=P.by('dso:iadi'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:iadi', b.radius*4, Math.atan2(v.z,v.x)+1.57, 0.2); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:iadi'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ },
+ {
+  "nome": "q6_iadi_terra",
+  "js": "const b=P.by('dso:iadi'), sun=a.universe.sun; const v=sun.scenePos.clone().sub(b.scenePos).normalize(); a.select(b,false); document.querySelectorAll('.info, #info, .infopanel').forEach(e=>e.hidden=true); const el0=Math.asin(v.y); P.orbit('dso:iadi', b.radius*4, Math.atan2(v.z,v.x)+0, el0); return null;",
+  "attesa": 4500,
+  "dopo": "const vis=a.view.visuals.get('dso:iadi'); return {ch: vis.group.children.map(c=>({vis:c.visible, I:c.material&&c.material.uniforms&&c.material.uniforms.intensity&&+c.material.uniforms.intensity.value.toFixed(3)}))};"
+ }
+]

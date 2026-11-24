@@ -1,0 +1,28 @@
+{
+  "name": "atlante-celeste-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "description": "Interfaccia 3D di Atlante Celeste",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --import ./tests/register.mjs --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/bodoni-moda": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "astronomy-engine": "2.1.19",
+    "marked": "18.1.1",
+    "satellite.js": "7.1.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  }
+}

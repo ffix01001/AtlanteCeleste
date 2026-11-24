@@ -1,0 +1,148 @@
+{
+  "_descrizione": "Sonde e veicoli nello spazio profondo. Codici NAIF negativi = veicoli spaziali su JPL Horizons. 'trail' = traiettoria storica a bassa risoluzione.",
+  "bodies": [
+    {
+      "id": "naif:-31", "slug": "voyager-1", "name": "Voyager 1", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.0018, "color": "#ffd27a", "wiki": "Voyager 1",
+      "horizons": {"command": "-31", "center": "500@10", "step": "1 d"},
+      "trail": {"start": "1977-09-06", "step": "10 d", "future_days": 3650},
+      "phys": {"mass_launch_kg": 825.5, "agency": "NASA / JPL", "status": "attiva (strumenti ridotti per risparmiare energia)",
+               "launch": {"date": "1977-09-05", "vehicle": "Titan IIIE-Centaur", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-32", "slug": "voyager-2", "name": "Voyager 2", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.0018, "color": "#ffd27a", "wiki": "Voyager 2",
+      "horizons": {"command": "-32", "center": "500@10", "step": "1 d"},
+      "trail": {"start": "1977-08-21", "step": "10 d", "future_days": 3650},
+      "phys": {"mass_launch_kg": 825.5, "agency": "NASA / JPL", "status": "attiva (strumenti ridotti per risparmiare energia)",
+               "launch": {"date": "1977-08-20", "vehicle": "Titan IIIE-Centaur", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-23", "slug": "pioneer-10", "name": "Pioneer 10", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.0015, "color": "#d8b070", "wiki": "Pioneer 10",
+      "horizons": {"command": "-23", "center": "500@10", "step": "2 d"},
+      "trail": {"start": "1972-03-04", "step": "10 d", "future_days": 0},
+      "phys": {"mass_launch_kg": 258, "agency": "NASA / Ames", "status": "inattiva (ultimo segnale il 23 gennaio 2003), in viaggio inerziale",
+               "launch": {"date": "1972-03-03", "vehicle": "Atlas-Centaur", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-24", "slug": "pioneer-11", "name": "Pioneer 11", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.0015, "color": "#d8b070", "wiki": "Pioneer 11",
+      "horizons": {"command": "-24", "center": "500@10", "step": "2 d"},
+      "trail": {"start": "1973-04-07", "step": "10 d", "future_days": 0},
+      "phys": {"mass_launch_kg": 259, "agency": "NASA / Ames", "status": "inattiva (ultimo contatto nel 1995), in viaggio inerziale",
+               "launch": {"date": "1973-04-06", "vehicle": "Atlas-Centaur", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-98", "slug": "new-horizons", "name": "New Horizons", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.0015, "color": "#ffd27a", "wiki": "New Horizons",
+      "horizons": {"command": "-98", "center": "500@10", "step": "1 d"},
+      "trail": {"start": "2006-01-20", "step": "5 d", "future_days": 3650},
+      "phys": {"mass_launch_kg": 478, "agency": "NASA / Johns Hopkins APL", "status": "attiva, nella Fascia di Kuiper",
+               "launch": {"date": "2006-01-19", "vehicle": "Atlas V 551", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-96", "slug": "parker", "name": "Parker Solar Probe", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.0015, "color": "#ffb060", "wiki": "Parker Solar Probe",
+      "horizons": {"command": "-96", "center": "500@10", "step": "1 h"},
+      "trail": {"start": "2018-08-13", "step": "1 d", "future_days": 365},
+      "phys": {"mass_launch_kg": 685, "agency": "NASA / Johns Hopkins APL", "status": "attiva",
+               "launch": {"date": "2018-08-12", "vehicle": "Delta IV Heavy", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-170", "slug": "jwst", "name": "Telescopio spaziale James Webb", "kind": "spacecraft", "parent": "naif:399", "rank": 2,
+      "radius_km": 0.01, "color": "#ffd27a", "wiki": "Telescopio spaziale James Webb",
+      "horizons": {"command": "-170", "center": "500@399", "step": "12 h"},
+      "trail": {"start": "2021-12-26", "step": "1 d", "future_days": 365, "center": "500@399"},
+      "phys": {"mass_launch_kg": 6161, "agency": "NASA / ESA / CSA", "status": "attivo, in orbita attorno al punto L2 Sole-Terra",
+               "launch": {"date": "2021-12-25", "vehicle": "Ariane 5 ECA", "site": "Kourou, Guyana francese"}}
+    },
+    {
+      "id": "naif:-61", "slug": "juno", "name": "Juno", "kind": "spacecraft", "parent": "naif:599", "rank": 3,
+      "radius_km": 0.01, "color": "#ffd27a", "wiki": "Juno (sonda spaziale)",
+      "horizons": {"command": "-61", "center": "500@599", "step": "10 m"},
+      "trail": {"start": "2011-08-06", "step": "2 d", "future_days": 365, "center": "500@10"},
+      "phys": {"mass_launch_kg": 3625, "agency": "NASA / JPL", "status": "in orbita attorno a Giove dal 2016",
+               "launch": {"date": "2011-08-05", "vehicle": "Atlas V 551", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-159", "slug": "europa-clipper", "name": "Europa Clipper", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.015, "color": "#ffd27a", "wiki": "Europa Clipper",
+      "horizons": {"command": "-159", "center": "500@10", "step": "1 h"},
+      "trail": {"start": "2024-10-15", "step": "1 d", "future_days": 1460},
+      "phys": {"mass_launch_kg": 6065, "agency": "NASA / JPL", "status": "in viaggio verso Giove (arrivo previsto nel 2030)",
+               "launch": {"date": "2024-10-14", "vehicle": "Falcon Heavy", "site": "Kennedy Space Center, Florida"}}
+    },
+    {
+      "id": "naif:-28", "slug": "juice", "name": "JUICE", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.015, "color": "#9ad0ff", "wiki": "JUICE",
+      "horizons": {"command": "-28", "center": "500@10", "step": "2 h"},
+      "trail": {"start": "2023-04-15", "step": "1 d", "future_days": 1825},
+      "phys": {"mass_launch_kg": 6070, "agency": "ESA", "status": "in viaggio verso Giove (arrivo previsto nel 2031)",
+               "launch": {"date": "2023-04-14", "vehicle": "Ariane 5 ECA", "site": "Kourou, Guyana francese"}}
+    },
+    {
+      "id": "naif:-121", "slug": "bepicolombo", "name": "BepiColombo", "kind": "spacecraft", "parent": "naif:10", "rank": 2,
+      "radius_km": 0.01, "color": "#9ad0ff", "wiki": "BepiColombo",
+      "horizons": {"command": "-121", "center": "500@10", "step": "1 h"},
+      "trail": {"start": "2018-10-21", "step": "1 d", "future_days": 365},
+      "phys": {"mass_launch_kg": 4100, "agency": "ESA / JAXA", "status": "in arrivo a Mercurio (inserimento in orbita previsto a fine 2026)",
+               "launch": {"date": "2018-10-20", "vehicle": "Ariane 5 ECA", "site": "Kourou, Guyana francese"}}
+    },
+    {
+      "id": "naif:-144", "slug": "solar-orbiter", "name": "Solar Orbiter", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.01, "color": "#9ad0ff", "wiki": "Solar Orbiter",
+      "horizons": {"command": "-144", "center": "500@10", "step": "2 h"},
+      "trail": {"start": "2020-02-11", "step": "1 d", "future_days": 365},
+      "phys": {"mass_launch_kg": 1800, "agency": "ESA / NASA", "status": "attiva",
+               "launch": {"date": "2020-02-10", "vehicle": "Atlas V 411", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-49", "slug": "lucy", "name": "Lucy", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.01, "color": "#ffd27a", "wiki": "Lucy (sonda spaziale)",
+      "horizons": {"command": "-49", "center": "500@10", "step": "6 h"},
+      "trail": {"start": "2021-10-17", "step": "2 d", "future_days": 3650},
+      "phys": {"mass_launch_kg": 1550, "agency": "NASA / SwRI", "status": "in viaggio verso gli asteroidi troiani di Giove",
+               "launch": {"date": "2021-10-16", "vehicle": "Atlas V 401", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-255", "slug": "psyche-sonda", "name": "Psyche (sonda)", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.01, "color": "#ffd27a", "wiki": "Psyche (sonda spaziale)",
+      "horizons": {"command": "-255", "center": "500@10", "step": "6 h"},
+      "trail": {"start": "2023-10-14", "step": "2 d", "future_days": 1460},
+      "phys": {"mass_launch_kg": 2747, "agency": "NASA / JPL", "status": "in viaggio verso l'asteroide Psiche (arrivo previsto nel 2029)",
+               "launch": {"date": "2023-10-13", "vehicle": "Falcon Heavy", "site": "Kennedy Space Center, Florida"}}
+    },
+    {
+      "id": "naif:-91", "slug": "hera", "name": "Hera", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.005, "color": "#9ad0ff", "wiki": "Hera (sonda spaziale)",
+      "horizons": {"command": ["-91", "Hera"], "center": "500@10", "step": "2 h"},
+      "trail": {"start": "2024-10-08", "step": "1 d", "future_days": 730},
+      "phys": {"mass_launch_kg": 1128, "agency": "ESA", "status": "in arrivo al sistema Didymos-Dimorphos",
+               "launch": {"date": "2024-10-07", "vehicle": "Falcon 9", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-64", "slug": "osiris-apex", "name": "OSIRIS-APEX", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.005, "color": "#ffd27a", "wiki": "OSIRIS-REx",
+      "horizons": {"command": "-64", "center": "500@10", "step": "6 h"},
+      "trail": {"start": "2016-09-09", "step": "2 d", "future_days": 1095},
+      "phys": {"mass_launch_kg": 2110, "agency": "NASA / Università dell'Arizona", "status": "in viaggio verso Apophis (arrivo previsto nel 2029)",
+               "launch": {"date": "2016-09-08", "vehicle": "Atlas V 411", "site": "Cape Canaveral, Florida"}}
+    },
+    {
+      "id": "naif:-139479", "slug": "gaia", "name": "Gaia", "kind": "spacecraft", "parent": "naif:10", "rank": 3,
+      "radius_km": 0.005, "color": "#9ad0ff", "wiki": "Gaia (sonda spaziale)",
+      "horizons": {"command": "-139479", "center": "500@10", "step": "1 d"},
+      "phys": {"mass_launch_kg": 2029, "agency": "ESA", "status": "ritirata il 27 marzo 2025, ora in orbita attorno al Sole",
+               "launch": {"date": "2013-12-19", "vehicle": "Soyuz-Fregat", "site": "Kourou, Guyana francese"}}
+    },
+    {
+      "id": "naif:-143205", "slug": "tesla-roadster", "name": "Tesla Roadster (Starman)", "kind": "spacecraft", "parent": "naif:10", "rank": 4,
+      "radius_km": 0.002, "color": "#ff6060", "wiki": "Tesla Roadster di Elon Musk",
+      "horizons": {"command": "-143205", "center": "500@10", "step": "1 d"},
+      "trail": {"start": "2018-02-08", "step": "2 d", "future_days": 730},
+      "phys": {"mass_launch_kg": 1350, "agency": "SpaceX", "status": "oggetto inerte in orbita attorno al Sole",
+               "launch": {"date": "2018-02-06", "vehicle": "Falcon Heavy (volo dimostrativo)", "site": "Kennedy Space Center, Florida"}}
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿ATLANTE CELESTE 1.0
+Copyright © 2026 Giovanni Frasca. Software libero: licenza GNU GPL 3.0 o successiva.
+
+Atlante Celeste è un planetario 3D: il Sistema Solare com'è in questo preciso istante, con i dati
+veri di NASA/JPL, migliaia di satelliti, 110.000 stelle, la Via Lattea e Sagittarius A*, il buco
+nero al centro della Galassia, con la luce calcolata secondo la relatività generale.
+Alla prima apertura servono la connessione a internet e qualche minuto: il programma prepara
+Python e scarica i dati da NASA/JPL e CelesTrak. Dopo funziona anche senza rete.
+
+
+COME AVVIARLO SU WINDOWS (10 o 11)
+----------------------------------
+1. Estrai tutto lo zip in una cartella che non sia sincronizzata con OneDrive,
+   per esempio C:\Progetti (verrà creata C:\Progetti\AtlanteCeleste).
+2. Doppio clic su avvia.bat.
+   La prima volta installa da solo "uv" (lo strumento che gestisce Python) e le librerie.
+   Se Windows chiede conferma per installare uv, rispondi di sì.
+3. Doppio clic su crea_collegamento.bat: mette l'icona di Atlante Celeste sul Desktop.
+   Dalla volta dopo basta l'icona.
+
+Se compare l'avviso blu "Windows ha protetto il PC", premi "Ulteriori informazioni" e poi
+"Esegui comunque": succede con tutti i programmi scaricati che non vengono da un negozio.
+Se la finestra del programma non si apre, Atlante Celeste si apre da solo nel browser.
+
+
+COME AVVIARLO SUL MAC (macOS 11 o successivo)
+---------------------------------------------
+1. Fai doppio clic sullo zip: compare la cartella AtlanteCeleste (di solito in Download).
+2. Apri il Terminale (Applicazioni > Utility > Terminale), scrivi  bash  seguito da uno spazio,
+   trascina nella finestra il file installa_mac.command e premi Invio. Per esempio:
+       bash ~/Downloads/AtlanteCeleste/installa_mac.command
+   Lo script sposta la cartella in Progetti (nella tua cartella Inizio), installa "uv" se
+   manca, prepara Python e mette l'app Atlante Celeste fra le Applicazioni. Poi la apre.
+3. Dalla volta dopo apri Atlante Celeste dalle Applicazioni, dal Launchpad o con Spotlight.
+   Per tenerlo nel Dock, trascina l'app dalla cartella Applicazioni al Dock.
+
+Non fare doppio clic su installa_mac.command: il Mac lo bloccherebbe perché scaricato da
+internet. Dal Terminale, come sopra, funziona sempre.
+
+
+IN CASO DI PROBLEMI
+-------------------
+Il registro degli errori è in data/cache/atlante.log (dentro la cartella AtlanteCeleste).
+Comandi principali: tasto ? dentro il programma. Il file README.it.md spiega tutto nei dettagli.
+
+
+LICENZA
+-------
+Atlante Celeste è software libero, di Giovanni Frasca. Puoi usarlo, studiarlo, modificarlo e
+ridistribuirlo, anche modificato, alle condizioni della GNU General Public License, versione 3
+o (a tua scelta) successiva: il testo completo è nel file LICENSE. In breve, chi distribuisce
+il programma, anche modificato, deve farlo con la stessa licenza, dare il codice sorgente e
+lasciare le note sugli autori.
+
+I testi delle schede (cartella data/content, in tutte le lingue) sono di Giovanni Frasca e sono
+distribuiti con licenza Creative Commons Attribuzione - Condividi allo stesso modo 4.0
+(CC BY-SA 4.0): vedi data/content/LICENZA.md.
+
+Dati, immagini, modelli 3D e librerie di altri autori usati dal programma restano loro, con le
+loro licenze: l'elenco completo è in CREDITI.md, il testo delle licenze in LICENZE_TERZE_PARTI.txt.
+Il programma è fornito così com'è, senza alcuna garanzia.
+
+Commenti, idee e segnalazioni di errori sono benvenuti.

@@ -1,0 +1,267 @@
+{
+  "_descrizione": "Lune principali. Posizioni JPL Horizons relative al centro del pianeta. 'mean_orbit' serve solo come ripiego offline (orbita circolare, fase non reale). Rotazione 'sync' = rotazione sincrona (mostrano sempre la stessa faccia al pianeta).",
+  "bodies": [
+    {
+      "id": "naif:301", "slug": "luna", "name": "Luna", "kind": "moon", "parent": "naif:399", "rank": 1,
+      "field_note": "La Luna non ha un campo magnetico globale: restano piccole zone magnetizzate nella crosta. Gli astronauti dell'Apollo 16 ne hanno misurato circa 300 nT, fra i valori più alti trovati sulla Luna.",
+      "radius_km": 1737.4, "color": "#a9a9a9", "texture": "moon", "wiki": "Luna",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "301", "center": "500@399", "step": "6 h"},
+      "mean_orbit": {"a_km": 384400, "period_d": 27.321661, "i_deg": 5.145, "plane": "ecliptic"},
+      "phys": {"mass_kg": 7.346e22, "gm_km3s2": 4902.80, "radius_km": 1737.4, "density_gcm3": 3.344, "gravity_ms2": 1.62,
+               "escape_kms": 2.38, "rotation_h": 655.72, "obliquity_deg": 6.68, "temp_range_c": [-173, 127], "albedo": 0.12}
+    },
+    {
+      "id": "naif:401", "slug": "fobos", "name": "Fobos", "kind": "moon", "parent": "naif:499", "rank": 2,
+      "radius_km": 11.08, "radii_km": [13.0, 11.39, 9.07], "color": "#6e5f50", "texture": "phobos", "wiki": "Fobos (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "401", "center": "500@499", "step": "15 m"},
+      "mean_orbit": {"a_km": 9376, "period_d": 0.31891, "i_deg": 1.08},
+      "phys": {"mass_kg": 1.0659e16, "radius_km": 11.08, "dimensions": "27 × 22 × 18 km", "rotation_h": 7.654, "albedo": 0.071,
+               "discovery": {"by": "Asaph Hall", "date": "1877-08-17", "place": "U.S. Naval Observatory, Washington"}}
+    },
+    {
+      "id": "naif:402", "slug": "deimos", "name": "Deimos", "kind": "moon", "parent": "naif:499", "rank": 2,
+      "radius_km": 6.2, "radii_km": [7.8, 6.0, 5.1], "color": "#9a8a78", "texture": "deimos", "wiki": "Deimos (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "402", "center": "500@499", "step": "1 h"},
+      "mean_orbit": {"a_km": 23463, "period_d": 1.26244, "i_deg": 1.79},
+      "phys": {"mass_kg": 1.4762e15, "radius_km": 6.2, "dimensions": "15 × 12 × 11 km", "rotation_h": 30.3, "albedo": 0.068,
+               "discovery": {"by": "Asaph Hall", "date": "1877-08-12", "place": "U.S. Naval Observatory, Washington"}}
+    },
+    {
+      "id": "naif:505", "slug": "amaltea", "name": "Amaltea", "kind": "moon", "parent": "naif:599", "rank": 3,
+      "radius_km": 83.5, "radii_km": [125, 73, 64], "color": "#a3443a", "texture": "amalthea", "wiki": "Amaltea (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "505", "center": "500@599", "step": "15 m"},
+      "mean_orbit": {"a_km": 181366, "period_d": 0.498179, "i_deg": 0.37},
+      "phys": {"mass_kg": 2.08e18, "radius_km": 83.5, "dimensions": "250 × 146 × 128 km", "albedo": 0.09,
+               "discovery": {"by": "Edward Emerson Barnard", "date": "1892-09-09", "place": "Osservatorio Lick, California"}}
+    },
+    {
+      "id": "naif:501", "slug": "io", "name": "Io", "kind": "moon", "parent": "naif:599", "rank": 1,
+      "radius_km": 1821.6, "color": "#e8d44d", "texture": "io", "wiki": "Io (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "501", "center": "500@599", "step": "1 h"},
+      "mean_orbit": {"a_km": 421700, "period_d": 1.769138, "i_deg": 0.05},
+      "phys": {"mass_kg": 8.9319e22, "radius_km": 1821.6, "density_gcm3": 3.528, "gravity_ms2": 1.796, "escape_kms": 2.558,
+               "rotation_h": 42.46, "temp_c": -143, "albedo": 0.63,
+               "discovery": {"by": "Galileo Galilei", "date": "1610-01-08", "place": "Padova"}}
+    },
+    {
+      "id": "naif:502", "slug": "europa", "name": "Europa", "kind": "moon", "parent": "naif:599", "rank": 1,
+      "radius_km": 1560.8, "color": "#d9cdb8", "texture": "europa", "wiki": "Europa (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "502", "center": "500@599", "step": "2 h"},
+      "mean_orbit": {"a_km": 671034, "period_d": 3.551181, "i_deg": 0.47},
+      "phys": {"mass_kg": 4.7998e22, "radius_km": 1560.8, "density_gcm3": 3.013, "gravity_ms2": 1.314, "escape_kms": 2.025,
+               "rotation_h": 85.23, "temp_c": -160, "albedo": 0.67,
+               "discovery": {"by": "Galileo Galilei", "date": "1610-01-08", "place": "Padova"}}
+    },
+    {
+      "id": "naif:503", "slug": "ganimede", "name": "Ganimede", "kind": "moon", "parent": "naif:599", "rank": 1,
+      "radius_km": 2634.1, "color": "#9c8c7c", "texture": "ganymede", "wiki": "Ganimede (astronomia)",
+      "magnetic": {"pole_lat": 86.0, "pole_lon": 24.0, "moment_north": false, "offset_r": [0.0, 0.0, 0.0], "magnetopause_r": 2.0, "flow": "corotation", "src": "sonda Galileo (Kivelson e collaboratori, 2002): dipolo inclinato di circa 4° rispetto all'asse di rotazione, 719 nT all'equatore; la magnetopausa è a circa 2 raggi dal lato da cui arriva il plasma che ruota con Giove. Il disegno è uno schema: attorno a Ganimede il plasma scorre più lento delle onde magnetiche e la vera coda ha la forma di due «ali» inclinate", "b_eq_nt": 719, "b_src": "sonda Galileo (Kivelson e collaboratori, 2002): circa 719 nT all'equatore"},
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "503", "center": "500@599", "step": "4 h"},
+      "mean_orbit": {"a_km": 1070412, "period_d": 7.154553, "i_deg": 0.2},
+      "phys": {"mass_kg": 1.4819e23, "radius_km": 2634.1, "density_gcm3": 1.942, "gravity_ms2": 1.428, "escape_kms": 2.741,
+               "rotation_h": 171.71, "temp_c": -163, "albedo": 0.43,
+               "discovery": {"by": "Galileo Galilei", "date": "1610-01-07", "place": "Padova"}}
+    },
+    {
+      "id": "naif:504", "slug": "callisto", "name": "Callisto", "kind": "moon", "parent": "naif:599", "rank": 1,
+      "radius_km": 2410.3, "color": "#6e6359", "texture": "callisto", "wiki": "Callisto (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "504", "center": "500@599", "step": "8 h"},
+      "mean_orbit": {"a_km": 1882709, "period_d": 16.689018, "i_deg": 0.2},
+      "phys": {"mass_kg": 1.0759e23, "radius_km": 2410.3, "density_gcm3": 1.834, "gravity_ms2": 1.235, "escape_kms": 2.440,
+               "rotation_h": 400.54, "temp_c": -139, "albedo": 0.22,
+               "discovery": {"by": "Galileo Galilei", "date": "1610-01-07", "place": "Padova"}}
+    },
+    {
+      "id": "naif:601", "slug": "mimas", "name": "Mimas", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 198.2, "radii_km": [207.8, 196.7, 190.6], "color": "#c8c8c8", "texture": "mimas", "wiki": "Mimas (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "601", "center": "500@699", "step": "30 m"},
+      "mean_orbit": {"a_km": 185539, "period_d": 0.942422, "i_deg": 1.57},
+      "phys": {"mass_kg": 3.7493e19, "radius_km": 198.2, "albedo": 0.962,
+               "discovery": {"by": "William Herschel", "date": "1789-09-17", "place": "Slough, Inghilterra"}}
+    },
+    {
+      "id": "naif:602", "slug": "encelado", "name": "Encelado", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 252.1, "color": "#f5f8ff", "texture": "enceladus", "wiki": "Encelado (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "602", "center": "500@699", "step": "30 m"},
+      "mean_orbit": {"a_km": 237948, "period_d": 1.370218, "i_deg": 0.01},
+      "phys": {"mass_kg": 1.08022e20, "radius_km": 252.1, "temp_c": -198, "albedo": 1.375,
+               "discovery": {"by": "William Herschel", "date": "1789-08-28", "place": "Slough, Inghilterra"}}
+    },
+    {
+      "id": "naif:603", "slug": "teti", "name": "Teti", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 531.1, "color": "#e0e0e0", "texture": "tethys", "wiki": "Teti (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "603", "center": "500@699", "step": "1 h"},
+      "mean_orbit": {"a_km": 294619, "period_d": 1.887802, "i_deg": 1.09},
+      "phys": {"mass_kg": 6.17449e20, "radius_km": 531.1, "albedo": 1.229,
+               "discovery": {"by": "Giovanni Domenico Cassini", "date": "1684-03-21", "place": "Osservatorio di Parigi"}}
+    },
+    {
+      "id": "naif:604", "slug": "dione", "name": "Dione", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 561.4, "color": "#d0d0d0", "texture": "dione", "wiki": "Dione (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "604", "center": "500@699", "step": "1 h"},
+      "mean_orbit": {"a_km": 377396, "period_d": 2.736915, "i_deg": 0.02},
+      "phys": {"mass_kg": 1.095452e21, "radius_km": 561.4, "albedo": 0.998,
+               "discovery": {"by": "Giovanni Domenico Cassini", "date": "1684-03-21", "place": "Osservatorio di Parigi"}}
+    },
+    {
+      "id": "naif:605", "slug": "rea", "name": "Rea", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 763.8, "color": "#c8c4be", "texture": "rhea", "wiki": "Rea (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "605", "center": "500@699", "step": "2 h"},
+      "mean_orbit": {"a_km": 527108, "period_d": 4.518212, "i_deg": 0.35},
+      "phys": {"mass_kg": 2.306518e21, "radius_km": 763.8, "albedo": 0.949,
+               "discovery": {"by": "Giovanni Domenico Cassini", "date": "1672-12-23", "place": "Osservatorio di Parigi"}}
+    },
+    {
+      "id": "naif:606", "slug": "titano", "name": "Titano", "kind": "moon", "parent": "naif:699", "rank": 1,
+      "radius_km": 2574.73, "color": "#d9a54a", "texture": "titan_haze", "texture_alt": "titan", "wiki": "Titano (astronomia)",
+      "atmosphere": {"color": "#e8a050", "scale": 1.035, "strength": 1.0},
+      "scatter": {"top_km": 600, "rayleigh_km": [0.00015, 0.0004, 0.001], "h_r_km": 70.0, "mie_km": 0.11, "mie_albedo": [0.96, 0.66, 0.28], "h_m_km": 45.0, "g": 0.6, "ms": 2.6},
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "606", "center": "500@699", "step": "6 h"},
+      "mean_orbit": {"a_km": 1221870, "period_d": 15.945, "i_deg": 0.35},
+      "phys": {"mass_kg": 1.3452e23, "radius_km": 2574.73, "density_gcm3": 1.882, "gravity_ms2": 1.352, "escape_kms": 2.639,
+               "temp_c": -179, "pressure_bar": 1.45, "albedo": 0.22,
+               "discovery": {"by": "Christiaan Huygens", "date": "1655-03-25", "place": "L'Aia, Paesi Bassi"}}
+    },
+    {
+      "id": "naif:607", "slug": "iperione", "name": "Iperione", "kind": "moon", "parent": "naif:699", "rank": 3,
+      "radius_km": 135, "radii_km": [180, 133, 103], "color": "#b8a890", "texture": "hyperion", "wiki": "Iperione (astronomia)",
+      "rotation": {"model": "none"},
+      "horizons": {"command": "607", "center": "500@699", "step": "6 h"},
+      "mean_orbit": {"a_km": 1481010, "period_d": 21.276, "i_deg": 0.43},
+      "phys": {"mass_kg": 5.62e18, "radius_km": 135, "dimensions": "360 × 266 × 205 km", "albedo": 0.3,
+               "discovery": {"by": "William Cranch Bond, George Phillips Bond, William Lassell", "date": "1848-09-16"}}
+    },
+    {
+      "id": "naif:608", "slug": "giapeto", "name": "Giapeto", "kind": "moon", "parent": "naif:699", "rank": 2,
+      "radius_km": 734.5, "color": "#8f8678", "texture": "iapetus", "wiki": "Giapeto (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "608", "center": "500@699", "step": "1 d"},
+      "mean_orbit": {"a_km": 3560820, "period_d": 79.3215, "i_deg": 15.47},
+      "phys": {"mass_kg": 1.805635e21, "radius_km": 734.5, "albedo": "0.05–0.5",
+               "discovery": {"by": "Giovanni Domenico Cassini", "date": "1671-10-25", "place": "Osservatorio di Parigi"}}
+    },
+    {
+      "id": "naif:609", "slug": "febe", "name": "Febe", "kind": "moon", "parent": "naif:699", "rank": 3,
+      "radius_km": 106.5, "color": "#4a4440", "texture": "phoebe", "wiki": "Febe (astronomia)",
+      "rotation": {"model": "spin", "period_h": 9.274},
+      "horizons": {"command": "609", "center": "500@699", "step": "1 d"},
+      "mean_orbit": {"a_km": 12947780, "period_d": -550.31, "i_deg": 175.3, "plane": "ecliptic"},
+      "phys": {"mass_kg": 8.292e18, "radius_km": 106.5, "rotation_h": 9.274, "albedo": 0.06,
+               "discovery": {"by": "William Henry Pickering", "date": "1899-03-17", "place": "Arequipa, Perù (lastre fotografiche)"}}
+    },
+    {
+      "id": "naif:705", "slug": "miranda", "name": "Miranda", "kind": "moon", "parent": "naif:799", "rank": 2,
+      "radius_km": 235.8, "color": "#b0b0b0", "texture": "miranda", "wiki": "Miranda (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "705", "center": "500@799", "step": "30 m"},
+      "mean_orbit": {"a_km": 129390, "period_d": 1.413479, "i_deg": 4.34},
+      "phys": {"mass_kg": 6.59e19, "radius_km": 235.8, "albedo": 0.32,
+               "discovery": {"by": "Gerard Kuiper", "date": "1948-02-16", "place": "Osservatorio McDonald, Texas"}}
+    },
+    {
+      "id": "naif:701", "slug": "ariel", "name": "Ariel", "kind": "moon", "parent": "naif:799", "rank": 2,
+      "radius_km": 578.9, "color": "#c0c0c0", "texture": "ariel", "wiki": "Ariel (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "701", "center": "500@799", "step": "1 h"},
+      "mean_orbit": {"a_km": 190900, "period_d": 2.520379, "i_deg": 0.26},
+      "phys": {"mass_kg": 1.251e21, "radius_km": 578.9, "albedo": 0.53,
+               "discovery": {"by": "William Lassell", "date": "1851-10-24", "place": "Liverpool, Inghilterra"}}
+    },
+    {
+      "id": "naif:702", "slug": "umbriel", "name": "Umbriel", "kind": "moon", "parent": "naif:799", "rank": 2,
+      "radius_km": 584.7, "color": "#6e6e6e", "texture": "umbriel", "wiki": "Umbriel (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "702", "center": "500@799", "step": "2 h"},
+      "mean_orbit": {"a_km": 266000, "period_d": 4.144177, "i_deg": 0.13},
+      "phys": {"mass_kg": 1.275e21, "radius_km": 584.7, "albedo": 0.26,
+               "discovery": {"by": "William Lassell", "date": "1851-10-24", "place": "Liverpool, Inghilterra"}}
+    },
+    {
+      "id": "naif:703", "slug": "titania", "name": "Titania", "kind": "moon", "parent": "naif:799", "rank": 2,
+      "radius_km": 788.4, "color": "#b8b0a8", "texture": "titania", "wiki": "Titania (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "703", "center": "500@799", "step": "4 h"},
+      "mean_orbit": {"a_km": 435910, "period_d": 8.705872, "i_deg": 0.34},
+      "phys": {"mass_kg": 3.400e21, "radius_km": 788.4, "albedo": 0.35,
+               "discovery": {"by": "William Herschel", "date": "1787-01-11", "place": "Slough, Inghilterra"}}
+    },
+    {
+      "id": "naif:704", "slug": "oberon", "name": "Oberon", "kind": "moon", "parent": "naif:799", "rank": 2,
+      "radius_km": 761.4, "color": "#a09088", "texture": "oberon", "wiki": "Oberon (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "704", "center": "500@799", "step": "6 h"},
+      "mean_orbit": {"a_km": 583520, "period_d": 13.463239, "i_deg": 0.06},
+      "phys": {"mass_kg": 3.076e21, "radius_km": 761.4, "albedo": 0.31,
+               "discovery": {"by": "William Herschel", "date": "1787-01-11", "place": "Slough, Inghilterra"}}
+    },
+    {
+      "id": "naif:801", "slug": "tritone", "name": "Tritone", "kind": "moon", "parent": "naif:899", "rank": 1,
+      "radius_km": 1353.4, "color": "#e0cfc8", "texture": "triton", "wiki": "Tritone (astronomia)",
+      "atmosphere": {"color": "#c8d8ff", "scale": 1.01, "strength": 0.2},
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "801", "center": "500@899", "step": "3 h"},
+      "mean_orbit": {"a_km": 354759, "period_d": -5.876854, "i_deg": 156.9},
+      "phys": {"mass_kg": 2.139e22, "radius_km": 1353.4, "density_gcm3": 2.061, "temp_c": -235, "albedo": 0.76,
+               "discovery": {"by": "William Lassell", "date": "1846-10-10", "place": "Liverpool, Inghilterra"}}
+    },
+    {
+      "id": "naif:802", "slug": "nereide", "name": "Nereide", "kind": "moon", "parent": "naif:899", "rank": 3,
+      "radius_km": 178.5, "color": "#a0a0a0", "wiki": "Nereide (astronomia)",
+      "rotation": {"model": "spin", "period_h": 11.59},
+      "horizons": {"command": "802", "center": "500@899", "step": "6 h"},
+      "mean_orbit": {"a_km": 5513400, "period_d": 360.13, "i_deg": 7.2, "plane": "ecliptic"},
+      "phys": {"radius_km": 178.5, "rotation_h": 11.59, "albedo": 0.16,
+               "discovery": {"by": "Gerard Kuiper", "date": "1949-05-01", "place": "Osservatorio McDonald, Texas"}}
+    },
+    {
+      "id": "naif:808", "slug": "proteo", "name": "Proteo", "kind": "moon", "parent": "naif:899", "rank": 3,
+      "radius_km": 210, "radii_km": [218, 208, 201], "color": "#6a6a6a", "texture": "proteus", "wiki": "Proteo (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "808", "center": "500@899", "step": "30 m"},
+      "mean_orbit": {"a_km": 117647, "period_d": 1.122315, "i_deg": 0.52},
+      "phys": {"mass_kg": 4.4e19, "radius_km": 210, "albedo": 0.1,
+               "discovery": {"by": "Voyager 2 (Stephen P. Synnott)", "date": "1989-06-16"}}
+    },
+    {
+      "id": "naif:901", "slug": "caronte", "name": "Caronte", "kind": "moon", "parent": "naif:999", "rank": 2,
+      "radius_km": 606.0, "color": "#8a8a8a", "texture": "charon", "wiki": "Caronte (astronomia)",
+      "rotation": {"model": "sync"},
+      "horizons": {"command": "901", "center": "500@999", "step": "3 h"},
+      "mean_orbit": {"a_km": 19596, "period_d": 6.387221, "i_deg": 0.0},
+      "phys": {"mass_kg": 1.586e21, "radius_km": 606.0, "density_gcm3": 1.70, "rotation_h": 153.29, "albedo": 0.38,
+               "discovery": {"by": "James Christy", "date": "1978-06-22", "place": "U.S. Naval Observatory, Flagstaff"}}
+    },
+    {
+      "id": "naif:902", "slug": "notte", "name": "Notte (Nix)", "kind": "moon", "parent": "naif:999", "rank": 4,
+      "radius_km": 19, "radii_km": [25, 17.5, 16.5], "color": "#d0d0d0", "texture": "nix", "wiki": "Notte (astronomia)",
+      "rotation": {"model": "spin", "period_h": 43.9},
+      "horizons": {"command": "902", "center": "500@999", "step": "6 h"},
+      "mean_orbit": {"a_km": 48694, "period_d": 24.85463, "i_deg": 0.13},
+      "phys": {"radius_km": 19, "dimensions": "50 × 35 × 33 km",
+               "discovery": {"by": "Telescopio spaziale Hubble (H. Weaver, A. Stern et al.)", "date": "2005-05-15"}}
+    },
+    {
+      "id": "naif:903", "slug": "idra", "name": "Idra (Hydra)", "kind": "moon", "parent": "naif:999", "rank": 4,
+      "radius_km": 19, "radii_km": [25.5, 18.5, 16], "color": "#d8d8d8", "texture": "hydra", "wiki": "Idra (astronomia)",
+      "rotation": {"model": "spin", "period_h": 10.3},
+      "horizons": {"command": "903", "center": "500@999", "step": "6 h"},
+      "mean_orbit": {"a_km": 64738, "period_d": 38.20177, "i_deg": 0.24},
+      "phys": {"radius_km": 19, "dimensions": "51 × 37 × 32 km",
+               "discovery": {"by": "Telescopio spaziale Hubble (H. Weaver, A. Stern et al.)", "date": "2005-05-15"}}
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "_descrizione": "Pianeti nani e grandi oggetti transnettuniani. Gli elementi di riserva arrivano dal Small-Body Database quando disponibili (stesso ID).",
+  "bodies": [
+    {
+      "id": "sb:1", "slug": "cerere", "name": "Cerere", "kind": "dwarf", "parent": "naif:10", "rank": 2,
+      "radius_km": 469.7, "radii_km": [482.1, 482.1, 445.9], "color": "#8a8580", "texture": "ceres", "wiki": "Cerere (astronomia)", "sbdb": "1",
+      "aliases": ["naif:2000001"],
+      "rotation": {"model": "iau", "ra": [291.418, 0], "dec": [66.764, 0], "w": [170.650, 952.1532]},
+      "horizons": {"command": ["1;", "DES=1;"], "center": "500@10", "step": "2 d"},
+      "phys": {"mass_kg": 9.3839e20, "gm_km3s2": 62.63, "radius_km": 469.7, "density_gcm3": 2.16, "gravity_ms2": 0.28,
+               "escape_kms": 0.51, "rotation_h": 9.074, "obliquity_deg": 4, "temp_c": -105, "albedo": 0.09,
+               "discovery": {"by": "Giuseppe Piazzi", "date": "1801-01-01", "place": "Osservatorio di Palermo"}}
+    },
+    {
+      "id": "naif:999", "slug": "plutone", "name": "Plutone", "kind": "dwarf", "parent": "naif:10", "rank": 1,
+      "radius_km": 1188.3, "color": "#d9c2a5", "texture": "pluto", "wiki": "Plutone (astronomia)", "sbdb": "134340",
+      "aliases": ["sb:134340"],
+      "rotation": {"model": "iau", "ra": [132.993, 0], "dec": [-6.163, 0], "w": [302.695, 56.3625225]},
+      "horizons": {"command": "999", "center": "500@10", "step": "8 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [39.48211675, -0.00031596], "e": [0.24882730, 0.00005170], "i": [17.14001206, 0.00004818], "L": [238.92903833, 145.20780515], "lp": [224.06891629, -0.04062942], "node": [110.30393684, -0.01183482]},
+      "phys": {"mass_kg": 1.303e22, "gm_km3s2": 869.6, "radius_km": 1188.3, "density_gcm3": 1.854, "gravity_ms2": 0.62,
+               "escape_kms": 1.21, "rotation_h": -153.29, "obliquity_deg": 122.53, "temp_c": -225, "pressure_bar": 0.00001, "albedo": 0.52,
+               "moons": 5, "discovery": {"by": "Clyde Tombaugh", "date": "1930-02-18", "place": "Osservatorio Lowell, Flagstaff (Arizona)"}}
+    },
+    {
+      "id": "sb:136199", "slug": "eris", "name": "Eris", "kind": "dwarf", "parent": "naif:10", "rank": 2,
+      "radius_km": 1163, "color": "#e8e8e8", "wiki": "Eris (astronomia)", "sbdb": "136199",
+      "rotation": {"model": "spin", "period_h": 378.9},
+      "horizons": {"command": ["136199;", "DES=136199;"], "center": "500@10", "step": "16 d"},
+      "phys": {"mass_kg": 1.6466e22, "radius_km": 1163, "rotation_h": 378.9, "temp_c": -243, "albedo": 0.96, "moons": 1,
+               "discovery": {"by": "Mike Brown, Chad Trujillo, David Rabinowitz", "date": "2005-01-05", "place": "Osservatorio di Monte Palomar (immagini del 2003)"}}
+    },
+    {
+      "id": "sb:136108", "slug": "haumea", "name": "Haumea", "kind": "dwarf", "parent": "naif:10", "rank": 2,
+      "radius_km": 816, "radii_km": [1161, 852, 513], "color": "#f0f0f0", "wiki": "Haumea (astronomia)", "sbdb": "136108",
+      "rotation": {"model": "spin", "period_h": 3.9155},
+      "horizons": {"command": ["136108;", "DES=136108;"], "center": "500@10", "step": "16 d"},
+      "phys": {"mass_kg": 4.006e21, "radius_km": 816, "dimensions": "circa 2322 × 1704 × 1026 km", "rotation_h": 3.9155,
+               "temp_c": -241, "albedo": 0.51, "moons": 2,
+               "discovery": {"by": "José Luis Ortiz Moreno e collaboratori (Sierra Nevada) / Mike Brown e collaboratori (Palomar)", "date": "2004-12-28"}}
+    },
+    {
+      "id": "sb:136472", "slug": "makemake", "name": "Makemake", "kind": "dwarf", "parent": "naif:10", "rank": 2,
+      "radius_km": 715, "color": "#c88c6e", "wiki": "Makemake (astronomia)", "sbdb": "136472",
+      "rotation": {"model": "spin", "period_h": 22.83},
+      "horizons": {"command": ["136472;", "DES=136472;"], "center": "500@10", "step": "16 d"},
+      "phys": {"radius_km": 715, "rotation_h": 22.83, "temp_c": -239, "albedo": 0.82, "moons": 1,
+               "discovery": {"by": "Mike Brown, Chad Trujillo, David Rabinowitz", "date": "2005-03-31", "place": "Osservatorio di Monte Palomar"}}
+    },
+    {
+      "id": "sb:90377", "slug": "sedna", "name": "Sedna", "kind": "dwarf", "parent": "naif:10", "rank": 3,
+      "radius_km": 500, "color": "#b5503c", "wiki": "90377 Sedna", "sbdb": "90377",
+      "rotation": {"model": "spin", "period_h": 10.3},
+      "horizons": {"command": ["90377;", "DES=90377;"], "center": "500@10", "step": "16 d"},
+      "phys": {"radius_km": 500, "rotation_h": 10.3, "temp_c": -261, "albedo": 0.32,
+               "discovery": {"by": "Mike Brown, Chad Trujillo, David Rabinowitz", "date": "2003-11-14", "place": "Osservatorio di Monte Palomar"}}
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+"_descrizione": "Orte auf den Oberflächen (Deutsch): [Name, Breite, östliche Länge (Grad), Bedeutung (1 = wird zuerst gezeigt), Typ, Beschreibung]. Typen: mare, cratere, monte, regione, missione",
+"_fonte": "Nomi e coordinate: Gazetteer of Planetary Nomenclature (IAU/USGS); siti di atterraggio: NASA, ESA, CNSA, ISRO, Roscosmos",
+"luoghi": {
+"naif:301": [
+[
+"Mare Imbrium",
+32.8,
+-15.6,
+1,
+"mare",
+"Das „Meer des Regens“: ein riesiges Einschlagbecken von etwa 1.150 km Durchmesser, vor 3,9 Milliarden Jahren ausgehoben und dann mit dunkler Lava gefüllt. Es ist von Gebirgsketten umgeben, etwa den Mond-Apenninen."
+],
+[
+"Mare Serenitatis",
+28.0,
+17.5,
+1,
+"mare",
+"Das „Meer der Heiterkeit“, eine etwa 700 km breite Lavaebene. An seinem Ostrand, im Taurus-Littrow-Tal, landete Apollo 17."
+],
+[
+"Mare Tranquillitatis",
+8.5,
+31.4,
+1,
+"mare",
+"Das „Meer der Ruhe“, etwa 870 km breit. Hier betraten am 20. Juli 1969 die ersten Menschen den Mond."
+],
+[
+"Mare Crisium",
+17.0,
+59.1,
+1,
+"mare",
+"Das „Meer der Gefahren“, ein dunkles, isoliertes Oval von etwa 550 km: Man erkennt es sogar mit bloßem Auge nahe dem Mondrand. 1976 brachte die sowjetische Sonde Luna 24 Proben davon zurück."
+],
+[
+"Oceanus Procellarum",
+18.4,
+-57.4,
+1,
+"mare",
+"Der „Ozean der Stürme“: die größte Lavafläche des Mondes, über 2.500 km lang von Nord nach Süd. Es ist das einzige Mondmeer, das Ozean heißt."
+],
+[
+"Mare Nubium",
+-21.3,
+-16.6,
+2,
+"mare",
+"Das „Wolkenmeer“, etwa 700 km breit. Hier liegt die Rupes Recta, die „Gerade Wand“: eine 110 km lange Verwerfung, die man mit einem kleinen Teleskop sieht."
+],
+[
+"Mare Fecunditatis",
+-7.8,
+51.3,
+2,
+"mare",
+"Das „Meer der Fruchtbarkeit“, etwa 840 km breit. 1970 nahm hier die sowjetische Sonde Luna 16 die erste Mondbodenprobe, die eine automatische Sonde zur Erde brachte."
+],
+[
+"Mare Nectaris",
+-15.2,
+35.5,
+2,
+"mare",
+"Das „Nektarmeer“, klein (etwa 340 km), aber wichtig: Das Becken, in dem es liegt, gibt einem ganzen Zeitalter der Mondgeschichte den Namen, dem Nectarium."
+],
+[
+"Mare Humorum",
+-24.4,
+-38.6,
+2,
+"mare",
+"Das „Meer der Feuchtigkeit“, ein rundes Becken von etwa 420 km. An seinem Nordrand liegt der große Krater Gassendi, dessen Boden von Rissen durchzogen ist."
+],
+[
+"Mare Frigoris",
+56.0,
+1.4,
+2,
+"mare",
+"Das „Meer der Kälte“: ein langer Lavastreifen von etwa 1.500 km, der nahe dem Mondnordpol verläuft."
+],
+[
+"Mare Orientale",
+-19.4,
+-92.8,
+2,
+"mare",
+"Eine Zielscheibe aus konzentrischen Gebirgsringen von etwa 930 km Durchmesser: das jüngste der großen Mondbecken. Es liegt genau am Rand und ist von der Erde aus kaum zu sehen."
+],
+[
+"Mare Moscoviense",
+27.3,
+147.9,
+3,
+"mare",
+"Das „Moskauer Meer“, eines der ganz wenigen Meere der Rückseite. Es wurde 1959 auf den ersten Fotos dieser Seite entdeckt, aufgenommen von der sowjetischen Sonde Luna 3."
+],
+[
+"Südpol-Aitken-Becken",
+-53.0,
+-169.0,
+2,
+"regione",
+"Eine der größten und ältesten Einschlagnarben des Sonnensystems: etwa 2.500 km breit und mehrere Kilometer tief. Es nimmt einen guten Teil der Rückseite ein und interessiert die Geologen sehr, weil der Einschlag tiefes Gestein freigelegt haben könnte."
+],
+[
+"Tycho",
+-43.31,
+-11.36,
+1,
+"cratere",
+"Junger Krater (etwa 108 Millionen Jahre), 85 km breit. Seine hellen Strahlen aus dem beim Einschlag herausgeschleuderten Material reichen über 1.500 km weit: Bei Vollmond ist er der auffälligste Punkt."
+],
+[
+"Kopernikus",
+9.62,
+-20.08,
+1,
+"cratere",
+"Krater von 93 km Durchmesser mit terrassierten Wänden und einer Gruppe von Zentralbergen. Er ist etwa 800 Millionen Jahre alt; mit einem Fernglas sieht man sein helles Strahlensystem."
+],
+[
+"Kepler",
+8.1,
+-38.0,
+2,
+"cratere",
+"Kleiner Krater (etwa 30 km), umgeben von einem hellen Strahlenkranz, der sich vom Ozean der Stürme abhebt."
+],
+[
+"Aristarco",
+23.7,
+-47.4,
+2,
+"cratere",
+"40 km breit, die hellste Stelle der Mondvorderseite: Er reflektiert fast doppelt so viel Licht wie das Gelände ringsum. In der Nähe verläuft die Vallis Schröteri, die größte Lavarinne des Mondes."
+],
+[
+"Plato",
+51.6,
+-9.4,
+2,
+"cratere",
+"Krater von etwa 100 km mit flachem, dunklem, von Lava überflutetem Boden: Er wirkt wie ein See zwischen den Bergen nördlich des Mare Imbrium."
+],
+[
+"Clavius",
+-58.4,
+-14.4,
+2,
+"cratere",
+"Einer der größten Krater der Vorderseite: etwa 230 km. 2020 fand das fliegende Observatorium SOFIA hier Wassermoleküle sogar im sonnenbeschienenen Boden."
+],
+[
+"Grimaldi",
+-5.2,
+-68.6,
+3,
+"cratere",
+"Becken von etwa 170 km nahe dem Westrand. Sein Lavaboden gehört zu den dunkelsten Stellen des ganzen Mondes."
+],
+[
+"Ziolkowski",
+-20.4,
+129.1,
+3,
+"cratere",
+"Krater der Rückseite, etwa 185 km breit, mit einem Zentralberg und sehr dunklem Lavaboden. Er gehörte zu den ersten Strukturen, die man auf den Fotos von Luna 3 (1959) erkannte."
+],
+[
+"Apollo 11 (1969)",
+0.674,
+23.473,
+1,
+"missione",
+"20. Juli 1969: Neil Armstrong und Buzz Aldrin gehen als erste Menschen auf einer anderen Welt, während Michael Collins im Orbit auf sie wartet. Sie bleiben 21 Stunden und eine halbe auf der Oberfläche und bringen 21,5 kg Gestein mit."
+],
+[
+"Apollo 12 (1969)",
+-3.012,
+-23.422,
+2,
+"missione",
+"November 1969: Pete Conrad und Alan Bean landen sehr präzise 160 Meter neben der Sonde Surveyor 3, die zwei Jahre zuvor angekommen war, und bringen einige Teile davon mit nach Hause."
+],
+[
+"Apollo 14 (1971)",
+-3.645,
+-17.471,
+2,
+"missione",
+"Februar 1971: Alan Shepard und Edgar Mitchell erkunden die Hügel von Fra Mauro. Vor dem Rückflug schlägt Shepard zwei Golfbälle."
+],
+[
+"Apollo 15 (1971)",
+26.132,
+3.634,
+2,
+"missione",
+"Juli 1971: David Scott und James Irwin landen zwischen den Mond-Apenninen und der Hadley-Rille. Es ist die erste Mission mit dem Mondauto (Rover) und mit drei vollen Tagen auf der Oberfläche."
+],
+[
+"Apollo 16 (1972)",
+-8.973,
+15.5,
+2,
+"missione",
+"April 1972: John Young und Charles Duke landen im Descartes-Hochland. Es ist die einzige Apollo-Mission, die im hellen Hochland statt in den Meeren landete."
+],
+[
+"Apollo 17 (1972)",
+20.191,
+30.772,
+2,
+"missione",
+"Dezember 1972: Eugene Cernan und Harrison Schmitt, der einzige Geologe auf dem Mond, erkunden das Taurus-Littrow-Tal. Es ist die letzte Mission des Apollo-Programms."
+],
+[
+"Luna 9 (1966)",
+7.08,
+-64.37,
+3,
+"missione",
+"3. Februar 1966: Die sowjetische Sonde Luna 9 schafft die erste weiche Landung auf einem anderen Himmelskörper und sendet die ersten Fotos von der Mondoberfläche."
+],
+[
+"Chang'e 3 (2013)",
+44.12,
+-19.51,
+3,
+"missione",
+"Dezember 2013: China bringt einen Lander und den kleinen Rover Yutu („Jadehase“) auf den Mond. Es ist die erste weiche Landung seit 1976."
+],
+[
+"Chang'e 4 (2019)",
+-45.46,
+177.59,
+2,
+"missione",
+"3. Januar 2019: erste Landung auf der Mondrückseite, im Krater Von Kármán. Der Rover Yutu-2 verständigt sich mit der Erde über einen Satelliten, der als Funkbrücke dient."
+],
+[
+"Chandrayaan-3 (2023)",
+-69.37,
+32.35,
+3,
+"missione",
+"23. August 2023: Indien landet mit dem Lander Vikram und dem Rover Pragyan näher am Südpol als jede Mission zuvor."
+],
+[
+"Luna 2 (1959)",
+29.1,
+0.0,
+3,
+"missione",
+"14. September 1959: Die sowjetische Sonde Luna 2 schlägt absichtlich auf dem Mond auf. Sie ist das erste von Menschen gebaute Objekt, das einen anderen Himmelskörper berührt."
+],
+[
+"Chang'e 5 (2020)",
+43.06,
+-51.92,
+3,
+"missione",
+"Dezember 2020: Die chinesische Sonde sammelt 1,7 kg Boden und bringt ihn zur Erde. Es sind die ersten Mondproben seit 1976 und gehören zu den jüngsten je datierten Meeresgesteinen (etwa 2 Milliarden Jahre)."
+],
+[
+"Chang'e 6 (2024)",
+-41.64,
+-153.99,
+2,
+"missione",
+"Juni 2024: Die chinesische Sonde nimmt die ersten Proben, die je auf der Mondrückseite gesammelt wurden, im Südpol-Aitken-Becken, und bringt sie zur Erde."
+],
+[
+"SLIM (2024)",
+-13.32,
+25.25,
+3,
+"missione",
+"19. Januar 2024: Japan wird das fünfte Land, das auf dem Mond landet. Die kleine Sonde SLIM setzt wenige Dutzend Meter vom Ziel auf, bleibt aber kopfüber liegen."
+],
+[
+"Shackleton",
+-89.67,
+129.2,
+2,
+"cratere",
+"Krater von 21 km fast genau am Südpol. Sein Boden sieht nie die Sonne und gehört zu den kältesten Orten des Sonnensystems: Er könnte Wassereis enthalten. Die Region ist das Ziel des Artemis-Programms."
+]
+],
+"naif:499": [
+[
+"Olympus Mons",
+18.65,
+226.2,
+1,
+"monte",
+"Der höchste bekannte Vulkan im Sonnensystem: etwa 22 km über dem mittleren Marsniveau (bis zu 25 über den umliegenden Ebenen, je nach Messweise), fast dreimal der Everest, mit einer 600 km breiten Basis (so groß wie Nord- und Mittelitalien zusammen)."
+],
+[
+"Valles Marineris",
+-13.9,
+300.8,
+1,
+"regione",
+"Ein Canyonsystem von etwa 4.000 km Länge, bis zu 200 km breit und bis zu 7 km tief: Auf der Erde würde es von einer Küste der USA zur anderen reichen. Benannt ist es nach der Sonde Mariner 9, die es 1971 entdeckte."
+],
+[
+"Hellas Planitia",
+-42.4,
+70.5,
+1,
+"regione",
+"Ein gigantisches Einschlagbecken, etwa 2.300 km breit und über 7 km tief: Sein Boden ist der tiefste Punkt des Mars, und dort ist der Luftdruck fast doppelt so hoch wie im Mittel des Planeten."
+],
+[
+"Elysium Mons",
+25.0,
+147.2,
+2,
+"monte",
+"Der Hauptvulkan der Elysium-Region: Er erhebt sich etwa 13 km über die Ebenen ringsum."
+],
+[
+"Syrtis Major",
+8.4,
+69.5,
+2,
+"regione",
+"Der große dunkle Fleck des Mars: die erste Struktur eines anderen Planeten, die gezeichnet wurde, von Christiaan Huygens 1659. Es ist ein sehr flacher Schildvulkan, bedeckt mit dunklem Basalt."
+],
+[
+"Ascraeus Mons",
+11.9,
+255.9,
+3,
+"monte",
+"Der nördlichste und höchste der drei aufgereihten Vulkane der Tharsis Montes: etwa 18 km."
+],
+[
+"Pavonis Mons",
+1.5,
+247.0,
+3,
+"monte",
+"Der mittlere Vulkan der Tharsis Montes, etwa 14 km hoch und fast genau auf dem Äquator gelegen."
+],
+[
+"Arsia Mons",
+-8.3,
+239.9,
+3,
+"monte",
+"Der südlichste der drei Tharsis Montes. Seine Caldera, etwa 110 km breit, ist eine der größten des Mars."
+],
+[
+"Argyre Planitia",
+-49.7,
+316.0,
+3,
+"regione",
+"Einschlagbecken von etwa 1.800 km Breite und 5 km Tiefe, von Bergen umgeben. Der Name kommt vom griechischen Wort für „Silber“."
+],
+[
+"Utopia Planitia",
+46.7,
+117.5,
+3,
+"regione",
+"Das größte anerkannte Einschlagbecken des Sonnensystems: etwa 3.300 km. Hier landeten 1976 Viking 2 und 2021 der chinesische Rover Zhurong."
+],
+[
+"Nördliche Polkappe",
+88.0,
+0.0,
+2,
+"regione",
+"Etwa 1.000 km breit und bis zu 2–3 km dick, besteht sie vor allem aus Wassereis. Im Winter bedeckt sie sich mit einer dünnen Schicht gefrorenem Kohlendioxid („Trockeneis“)."
+],
+[
+"Südliche Polkappe",
+-88.0,
+0.0,
+2,
+"regione",
+"Kleiner als die nördliche (etwa 350 km), trägt sie über dem Wassereis eine Schicht Trockeneis, die nie ganz verschwindet, nicht einmal im Sommer."
+],
+[
+"Curiosity (2012), Krater Gale",
+-4.59,
+137.44,
+1,
+"missione",
+"Ein Rover so groß wie ein Auto, mit einem Nukleargenerator betrieben, gelandet am 6. August 2012. Er entdeckte, dass der Krater Gale einst einen See barg, der für mikrobielles Leben geeignet war, und steigt seitdem den Mount Sharp in der Kratermitte hinauf."
+],
+[
+"Perseverance (2021), Krater Jezero",
+18.44,
+77.45,
+1,
+"missione",
+"Gelandet am 18. Februar 2021 neben dem Delta eines alten Flusses. Er sammelt Gesteinsproben, die eines Tages zur Erde gebracht werden sollen; mit ihm kam Ingenuity, der erste Hubschrauber, der auf einem anderen Planeten flog (72 Flüge)."
+],
+[
+"Viking 1 (1976)",
+22.27,
+312.05,
+2,
+"missione",
+"20. Juli 1976: die erste Sonde, die lange auf der Marsoberfläche arbeitete, in der Chryse Planitia. Sie suchte im Boden nach Spuren von Leben, mit uneindeutigen Ergebnissen, und funktionierte über sechs Jahre."
+],
+[
+"Opportunity (2004)",
+-1.95,
+354.47,
+2,
+"missione",
+"Im Januar 2004 im Meridiani Planum angekommen, sollte er 90 Tage halten: Er arbeitete bis 2018 und legte 45 km zurück. Er fand Beweise, dass es dort einst flüssiges Wasser gab."
+],
+[
+"Viking 2 (1976)",
+47.64,
+134.29,
+3,
+"missione",
+"Gelandet am 3. September 1976 in der Utopia Planitia. Er fotografierte an Wintermorgen einen Reifschleier auf dem Boden."
+],
+[
+"Pathfinder (1997)",
+19.13,
+326.78,
+3,
+"missione",
+"4. Juli 1997: Er landet in der Ares Vallis, auf großen Luftkissen hüpfend, und setzt Sojourner ab, den ersten Rover, der sich auf dem Mars bewegte."
+],
+[
+"Spirit (2004)",
+-14.57,
+175.47,
+3,
+"missione",
+"Zwilling von Opportunity, im Januar 2004 im Krater Gusev gelandet. Er erklomm die Columbia Hills und blieb bis 2010 aktiv, nachdem er sich im Sand festgefahren hatte."
+],
+[
+"Phoenix (2008)",
+68.22,
+234.25,
+3,
+"missione",
+"Gelandet am 25. Mai 2008 in den arktischen Ebenen. Als er mit dem Roboterarm wenige Zentimeter grub, fand er Wassereis."
+],
+[
+"InSight (2018)",
+4.5,
+135.62,
+3,
+"missione",
+"Gelandet am 26. November 2018 in der Elysium Planitia mit einem Seismometer: Bis 2022 zeichnete er über 1.300 Marsbeben auf, mit denen man Kruste, Mantel und Kern des Planeten vermessen konnte."
+],
+[
+"Zhurong (2021)",
+25.07,
+109.93,
+3,
+"missione",
+"Der erste chinesische Rover auf dem Mars, im Mai 2021 in der Utopia Planitia gelandet. Er arbeitete etwa ein Jahr und untersuchte den Boden auch mit einem Radar, das unter die Oberfläche schaut."
+],
+[
+"Krater Korolev",
+72.8,
+164.5,
+3,
+"cratere",
+"Krater von 82 km nahe dem Nordpol, das ganze Jahr mit Wassereis gefüllt: eine bis zu 1,8 km dicke Schicht."
+]
+],
+"naif:199": [
+[
+"Caloris-Becken",
+30.5,
+170.2,
+1,
+"regione",
+"Eines der größten Einschlagbecken des Sonnensystems: etwa 1.550 km, ein Drittel des Merkurdurchmessers. Der Name bedeutet „Hitze“: Bei jedem nahen Vorbeigang an der Sonne liegt es, im Wechsel mit dem gegenüberliegenden Punkt, genau unter der Sonne."
+],
+[
+"Rachmaninoff",
+27.6,
+57.4,
+2,
+"cratere",
+"Doppelringbecken von etwa 290 km, eines der jüngsten des Merkur. Auf seinem Boden liegt einer der tiefsten Punkte des Planeten."
+],
+[
+"Hokusai",
+57.8,
+16.9,
+2,
+"cratere",
+"Junger Krater von etwa 95 km: Seine hellen Strahlen reichen Tausende Kilometer weit über einen großen Teil des Planeten."
+],
+[
+"Kuiper",
+-11.3,
+328.6,
+3,
+"cratere",
+"Heller Krater von 62 km: Er gehörte zu den ersten Strukturen, die die Sonde Mariner 10 1974 sah. Er trägt den Namen des Astronomen Gerard Kuiper."
+],
+[
+"MESSENGER (2015)",
+54.4,
+210.1,
+3,
+"missione",
+"30. April 2015: Nach vier Jahren im Orbit geht der NASA-Sonde MESSENGER der Treibstoff aus; sie schlägt hier auf und hinterlässt einen kleinen Krater."
+]
+],
+"naif:299": [
+[
+"Maxwell Montes",
+65.2,
+3.3,
+1,
+"monte",
+"Die höchsten Berge der Venus: etwa 11 km. Sie tragen den Namen des Physikers James Clerk Maxwell und sind fast die einzige Struktur der Venus mit einem männlichen Namen."
+],
+[
+"Aphrodite Terra",
+-5.8,
+104.8,
+1,
+"regione",
+"Das größte Hochland der Venus, entlang des Äquators. Laut NASA ist es so ausgedehnt wie Afrika; andere Schätzungen sagen etwa halb so groß."
+],
+[
+"Ishtar Terra",
+70.4,
+27.5,
+2,
+"regione",
+"Hochland nahe dem Nordpol, etwa so groß wie Australien. Es umfasst die Maxwell Montes und die erhöhte Ebene Lakshmi Planum."
+],
+[
+"Venera 13 (1982)",
+-7.5,
+303.0,
+2,
+"missione",
+"1. März 1982: Die sowjetische Sonde sendet die ersten Farbfotos der Venusoberfläche und hält 127 Minuten bei etwa 460 °C und fast dem 90-fachen Erddruck durch."
+],
+[
+"Maat Mons",
+0.5,
+194.6,
+2,
+"monte",
+"Der höchste Vulkan der Venus: etwa 8 km über den Ebenen. 2023 fand man in alten Radardaten der Sonde Magellan den Beweis für einen Ausbruch in der Nähe im Jahr 1991."
+],
+[
+"Venera 9 (1975)",
+31.0,
+291.6,
+3,
+"missione",
+"22. Oktober 1975: Die sowjetische Sonde sendet das erste Foto, das je auf der Oberfläche eines anderen Planeten aufgenommen wurde. Sie hält 53 Minuten durch."
+]
+],
+"naif:606": [
+[
+"Huygens (2005)",
+-10.57,
+167.66,
+1,
+"missione",
+"14. Januar 2005: Die europäische Sonde Huygens, von Cassini mitgebracht, sinkt am Fallschirm durch den Dunst des Titan und setzt auf. Es ist die fernste Landung, die je gelang; sie sendete über eine Stunde lang von der Oberfläche."
+],
+[
+"Kraken Mare",
+68.0,
+50.0,
+2,
+"mare",
+"Das größte Meer des Titan: nicht Wasser, sondern flüssiges Methan und Ethan bei −180 °C. Es ist etwa so groß wie das Kaspische Meer."
+],
+[
+"Xanadu",
+-15.0,
+260.0,
+2,
+"regione",
+"Helle Region, so groß wie Australien: die erste Struktur der Titanoberfläche, die gesehen wurde, 1994 vom Hubble-Weltraumteleskop."
+],
+[
+"Ligeia Mare",
+79.0,
+112,
+3,
+"mare",
+"Das zweite Meer des Titan, etwa 500 km breit: fast reines Methan. Das Radar der Sonde Cassini maß seine Tiefe, etwa 160 Meter."
+]
+],
+"naif:501": [
+[
+"Loki Patera",
+13.0,
+51.2,
+1,
+"regione",
+"Ein Lavasee von etwa 200 km: der stärkste Vulkan auf Io, der allein einen guten Teil der Wärme des ganzen Mondes abgibt."
+],
+[
+"Pele",
+-18.7,
+104.7,
+1,
+"monte",
+"Ein fast ständig ausbrechender Vulkan: Seine Fontäne steigt bis 300 km hoch und fällt als großer roter Schwefelring von über 1.000 km Breite zurück."
+],
+[
+"Prometheus",
+-1.5,
+206.1,
+2,
+"monte",
+"Eine vulkanische Fontäne, die mindestens seit 1979 ohne Unterbrechung aktiv ist, als die Voyager-Sonden sie sahen: Deshalb heißt sie der „Old Faithful“ von Io."
+],
+[
+"Tvashtar Paterae",
+62.8,
+236.5,
+3,
+"monte",
+"Kette von Calderen nahe dem Nordpol. 2007 filmte die vorbeifliegende Sonde New Horizons ihre etwa 330 km hohe Fontäne."
+],
+[
+"Boösaule Montes",
+-4.4,
+90,
+3,
+"monte",
+"Die höchsten Berge auf Io: etwa 17 km, doppelt so hoch wie der Everest. Es sind keine Vulkane, sondern hochgedrückte Krustenblöcke."
+]
+],
+"naif:502": [
+[
+"Pwyll",
+-25.2,
+88.6,
+1,
+"cratere",
+"Junger Krater von 45 km: Seine hellen Strahlen aus frischem Eis reichen über 1.000 km weit."
+],
+[
+"Conamara Chaos",
+9.7,
+87.3,
+2,
+"regione",
+"Eine Fläche aus zerbrochenen, verdrehten und wieder gefrorenen Eisschollen: einer der Hinweise darauf, dass unter der Kruste von Europa ein Ozean liegt."
+],
+[
+"Tyre",
+33.6,
+213.4,
+3,
+"cratere",
+"Struktur aus konzentrischen Ringen von etwa 140 km: die Narbe eines Einschlags, der die Eiskruste fast durchschlagen hätte."
+]
+],
+"naif:503": [
+[
+"Galileo Regio",
+47.0,
+230.4,
+1,
+"regione",
+"Große, dunkle, alte Region von etwa 3.200 km, voller Krater: ein Stück der ursprünglichen Kruste von Ganymed."
+],
+[
+"Uruk Sulcus",
+0.8,
+199.7,
+2,
+"regione",
+"Streifen aus hellem, gefurchtem Gelände, jünger als die dunklen Regionen: Hier wurde die Eiskruste gedehnt und erneuert."
+],
+[
+"Tros",
+11.1,
+332.7,
+2,
+"cratere",
+"Junger Krater von etwa 94 km, umgeben von einem Strahlenkranz aus hellem Eis: einer der hellsten Punkte von Ganymed."
+]
+],
+"naif:504": [
+[
+"Valhalla",
+14.7,
+304,
+1,
+"regione",
+"Die größte Ringstruktur des Sonnensystems: eine helle zentrale Zone von 360 km, umgeben von konzentrischen Ringen bis 1.900 km vom Zentrum."
+],
+[
+"Asgard",
+32.2,
+220.1,
+2,
+"regione",
+"Das zweite große Ringbecken von Kallisto, etwa 1.600 km breit."
+]
+],
+"naif:601": [
+[
+"Herschel",
+-1.4,
+248.2,
+1,
+"cratere",
+"139 km breit, ein Drittel des Durchmessers von Mimas: Dieser Krater lässt ihn wie den „Todesstern“ aus Star Wars aussehen. Ein nur etwas heftigerer Einschlag hätte den Mond zerstört."
+]
+],
+"naif:602": [
+[
+"Fontänen am Südpol",
+-85.0,
+0.0,
+1,
+"regione",
+"Aus vier langen Rissen, den „Tigerstreifen“, schießen Fontänen aus Dampf und Eis, die die Sonde Cassini 2005 entdeckte. Sie stammen aus einem Salzwasserozean unter der Kruste und speisen den E-Ring des Saturn."
+]
+],
+"naif:603": [
+[
+"Odysseus",
+32.8,
+231.1,
+1,
+"cratere",
+"Krater von 445 km, fast zwei Fünftel des Durchmessers von Tethys."
+],
+[
+"Ithaca Chasma",
+-14.0,
+354,
+2,
+"regione",
+"Ein Canyon von etwa 2.000 km Länge, 100 km Breite und bis zu 4 km Tiefe: Er zieht sich über drei Viertel des Umfangs von Tethys."
+]
+],
+"naif:608": [
+[
+"Cassini Regio",
+-28.0,
+267.5,
+1,
+"regione",
+"Die dunkle Hälfte von Iapetus: Die in Bahnrichtung nach vorn blickende Hemisphäre ist schwarz wie Kohle, die andere hell wie schmutziger Schnee. Das bemerkte schon Giovanni Domenico Cassini 1671: Er sah den Mond nur auf einer Seite des Saturn."
+]
+],
+"naif:901": [
+[
+"Mordor Macula",
+80.0,
+0.0,
+1,
+"regione",
+"Der dunkle, rötliche Fleck auf dem Nordpol von Charon, etwa 475 km breit. Vermutlich besteht er aus Gasen, die von Pluto entwichen sind, vom eisigen Pol eingefangen und durch Strahlung umgewandelt wurden. Der inoffizielle Name stammt aus dem „Herrn der Ringe“."
+]
+],
+"naif:999": [
+[
+"Sputnik Planitia",
+20.0,
+180.0,
+1,
+"regione",
+"Die linke Hälfte von Plutos „Herz“: eine etwa 1.000 km breite Ebene aus Stickstoffeis, ohne Krater, weil das Eis langsam brodelt und sich erneuert. Fotografiert von der Sonde New Horizons im Juli 2015."
+],
+[
+"Tenzing Montes",
+-16.0,
+176.0,
+2,
+"monte",
+"Berge aus Wassereis, bis zu 6 km hoch, am Rand der Sputnik Planitia. Bei diesen Temperaturen (−230 °C) ist Wassereis hart wie Fels. Sie erinnern an Tenzing Norgay, der mit Edmund Hillary als Erster den Everest bestieg."
+],
+[
+"Belton Regio",
+-9.0,
+85.0,
+2,
+"regione",
+"Die lange dunkle Region entlang des Äquators (früher Cthulhu genannt), bedeckt mit Tholinen: rötlichen Verbindungen, die entstehen, wenn Sonnenlicht auf Methan trifft."
+]
+],
+"sb:1": [
+[
+"Krater Occator",
+19.8,
+239.3,
+1,
+"cratere",
+"92 km breit, mit den hellsten Flecken auf Ceres: Salzablagerungen (Natriumcarbonat), die aus dem Untergrund aufgestiegenes Salzwasser hinterlassen hat. Die Sonde Dawn sah sie 2015."
+],
+[
+"Ahuna Mons",
+-10.5,
+316.2,
+2,
+"monte",
+"Ein einzeln stehender, etwa 4 km hoher Berg: ein Kryovulkan, also ein Vulkan, der statt Lava salzigen Schlamm und Eis ausgestoßen hat."
+],
+[
+"Kerwan",
+-10.8,
+124.0,
+3,
+"cratere",
+"Der größte Krater auf Ceres, etwa 280 km breit, mit niedrigen, vom Eis abgeschliffenen Rändern."
+]
+],
+"sb:4": [
+[
+"Rheasilvia",
+-72.0,
+86.0,
+1,
+"regione",
+"Einschlagbecken von etwa 500 km, fast so groß wie Vesta selbst, mit einem über 20 km hohen Zentralberg: einer der höchsten Berge des Sonnensystems. Die beim Einschlag herausgeschleuderten Bruchstücke treffen noch heute als Meteoriten auf die Erde."
+]
+]
+}
+}

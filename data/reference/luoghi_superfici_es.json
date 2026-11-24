@@ -1,0 +1,840 @@
+{
+"_descrizione": "Lugares en las superficies (español): [nombre, latitud, longitud este (grados), importancia (1 = se ve primero), tipo, descripción]. Tipos: mare, cratere, monte, regione, missione",
+"_fonte": "Nomi e coordinate: Gazetteer of Planetary Nomenclature (IAU/USGS); siti di atterraggio: NASA, ESA, CNSA, ISRO, Roscosmos",
+"luoghi": {
+"naif:301": [
+[
+"Mare Imbrium",
+32.8,
+-15.6,
+1,
+"mare",
+"El «Mar de las Lluvias»: una enorme cuenca de impacto de unos 1.150 km de ancho, excavada hace 3.900 millones de años y luego rellenada de lava oscura. Está rodeado de cordilleras, como los Apeninos lunares."
+],
+[
+"Mare Serenitatis",
+28.0,
+17.5,
+1,
+"mare",
+"El «Mar de la Serenidad», una llanura de lava de unos 700 km de ancho. En su borde oriental, en el valle de Taurus-Littrow, aterrizó el Apolo 17."
+],
+[
+"Mare Tranquillitatis",
+8.5,
+31.4,
+1,
+"mare",
+"El «Mar de la Tranquilidad», de unos 870 km de ancho. Aquí, el 20 de julio de 1969, bajaron los primeros seres humanos a la Luna."
+],
+[
+"Mare Crisium",
+17.0,
+59.1,
+1,
+"mare",
+"El «Mar de las Crisis», un óvalo oscuro y aislado de unos 550 km: se reconoce incluso a simple vista cerca del borde de la Luna. En 1976 la sonda soviética Luna 24 trajo muestras de él."
+],
+[
+"Oceanus Procellarum",
+18.4,
+-57.4,
+1,
+"mare",
+"El «Océano de las Tormentas»: la mayor extensión de lava de la Luna, de más de 2.500 km de norte a sur. Es el único «mar» lunar llamado océano."
+],
+[
+"Mare Nubium",
+-21.3,
+-16.6,
+2,
+"mare",
+"El «Mar de las Nubes», de unos 700 km de ancho. Alberga la Rupes Recta, el «Muro Recto»: una falla de 110 km visible con un pequeño telescopio."
+],
+[
+"Mare Fecunditatis",
+-7.8,
+51.3,
+2,
+"mare",
+"El «Mar de la Fecundidad», de unos 840 km de ancho. En 1970 la sonda soviética Luna 16 tomó aquí la primera muestra de suelo lunar traída a la Tierra por una sonda automática."
+],
+[
+"Mare Nectaris",
+-15.2,
+35.5,
+2,
+"mare",
+"El «Mar del Néctar», pequeño (unos 340 km) pero importante: la cuenca que lo contiene da nombre a toda una época de la historia lunar, el Nectárico."
+],
+[
+"Mare Humorum",
+-24.4,
+-38.6,
+2,
+"mare",
+"El «Mar de los Humores», una cuenca redonda de unos 420 km. En su borde norte está el gran cráter Gassendi, con el fondo surcado de fracturas."
+],
+[
+"Mare Frigoris",
+56.0,
+1.4,
+2,
+"mare",
+"El «Mar del Frío»: una larga franja de lava, de unos 1.500 km, que corre cerca del polo norte lunar."
+],
+[
+"Mare Orientale",
+-19.4,
+-92.8,
+2,
+"mare",
+"Una diana de anillos de montañas concéntricos de unos 930 km: es la más joven de las grandes cuencas lunares. Está justo en el borde y desde la Tierra apenas se ve."
+],
+[
+"Mare Moscoviense",
+27.3,
+147.9,
+3,
+"mare",
+"El «Mar de Moscú», uno de los poquísimos mares de la cara oculta. Se descubrió en 1959 en las primeras fotografías de esa cara, tomadas por la sonda soviética Luna 3."
+],
+[
+"Cuenca Polo Sur-Aitken",
+-53.0,
+-169.0,
+2,
+"regione",
+"Una de las cicatrices de impacto más grandes y antiguas del Sistema Solar: unos 2.500 km de ancho y varios kilómetros de profundidad. Ocupa buena parte de la cara oculta e interesa mucho a los geólogos porque el impacto pudo dejar al descubierto rocas profundas."
+],
+[
+"Tycho",
+-43.31,
+-11.36,
+1,
+"cratere",
+"Cráter joven (unos 108 millones de años) de 85 km de ancho. Sus rayos claros, hechos del material lanzado por el impacto, se extienden más de 1.500 km: con Luna llena es el punto más llamativo."
+],
+[
+"Copérnico",
+9.62,
+-20.08,
+1,
+"cratere",
+"Cráter de 93 km de ancho, con paredes escalonadas y un grupo de picos en el centro. Tiene unos 800 millones de años; con unos prismáticos se ve su sistema de rayos claros."
+],
+[
+"Kepler",
+8.1,
+-38.0,
+2,
+"cratere",
+"Pequeño cráter (unos 30 km) rodeado de rayos brillantes que destacan sobre el Océano de las Tormentas."
+],
+[
+"Aristarco",
+23.7,
+-47.4,
+2,
+"cratere",
+"De 40 km de ancho, es la zona más brillante de la cara visible de la Luna: refleja casi el doble de luz que el terreno de alrededor. Cerca corre el Vallis Schröteri, el mayor canal de lava lunar."
+],
+[
+"Platón",
+51.6,
+-9.4,
+2,
+"cratere",
+"Cráter de unos 100 km con el fondo plano y oscuro, inundado de lava: parece un lago entre los montes al norte del Mare Imbrium."
+],
+[
+"Clavius",
+-58.4,
+-14.4,
+2,
+"cratere",
+"Uno de los cráteres más grandes de la cara visible: unos 230 km. En 2020 el observatorio volante SOFIA detectó en él moléculas de agua incluso en el terreno iluminado por el Sol."
+],
+[
+"Grimaldi",
+-5.2,
+-68.6,
+3,
+"cratere",
+"Cuenca de unos 170 km cerca del borde occidental. Su fondo de lava está entre las zonas más oscuras de toda la Luna."
+],
+[
+"Tsiolkovski",
+-20.4,
+129.1,
+3,
+"cratere",
+"Cráter de la cara oculta de unos 185 km, con un pico central y un fondo de lava oscurísima. Fue una de las primeras estructuras reconocidas en las fotos de la Luna 3 (1959)."
+],
+[
+"Apolo 11 (1969)",
+0.674,
+23.473,
+1,
+"missione",
+"20 de julio de 1969: Neil Armstrong y Buzz Aldrin son los primeros seres humanos que caminan sobre otro mundo, mientras Michael Collins los espera en órbita. Permanecen en la superficie 21 horas y media y traen 21,5 kg de rocas."
+],
+[
+"Apolo 12 (1969)",
+-3.012,
+-23.422,
+2,
+"missione",
+"Noviembre de 1969: Pete Conrad y Alan Bean aterrizan con gran precisión a 160 metros de la sonda Surveyor 3, llegada dos años antes, y se llevan a casa algunas de sus piezas."
+],
+[
+"Apolo 14 (1971)",
+-3.645,
+-17.471,
+2,
+"missione",
+"Febrero de 1971: Alan Shepard y Edgar Mitchell exploran las colinas de Fra Mauro. Shepard, antes de partir, golpea dos pelotas de golf."
+],
+[
+"Apolo 15 (1971)",
+26.132,
+3.634,
+2,
+"missione",
+"Julio de 1971: David Scott y James Irwin aterrizan entre los Apeninos lunares y la Rima Hadley. Es la primera misión con el coche lunar (rover) y con tres días completos en la superficie."
+],
+[
+"Apolo 16 (1972)",
+-8.973,
+15.5,
+2,
+"missione",
+"Abril de 1972: John Young y Charles Duke aterrizan en las tierras altas de Descartes. Es la única misión Apolo que bajó a las tierras altas claras en lugar de a los mares."
+],
+[
+"Apolo 17 (1972)",
+20.191,
+30.772,
+2,
+"missione",
+"Diciembre de 1972: Eugene Cernan y Harrison Schmitt, el único geólogo que ha pisado la Luna, exploran el valle de Taurus-Littrow. Es la última misión del programa Apolo."
+],
+[
+"Luna 9 (1966)",
+7.08,
+-64.37,
+3,
+"missione",
+"3 de febrero de 1966: la sonda soviética Luna 9 realiza el primer aterrizaje suave en otro cuerpo celeste y transmite las primeras fotografías desde la superficie lunar."
+],
+[
+"Chang'e 3 (2013)",
+44.12,
+-19.51,
+3,
+"missione",
+"Diciembre de 2013: China lleva a la Luna un módulo de aterrizaje y el pequeño rover Yutu («Conejo de jade»). Es el primer aterrizaje suave desde 1976."
+],
+[
+"Chang'e 4 (2019)",
+-45.46,
+177.59,
+2,
+"missione",
+"3 de enero de 2019: primer aterrizaje en la cara oculta de la Luna, en el cráter Von Kármán. El rover Yutu-2 se comunica con la Tierra gracias a un satélite que hace de puente de radio."
+],
+[
+"Chandrayaan-3 (2023)",
+-69.37,
+32.35,
+3,
+"missione",
+"23 de agosto de 2023: la India aterriza con el módulo Vikram y el rover Pragyan más cerca del polo sur que ninguna misión anterior."
+],
+[
+"Luna 2 (1959)",
+29.1,
+0.0,
+3,
+"missione",
+"14 de septiembre de 1959: la sonda soviética Luna 2 se estrella a propósito en la Luna. Es el primer objeto construido por el ser humano que toca otro cuerpo celeste."
+],
+[
+"Chang'e 5 (2020)",
+43.06,
+-51.92,
+3,
+"missione",
+"Diciembre de 2020: la sonda china recoge 1,7 kg de suelo y lo trae a la Tierra. Son las primeras muestras lunares desde 1976, y entre las rocas de mar más jóvenes jamás datadas (unos 2.000 millones de años)."
+],
+[
+"Chang'e 6 (2024)",
+-41.64,
+-153.99,
+2,
+"missione",
+"Junio de 2024: la sonda china toma las primeras muestras recogidas jamás en la cara oculta de la Luna, en la cuenca Polo Sur-Aitken, y las trae a la Tierra."
+],
+[
+"SLIM (2024)",
+-13.32,
+25.25,
+3,
+"missione",
+"19 de enero de 2024: Japón se convierte en el quinto país que aterriza en la Luna. La pequeña sonda SLIM toca el suelo a pocas decenas de metros del objetivo, pero queda boca abajo."
+],
+[
+"Shackleton",
+-89.67,
+129.2,
+2,
+"cratere",
+"Cráter de 21 km casi exactamente en el polo sur. Su fondo nunca ve el Sol y está entre los lugares más fríos del Sistema Solar: podría conservar hielo de agua. La región es el destino del programa Artemis."
+]
+],
+"naif:499": [
+[
+"Olympus Mons",
+18.65,
+226.2,
+1,
+"monte",
+"El volcán más alto que se conoce en el Sistema Solar: unos 22 km sobre el nivel medio de Marte (hasta 25 sobre las llanuras de alrededor, según cómo se mida), casi tres veces el Everest, con una base de 600 km de ancho (como el norte y el centro de Italia juntos)."
+],
+[
+"Valles Marineris",
+-13.9,
+300.8,
+1,
+"regione",
+"Un sistema de cañones de unos 4.000 km de largo, hasta 200 de ancho y hasta 7 de profundidad: en la Tierra iría de una costa a otra de Estados Unidos. Debe su nombre a la sonda Mariner 9, que lo descubrió en 1971."
+],
+[
+"Hellas Planitia",
+-42.4,
+70.5,
+1,
+"regione",
+"Una gigantesca cuenca de impacto de unos 2.300 km de ancho y más de 7 de profundidad: su fondo es el punto más bajo de Marte, y allí la presión del aire es casi el doble de la media del planeta."
+],
+[
+"Elysium Mons",
+25.0,
+147.2,
+2,
+"monte",
+"El volcán principal de la región de Elysium: se eleva unos 13 km sobre las llanuras de alrededor."
+],
+[
+"Syrtis Major",
+8.4,
+69.5,
+2,
+"regione",
+"La gran mancha oscura de Marte: fue la primera estructura de otro planeta que se dibujó, por Christiaan Huygens en 1659. Es un volcán en escudo muy bajo, cubierto de basalto oscuro."
+],
+[
+"Ascraeus Mons",
+11.9,
+255.9,
+3,
+"monte",
+"El más septentrional y el más alto de los tres volcanes en fila de los Tharsis Montes: unos 18 km."
+],
+[
+"Pavonis Mons",
+1.5,
+247.0,
+3,
+"monte",
+"El volcán central de los Tharsis Montes, de unos 14 km de altura y situado casi exactamente sobre el ecuador."
+],
+[
+"Arsia Mons",
+-8.3,
+239.9,
+3,
+"monte",
+"El más meridional de los tres Tharsis Montes. Su caldera, de unos 110 km de ancho, es una de las más grandes de Marte."
+],
+[
+"Argyre Planitia",
+-49.7,
+316.0,
+3,
+"regione",
+"Cuenca de impacto de unos 1.800 km de ancho y 5 de profundidad, rodeada de montañas. El nombre viene de la palabra griega para «plata»."
+],
+[
+"Utopia Planitia",
+46.7,
+117.5,
+3,
+"regione",
+"La mayor cuenca de impacto reconocida del Sistema Solar: unos 3.300 km. Allí aterrizaron la Viking 2 en 1976 y el rover chino Zhurong en 2021."
+],
+[
+"Casquete polar norte",
+88.0,
+0.0,
+2,
+"regione",
+"De unos 1.000 km de ancho y hasta 2-3 km de espesor, está hecho sobre todo de hielo de agua. En invierno se cubre de una fina capa de dióxido de carbono congelado («hielo seco»)."
+],
+[
+"Casquete polar sur",
+-88.0,
+0.0,
+2,
+"regione",
+"Más pequeño que el del norte (unos 350 km), tiene sobre el hielo de agua una capa de hielo seco que nunca desaparece del todo, ni siquiera en verano."
+],
+[
+"Curiosity (2012), cráter Gale",
+-4.59,
+137.44,
+1,
+"missione",
+"Rover del tamaño de un coche, alimentado por un generador nuclear, aterrizado el 6 de agosto de 2012. Descubrió que el cráter Gale albergaba un lago apto para la vida microbiana y desde entonces sube por el Monte Sharp, en el centro del cráter."
+],
+[
+"Perseverance (2021), cráter Jezero",
+18.44,
+77.45,
+1,
+"missione",
+"Aterrizado el 18 de febrero de 2021 junto al delta de un antiguo río. Recoge muestras de roca para traerlas algún día a la Tierra; con él llegó Ingenuity, el primer helicóptero que voló en otro planeta (72 vuelos)."
+],
+[
+"Viking 1 (1976)",
+22.27,
+312.05,
+2,
+"missione",
+"20 de julio de 1976: primera sonda que trabajó largo tiempo en la superficie de Marte, en Chryse Planitia. Buscó rastros de vida en el suelo, con resultados que quedaron ambiguos, y funcionó más de seis años."
+],
+[
+"Opportunity (2004)",
+-1.95,
+354.47,
+2,
+"missione",
+"Llegó en enero de 2004 a Meridiani Planum y debía durar 90 días: trabajó hasta 2018 y recorrió 45 km. Encontró pruebas de que allí, en otro tiempo, hubo agua líquida."
+],
+[
+"Viking 2 (1976)",
+47.64,
+134.29,
+3,
+"missione",
+"Aterrizó el 3 de septiembre de 1976 en Utopia Planitia. Fotografió un velo de escarcha sobre el suelo en las mañanas de invierno."
+],
+[
+"Pathfinder (1997)",
+19.13,
+326.78,
+3,
+"missione",
+"4 de julio de 1997: aterriza en Ares Vallis rebotando sobre grandes cojines de aire y libera Sojourner, el primer rover que se movió por Marte."
+],
+[
+"Spirit (2004)",
+-14.57,
+175.47,
+3,
+"missione",
+"Gemelo de Opportunity, aterrizó en enero de 2004 en el cráter Gusev. Escaló las Columbia Hills y siguió activo hasta 2010, tras quedar atrapado en la arena."
+],
+[
+"Phoenix (2008)",
+68.22,
+234.25,
+3,
+"missione",
+"Aterrizó el 25 de mayo de 2008 en las llanuras árticas. Excavando unos centímetros con el brazo robótico encontró hielo de agua."
+],
+[
+"InSight (2018)",
+4.5,
+135.62,
+3,
+"missione",
+"Aterrizó el 26 de noviembre de 2018 en Elysium Planitia con un sismómetro: hasta 2022 registró más de 1.300 terremotos marcianos, que permitieron medir la corteza, el manto y el núcleo del planeta."
+],
+[
+"Zhurong (2021)",
+25.07,
+109.93,
+3,
+"missione",
+"El primer rover chino en Marte, aterrizado en mayo de 2021 en Utopia Planitia. Trabajó alrededor de un año, estudiando el terreno también con un radar que ve bajo la superficie."
+],
+[
+"Cráter Korolev",
+72.8,
+164.5,
+3,
+"cratere",
+"Cráter de 82 km cerca del polo norte, lleno todo el año de hielo de agua: una capa de hasta 1,8 km de espesor."
+]
+],
+"naif:199": [
+[
+"Cuenca Caloris",
+30.5,
+170.2,
+1,
+"regione",
+"Una de las mayores cuencas de impacto del Sistema Solar: unos 1.550 km, un tercio del diámetro de Mercurio. El nombre significa «calor»: en cada paso cerca del Sol, alternándose con el punto opuesto, queda justo bajo el Sol."
+],
+[
+"Rachmaninoff",
+27.6,
+57.4,
+2,
+"cratere",
+"Cuenca de doble anillo de unos 290 km, entre las más jóvenes de Mercurio. En su fondo está uno de los puntos más bajos del planeta."
+],
+[
+"Hokusai",
+57.8,
+16.9,
+2,
+"cratere",
+"Cráter joven de unos 95 km: sus rayos claros se extienden miles de kilómetros, sobre buena parte del planeta."
+],
+[
+"Kuiper",
+-11.3,
+328.6,
+3,
+"cratere",
+"Cráter brillante de 62 km: fue una de las primeras estructuras vistas por la sonda Mariner 10 en 1974. Lleva el nombre del astrónomo Gerard Kuiper."
+],
+[
+"MESSENGER (2015)",
+54.4,
+210.1,
+3,
+"missione",
+"30 de abril de 2015: agotado el combustible tras cuatro años en órbita, la sonda MESSENGER de la NASA se estrella aquí, excavando un pequeño cráter."
+]
+],
+"naif:299": [
+[
+"Maxwell Montes",
+65.2,
+3.3,
+1,
+"monte",
+"Los montes más altos de Venus: unos 11 km. Llevan el nombre del físico James Clerk Maxwell y son casi la única estructura de Venus con nombre masculino."
+],
+[
+"Aphrodite Terra",
+-5.8,
+104.8,
+1,
+"regione",
+"La mayor meseta de Venus, extendida a lo largo del ecuador. Según la NASA es comparable a África en extensión; otras estimaciones dicen aproximadamente la mitad."
+],
+[
+"Ishtar Terra",
+70.4,
+27.5,
+2,
+"regione",
+"Meseta cerca del polo norte, de un tamaño parecido al de Australia. Contiene los Maxwell Montes y la llanura elevada Lakshmi Planum."
+],
+[
+"Venera 13 (1982)",
+-7.5,
+303.0,
+2,
+"missione",
+"1 de marzo de 1982: la sonda soviética transmite las primeras fotografías en color de la superficie de Venus y resiste 127 minutos a unos 460 °C y a una presión casi 90 veces la terrestre."
+],
+[
+"Maat Mons",
+0.5,
+194.6,
+2,
+"monte",
+"El volcán más alto de Venus: unos 8 km sobre las llanuras. En 2023, en los antiguos datos de radar de la sonda Magallanes, se encontró la prueba de una erupción ocurrida cerca de allí en 1991."
+],
+[
+"Venera 9 (1975)",
+31.0,
+291.6,
+3,
+"missione",
+"22 de octubre de 1975: la sonda soviética transmite la primera fotografía tomada desde la superficie de otro planeta. Resiste 53 minutos."
+]
+],
+"naif:606": [
+[
+"Huygens (2005)",
+-10.57,
+167.66,
+1,
+"missione",
+"14 de enero de 2005: la sonda europea Huygens, llevada por Cassini, desciende en paracaídas por la bruma de Titán y toca el suelo. Es el aterrizaje más lejano jamás realizado; transmitió desde la superficie durante más de una hora."
+],
+[
+"Kraken Mare",
+68.0,
+50.0,
+2,
+"mare",
+"El mayor mar de Titán: no de agua, sino de metano y etano líquidos a −180 °C. Tiene más o menos la extensión del mar Caspio."
+],
+[
+"Xanadu",
+-15.0,
+260.0,
+2,
+"regione",
+"Región clara del tamaño de Australia: fue la primera estructura de la superficie de Titán que se vio, en 1994, con el telescopio espacial Hubble."
+],
+[
+"Ligeia Mare",
+79.0,
+112,
+3,
+"mare",
+"El segundo mar de Titán, de unos 500 km: metano casi puro. El radar de la sonda Cassini midió su profundidad, unos 160 metros."
+]
+],
+"naif:501": [
+[
+"Loki Patera",
+13.0,
+51.2,
+1,
+"regione",
+"Un lago de lava de unos 200 km: es el volcán más potente de Ío y, por sí solo, emite buena parte del calor de toda la luna."
+],
+[
+"Pele",
+-18.7,
+104.7,
+1,
+"monte",
+"Volcán en erupción casi continua: su penacho sube hasta 300 km y vuelve a caer formando un gran anillo rojo de azufre de más de 1.000 km."
+],
+[
+"Prometheus",
+-1.5,
+206.1,
+2,
+"monte",
+"Un penacho volcánico activo sin interrupción al menos desde 1979, cuando lo vieron las sondas Voyager: por eso lo llaman el «Old Faithful» de Ío."
+],
+[
+"Tvashtar Paterae",
+62.8,
+236.5,
+3,
+"monte",
+"Cadena de calderas cerca del polo norte. En 2007 la sonda New Horizons, de paso, filmó su penacho de unos 330 km de altura."
+],
+[
+"Boösaule Montes",
+-4.4,
+90,
+3,
+"monte",
+"Los montes más altos de Ío: unos 17 km, el doble del Everest. No son volcanes, sino bloques de corteza empujados hacia arriba."
+]
+],
+"naif:502": [
+[
+"Pwyll",
+-25.2,
+88.6,
+1,
+"cratere",
+"Cráter joven de 45 km: sus rayos claros de hielo fresco se extienden más de 1.000 km."
+],
+[
+"Conamara Chaos",
+9.7,
+87.3,
+2,
+"regione",
+"Una extensión de balsas de hielo rotas, giradas y vueltas a congelar: uno de los indicios de que bajo la corteza de Europa hay un océano."
+],
+[
+"Tyre",
+33.6,
+213.4,
+3,
+"cratere",
+"Estructura de anillos concéntricos de unos 140 km: la cicatriz de un impacto que casi atravesó la corteza de hielo."
+]
+],
+"naif:503": [
+[
+"Galileo Regio",
+47.0,
+230.4,
+1,
+"regione",
+"Gran región oscura y antigua de unos 3.200 km, cubierta de cráteres: es un trozo de la corteza original de Ganímedes."
+],
+[
+"Uruk Sulcus",
+0.8,
+199.7,
+2,
+"regione",
+"Franja de terreno claro y surcado, más joven que las regiones oscuras: aquí la corteza de hielo se estiró y se renovó."
+],
+[
+"Tros",
+11.1,
+332.7,
+2,
+"cratere",
+"Cráter joven de unos 94 km, rodeado de rayos de hielo claro: es uno de los puntos más brillantes de Ganímedes."
+]
+],
+"naif:504": [
+[
+"Valhalla",
+14.7,
+304,
+1,
+"regione",
+"La mayor estructura de anillos del Sistema Solar: una zona clara central de 360 km rodeada de anillos concéntricos hasta 1.900 km del centro."
+],
+[
+"Asgard",
+32.2,
+220.1,
+2,
+"regione",
+"La segunda gran cuenca de anillos de Calisto, de unos 1.600 km."
+]
+],
+"naif:601": [
+[
+"Herschel",
+-1.4,
+248.2,
+1,
+"cratere",
+"De 139 km, un tercio del diámetro de Mimas: es el cráter que la hace parecerse a la «Estrella de la Muerte» de La guerra de las galaxias. Un impacto un poco más violento habría destruido la luna."
+]
+],
+"naif:602": [
+[
+"Chorros del polo sur",
+-85.0,
+0.0,
+1,
+"regione",
+"De cuatro largas fracturas, las «rayas de tigre», salen chorros de vapor y hielo descubiertos por la sonda Cassini en 2005. Vienen de un océano de agua salada bajo la corteza y alimentan el anillo E de Saturno."
+]
+],
+"naif:603": [
+[
+"Odysseus",
+32.8,
+231.1,
+1,
+"cratere",
+"Cráter de 445 km, casi dos quintos del diámetro de Tetis."
+],
+[
+"Ithaca Chasma",
+-14.0,
+354,
+2,
+"regione",
+"Un cañón de unos 2.000 km de largo, 100 de ancho y hasta 4 de profundidad: recorre tres cuartos de la vuelta de Tetis."
+]
+],
+"naif:608": [
+[
+"Cassini Regio",
+-28.0,
+267.5,
+1,
+"regione",
+"La mitad oscura de Jápeto: el hemisferio que mira hacia delante en la órbita es negro como el carbón, el otro es claro como la nieve sucia. Ya lo notó Giovanni Domenico Cassini en 1671: solo veía la luna a un lado de Saturno."
+]
+],
+"naif:901": [
+[
+"Mordor Macula",
+80.0,
+0.0,
+1,
+"regione",
+"La mancha oscura y rojiza del polo norte de Caronte, de unos 475 km. Se cree que está hecha de gases escapados de Plutón, capturados por el polo helado y transformados por la radiación. El nombre, no oficial, viene de «El Señor de los Anillos»."
+]
+],
+"naif:999": [
+[
+"Sputnik Planitia",
+20.0,
+180.0,
+1,
+"regione",
+"El lóbulo izquierdo del «corazón» de Plutón: una llanura de hielo de nitrógeno de unos 1.000 km, sin cráteres porque el hielo bulle lentamente y se renueva. Fotografiada por la sonda New Horizons en julio de 2015."
+],
+[
+"Tenzing Montes",
+-16.0,
+176.0,
+2,
+"monte",
+"Montañas de hielo de agua de hasta 6 km en el borde de Sputnik Planitia. A esas temperaturas (−230 °C) el hielo de agua es duro como la roca. Recuerdan a Tenzing Norgay, que escaló por primera vez el Everest con Edmund Hillary."
+],
+[
+"Belton Regio",
+-9.0,
+85.0,
+2,
+"regione",
+"La larga región oscura a lo largo del ecuador (antes llamada Cthulhu), cubierta de tolinas: compuestos rojizos que se forman cuando la luz del Sol incide sobre el metano."
+]
+],
+"sb:1": [
+[
+"Cráter Occator",
+19.8,
+239.3,
+1,
+"cratere",
+"De 92 km, alberga las manchas más brillantes de Ceres: depósitos de sales (carbonato de sodio) dejados por agua salada que subió del subsuelo. Las vio la sonda Dawn en 2015."
+],
+[
+"Ahuna Mons",
+-10.5,
+316.2,
+2,
+"monte",
+"Una montaña aislada de unos 4 km de altura: un criovolcán, es decir, un volcán que ha expulsado barro salado y hielo en lugar de lava."
+],
+[
+"Kerwan",
+-10.8,
+124.0,
+3,
+"cratere",
+"El mayor cráter de Ceres, de unos 280 km, con los bordes bajos y suavizados por el hielo."
+]
+],
+"sb:4": [
+[
+"Rheasilvia",
+-72.0,
+86.0,
+1,
+"regione",
+"Cuenca de impacto de unos 500 km, casi tan grande como la propia Vesta, con un pico central de más de 20 km: una de las montañas más altas del Sistema Solar. Los fragmentos lanzados por el impacto siguen llegando hoy a la Tierra como meteoritos."
+]
+]
+}
+}

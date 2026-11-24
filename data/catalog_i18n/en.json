@@ -1,0 +1,903 @@
+{
+ "_descrizione": "English translations of the catalog fields (data/catalog), by body id: name, wiki (title of the English Wikipedia article) and the texts in phys, magnetic, rings. \"values\" translates whole texts of any body (also those built by the program, like the exoplanets). Missing fields stay in Italian.",
+ "bodies": {
+  "ssb": {
+   "name": "Solar System Barycenter"
+  },
+  "naif:10": {
+   "name": "Sun",
+   "wiki": "Sun",
+   "magnetic": {
+    "src": "source-surface dipole model at 2.5 radii (Altschuler and Newkirk, 1969; Schatten, Wilcox and Ness, 1969). It is a sketch of the Sun near activity minimum: the real field changes continuously and cannot be predicted in the long term"
+   }
+  },
+  "naif:199": {
+   "name": "Mercury",
+   "wiki": "Mercury (planet)",
+   "magnetic": {
+    "src": "MESSENGER (Anderson and collaborators, 2012): tilt below 0.8°, center offset 479 km to the north; magnetopause at about 1.4 radii"
+   }
+  },
+  "naif:299": {
+   "name": "Venus",
+   "wiki": "Venus"
+  },
+  "naif:399": {
+   "name": "Earth",
+   "wiki": "Earth",
+   "magnetic": {
+    "src": "WMM2025 and IGRF-14 (NOAA, IAGA): north geomagnetic pole at 80.8° N, 72.8° W, axis tilted by 9.2°; magnetopause at 6–15 radii, usually 10"
+   }
+  },
+  "naif:499": {
+   "name": "Mars",
+   "wiki": "Mars"
+  },
+  "naif:599": {
+   "name": "Jupiter",
+   "wiki": "Jupiter",
+   "rings": {
+    "src": "Voyager, Galileo and New Horizons: inner halo, main ring (from 122,500 to 129,000 km) and two «gossamer» rings made of dust knocked off the moons Amalthea and Thebe. They are so faint that they cannot be seen from Earth: in the drawing they are much more visible than in reality"
+   },
+   "magnetic": {
+    "src": "JRM09 (Connerney and collaborators, 2018, Juno probe): axis tilted by 10.3° towards west longitude 196.6°; magnetopause at 45–100 radii"
+   },
+   "phys": {
+    "moons_note": "more than 90 known moons; the number grows with new discoveries"
+   }
+  },
+  "naif:699": {
+   "name": "Saturn",
+   "wiki": "Saturn",
+   "magnetic": {
+    "src": "Cassini Grand Finale (Cao and collaborators): tilt below 0.007°, magnetic equator offset by 0.047 radii (2820 km) to the north; magnetopause at 16–22 radii"
+   },
+   "phys": {
+    "moons_note": "274 recognized moons (March 2025): the planet with the most known moons"
+   }
+  },
+  "naif:799": {
+   "name": "Uranus",
+   "wiki": "Uranus",
+   "rings": {
+    "src": "Discovered in 1977 by watching a star disappear behind them, then photographed by Voyager 2 (1986): nine very narrow main rings, dark as coal (6, 5, 4, α, β, η, γ, δ, ε), plus the faint λ. The widest, ε, measures from 20 to 96 km. In the drawing they are brighter and a little wider than in reality, otherwise they could not be seen"
+   },
+   "magnetic": {
+    "src": "Voyager 2 (Ness and collaborators, 1986): dipole tilted by 59° and offset by 0.31 radii towards the south pole; magnetopause at 18 radii"
+   },
+   "phys": {
+    "moons_note": "29 known moons after the discovery of S/2025 U1 with the James Webb Space Telescope (2025)"
+   }
+  },
+  "naif:899": {
+   "name": "Neptune",
+   "wiki": "Neptune",
+   "rings": {
+    "src": "Voyager 2 (1989): five dust rings, from the inside Galle, Le Verrier, Lassell, Arago and Adams. In the Adams ring the material is gathered in a few denser arcs (not drawn here). In the drawing they are more visible than in reality"
+   },
+   "magnetic": {
+    "src": "Voyager 2 (Ness and collaborators, 1989): dipole tilted by 47° and offset by 0.55 radii; magnetopause at 26.5 radii"
+   }
+  },
+  "naif:301": {
+   "name": "Moon",
+   "wiki": "Moon"
+  },
+  "naif:401": {
+   "name": "Phobos",
+   "wiki": "Phobos (moon)"
+  },
+  "naif:402": {
+   "name": "Deimos",
+   "wiki": "Deimos (moon)"
+  },
+  "naif:505": {
+   "name": "Amalthea",
+   "wiki": "Amalthea (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Lick Observatory, California"
+    }
+   }
+  },
+  "naif:501": {
+   "wiki": "Io (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Padua"
+    }
+   }
+  },
+  "naif:502": {
+   "wiki": "Europa (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Padua"
+    }
+   }
+  },
+  "naif:503": {
+   "name": "Ganymede",
+   "wiki": "Ganymede (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Padua"
+    }
+   },
+   "magnetic": {
+    "src": "Galileo probe (Kivelson and collaborators, 2002): dipole tilted by about 4° with respect to the rotation axis, 719 nT at the equator; the magnetopause is at about 2 radii on the side where the plasma corotating with Jupiter arrives. The drawing is a sketch: around Ganymede the plasma flows slower than the magnetic waves and the real tail has the shape of two tilted «wings»"
+   }
+  },
+  "naif:504": {
+   "wiki": "Callisto (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Padua"
+    }
+   }
+  },
+  "naif:601": {
+   "wiki": "Mimas (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Slough, England"
+    }
+   }
+  },
+  "naif:602": {
+   "name": "Enceladus",
+   "wiki": "Enceladus",
+   "phys": {
+    "discovery": {
+     "place": "Slough, England"
+    }
+   }
+  },
+  "naif:603": {
+   "name": "Tethys",
+   "wiki": "Tethys (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Paris Observatory"
+    }
+   }
+  },
+  "naif:604": {
+   "wiki": "Dione (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Paris Observatory"
+    }
+   }
+  },
+  "naif:605": {
+   "name": "Rhea",
+   "wiki": "Rhea (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Paris Observatory"
+    }
+   }
+  },
+  "naif:606": {
+   "name": "Titan",
+   "wiki": "Titan (moon)",
+   "phys": {
+    "discovery": {
+     "place": "The Hague, Netherlands"
+    }
+   }
+  },
+  "naif:607": {
+   "name": "Hyperion",
+   "wiki": "Hyperion (moon)"
+  },
+  "naif:608": {
+   "name": "Iapetus",
+   "wiki": "Iapetus (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Paris Observatory"
+    }
+   }
+  },
+  "naif:609": {
+   "name": "Phoebe",
+   "wiki": "Phoebe (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Arequipa, Peru (photographic plates)"
+    }
+   }
+  },
+  "naif:705": {
+   "wiki": "Miranda (moon)",
+   "phys": {
+    "discovery": {
+     "place": "McDonald Observatory, Texas"
+    }
+   }
+  },
+  "naif:701": {
+   "wiki": "Ariel (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Liverpool, England"
+    }
+   }
+  },
+  "naif:702": {
+   "wiki": "Umbriel",
+   "phys": {
+    "discovery": {
+     "place": "Liverpool, England"
+    }
+   }
+  },
+  "naif:703": {
+   "wiki": "Titania (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Slough, England"
+    }
+   }
+  },
+  "naif:704": {
+   "wiki": "Oberon (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Slough, England"
+    }
+   }
+  },
+  "naif:801": {
+   "name": "Triton",
+   "wiki": "Triton (moon)",
+   "phys": {
+    "discovery": {
+     "place": "Liverpool, England"
+    }
+   }
+  },
+  "naif:802": {
+   "name": "Nereid",
+   "wiki": "Nereid",
+   "phys": {
+    "discovery": {
+     "place": "McDonald Observatory, Texas"
+    }
+   }
+  },
+  "naif:808": {
+   "name": "Proteus",
+   "wiki": "Proteus (moon)"
+  },
+  "naif:901": {
+   "name": "Charon",
+   "wiki": "Charon (moon)"
+  },
+  "naif:902": {
+   "name": "Nix",
+   "wiki": "Nix (moon)"
+  },
+  "naif:903": {
+   "name": "Hydra",
+   "wiki": "Hydra (moon)"
+  },
+  "sb:1": {
+   "name": "Ceres",
+   "wiki": "Ceres (dwarf planet)",
+   "phys": {
+    "discovery": {
+     "place": "Palermo Observatory"
+    }
+   }
+  },
+  "naif:999": {
+   "name": "Pluto",
+   "wiki": "Pluto",
+   "phys": {
+    "discovery": {
+     "place": "Lowell Observatory, Flagstaff (Arizona)"
+    }
+   }
+  },
+  "sb:136199": {
+   "wiki": "Eris (dwarf planet)",
+   "phys": {
+    "discovery": {
+     "place": "Palomar Observatory (images from 2003)"
+    }
+   }
+  },
+  "sb:136108": {
+   "wiki": "Haumea",
+   "phys": {
+    "dimensions": "about 2322 × 1704 × 1026 km"
+   }
+  },
+  "sb:136472": {
+   "wiki": "Makemake",
+   "phys": {
+    "discovery": {
+     "place": "Palomar Observatory"
+    }
+   }
+  },
+  "sb:90377": {
+   "wiki": "90377 Sedna",
+   "phys": {
+    "discovery": {
+     "place": "Palomar Observatory"
+    }
+   }
+  },
+  "sb:1P": {
+   "name": "Halley's Comet (1P)",
+   "wiki": "Halley's Comet",
+   "phys": {
+    "dimensions": "about 15 × 8 × 8 km"
+   }
+  },
+  "sb:2P": {
+   "name": "Comet Encke (2P)",
+   "wiki": "Comet Encke"
+  },
+  "sb:67P": {
+   "name": "Comet 67P/Churyumov-Gerasimenko",
+   "wiki": "67P/Churyumov–Gerasimenko",
+   "phys": {
+    "dimensions": "larger lobe 4.1 × 3.3 × 1.8 km; smaller lobe 2.6 × 2.3 × 1.8 km",
+    "discovery": {
+     "place": "photographic plates taken at Alma-Ata (today Almaty)"
+    }
+   }
+  },
+  "sb:109P": {
+   "name": "Comet Swift-Tuttle (109P)",
+   "wiki": "Comet Swift–Tuttle"
+  },
+  "sb:55P": {
+   "name": "Comet Tempel-Tuttle (55P)",
+   "wiki": "Comet Tempel–Tuttle"
+  },
+  "sb:12P": {
+   "name": "Comet Pons-Brooks (12P)",
+   "wiki": "12P/Pons–Brooks",
+   "phys": {
+    "discovery": {
+     "place": "Marseille"
+    }
+   }
+  },
+  "sb:C/1995 O1": {
+   "name": "Comet Hale-Bopp",
+   "wiki": "Comet Hale–Bopp",
+   "phys": {
+    "discovery": {
+     "place": "New Mexico and Arizona"
+    }
+   }
+  },
+  "sb:C/2020 F3": {
+   "name": "Comet NEOWISE (C/2020 F3)",
+   "wiki": "C/2020 F3 (NEOWISE)"
+  },
+  "sb:C/2023 A3": {
+   "name": "Comet Tsuchinshan-ATLAS (C/2023 A3)",
+   "wiki": "C/2023 A3 (Tsuchinshan–ATLAS)"
+  },
+  "sb:1I": {
+   "wiki": "ʻOumuamua",
+   "phys": {
+    "dimensions": "perhaps 100–1000 m long, very elongated"
+   }
+  },
+  "sb:2I": {
+   "wiki": "2I/Borisov",
+   "phys": {
+    "discovery": {
+     "place": "Nauchnyi, Crimea"
+    }
+   }
+  },
+  "sb:3I": {
+   "wiki": "3I/ATLAS",
+   "phys": {
+    "discovery": {
+     "place": "Chile"
+    }
+   }
+  },
+  "sb:2": {
+   "name": "Pallas",
+   "wiki": "2 Pallas",
+   "phys": {
+    "discovery": {
+     "place": "Bremen"
+    }
+   }
+  },
+  "sb:4": {
+   "wiki": "4 Vesta",
+   "phys": {
+    "discovery": {
+     "place": "Bremen"
+    }
+   }
+  },
+  "sb:10": {
+   "name": "Hygiea",
+   "wiki": "10 Hygiea",
+   "phys": {
+    "discovery": {
+     "place": "Capodimonte Observatory, Naples"
+    }
+   }
+  },
+  "sb:16": {
+   "name": "Psyche",
+   "wiki": "16 Psyche",
+   "phys": {
+    "dimensions": "about 279 × 232 × 189 km",
+    "discovery": {
+     "place": "Capodimonte Observatory, Naples"
+    }
+   }
+  },
+  "sb:21": {
+   "name": "Lutetia",
+   "wiki": "21 Lutetia",
+   "phys": {
+    "discovery": {
+     "place": "Paris"
+    }
+   }
+  },
+  "sb:243": {
+   "wiki": "243 Ida"
+  },
+  "sb:433": {
+   "wiki": "433 Eros",
+   "phys": {
+    "discovery": {
+     "place": "Urania Observatory, Berlin"
+    }
+   }
+  },
+  "sb:25143": {
+   "wiki": "25143 Itokawa",
+   "phys": {
+    "discovery": {
+     "place": "Socorro, New Mexico"
+    }
+   }
+  },
+  "sb:162173": {
+   "wiki": "162173 Ryugu",
+   "phys": {
+    "discovery": {
+     "place": "Socorro, New Mexico"
+    }
+   }
+  },
+  "sb:101955": {
+   "wiki": "101955 Bennu",
+   "phys": {
+    "discovery": {
+     "place": "Socorro, New Mexico"
+    }
+   }
+  },
+  "sb:99942": {
+   "wiki": "99942 Apophis",
+   "phys": {
+    "dimensions": "about 340 m (mean diameter)",
+    "discovery": {
+     "place": "Kitt Peak Observatory, Arizona"
+    }
+   }
+  },
+  "sb:65803": {
+   "name": "Didymos and Dimorphos",
+   "wiki": "65803 Didymos",
+   "phys": {
+    "dimensions": "Didymos about 760 m; Dimorphos about 150 m"
+   }
+  },
+  "sb:2024 YR4": {
+   "wiki": "2024 YR4",
+   "phys": {
+    "dimensions": "about 60 m (measured by the James Webb Space Telescope)",
+    "discovery": {
+     "place": "Chile"
+    }
+   }
+  },
+  "sb:486958": {
+   "wiki": "486958 Arrokoth",
+   "phys": {
+    "dimensions": "36 × 20 × 10 km (two lobes joined together)"
+   }
+  },
+  "naif:-31": {
+   "wiki": "Voyager 1",
+   "phys": {
+    "status": "active (instruments reduced to save power)"
+   }
+  },
+  "naif:-32": {
+   "wiki": "Voyager 2",
+   "phys": {
+    "status": "active (instruments reduced to save power)"
+   }
+  },
+  "naif:-23": {
+   "wiki": "Pioneer 10",
+   "phys": {
+    "status": "inactive (last signal on 23 January 2003), drifting on an inertial path"
+   }
+  },
+  "naif:-24": {
+   "wiki": "Pioneer 11",
+   "phys": {
+    "status": "inactive (last contact in 1995), drifting on an inertial path"
+   }
+  },
+  "naif:-98": {
+   "wiki": "New Horizons",
+   "phys": {
+    "status": "active, in the Kuiper Belt"
+   }
+  },
+  "naif:-96": {
+   "wiki": "Parker Solar Probe",
+   "phys": {
+    "status": "active"
+   }
+  },
+  "naif:-170": {
+   "name": "James Webb Space Telescope",
+   "wiki": "James Webb Space Telescope",
+   "phys": {
+    "status": "active, orbiting the Sun-Earth L2 point",
+    "launch": {
+     "site": "Kourou, French Guiana"
+    }
+   }
+  },
+  "naif:-61": {
+   "wiki": "Juno (spacecraft)",
+   "phys": {
+    "status": "orbiting Jupiter since 2016"
+   }
+  },
+  "naif:-159": {
+   "wiki": "Europa Clipper",
+   "phys": {
+    "status": "on its way to Jupiter (arrival expected in 2030)"
+   }
+  },
+  "naif:-28": {
+   "wiki": "Jupiter Icy Moons Explorer",
+   "phys": {
+    "status": "on its way to Jupiter (arrival expected in 2031)",
+    "launch": {
+     "site": "Kourou, French Guiana"
+    }
+   }
+  },
+  "naif:-121": {
+   "wiki": "BepiColombo",
+   "phys": {
+    "status": "arriving at Mercury (orbit insertion expected at the end of 2026)",
+    "launch": {
+     "site": "Kourou, French Guiana"
+    }
+   }
+  },
+  "naif:-144": {
+   "wiki": "Solar Orbiter",
+   "phys": {
+    "status": "active"
+   }
+  },
+  "naif:-49": {
+   "wiki": "Lucy (spacecraft)",
+   "phys": {
+    "status": "on its way to Jupiter's trojan asteroids"
+   }
+  },
+  "naif:-255": {
+   "name": "Psyche (probe)",
+   "wiki": "Psyche (spacecraft)",
+   "phys": {
+    "status": "on its way to the asteroid Psyche (arrival expected in 2029)"
+   }
+  },
+  "naif:-91": {
+   "wiki": "Hera (space mission)",
+   "phys": {
+    "status": "arriving at the Didymos-Dimorphos system"
+   }
+  },
+  "naif:-64": {
+   "wiki": "OSIRIS-REx",
+   "phys": {
+    "agency": "NASA / University of Arizona",
+    "status": "on its way to Apophis (arrival expected in 2029)"
+   }
+  },
+  "naif:-139479": {
+   "wiki": "Gaia (spacecraft)",
+   "phys": {
+    "status": "retired on 27 March 2025, now orbiting the Sun",
+    "launch": {
+     "site": "Kourou, French Guiana"
+    }
+   }
+  },
+  "naif:-143205": {
+   "wiki": "Elon Musk's Tesla Roadster",
+   "phys": {
+    "status": "inert object orbiting the Sun"
+   }
+  },
+  "gal:mw": {
+   "name": "Milky Way",
+   "wiki": "Milky Way",
+   "aliases": [
+    "Galaxy",
+    "Via Lattea"
+   ],
+   "phys": {
+    "dimensions": "stellar disk about 100,000 light years across",
+    "morphology": "barred spiral (SBbc)"
+   }
+  },
+  "gal:sgra": {
+   "wiki": "Sagittarius A*",
+   "aliases": [
+    "Sgr A*",
+    "Galactic Center",
+    "black hole",
+    "Sagittario A*"
+   ]
+  },
+  "gal:arm:norma-esterno": {
+   "name": "Norma-Outer Arm"
+  },
+  "gal:arm:scudo-centauro": {
+   "name": "Scutum-Centaurus Arm"
+  },
+  "gal:arm:sagittario-carena": {
+   "name": "Sagittarius-Carina Arm"
+  },
+  "gal:arm:perseo": {
+   "name": "Perseus Arm"
+  },
+  "gal:arm:orione": {
+   "name": "Orion Arm (Local Arm)"
+  },
+  "dso:m42": {
+   "name": "Orion Nebula (M42)",
+   "wiki": "Orion Nebula",
+   "aliases": [
+    "M42",
+    "Great Orion Nebula"
+   ]
+  },
+  "dso:m45": {
+   "name": "Pleiades (M45)",
+   "wiki": "Pleiades",
+   "aliases": [
+    "M45",
+    "Seven Sisters"
+   ]
+  },
+  "dso:iadi": {
+   "name": "Hyades",
+   "wiki": "Hyades (star cluster)"
+  },
+  "dso:m16": {
+   "name": "Eagle Nebula (M16)",
+   "wiki": "Eagle Nebula",
+   "aliases": [
+    "M16",
+    "Pillars of Creation"
+   ]
+  },
+  "dso:ngc3372": {
+   "name": "Carina Nebula",
+   "wiki": "Carina Nebula"
+  },
+  "dso:ngc5139": {
+   "wiki": "Omega Centauri"
+  },
+  "dso:lmc": {
+   "name": "Large Magellanic Cloud",
+   "wiki": "Large Magellanic Cloud"
+  },
+  "dso:smc": {
+   "name": "Small Magellanic Cloud",
+   "wiki": "Small Magellanic Cloud"
+  },
+  "dso:m31": {
+   "name": "Andromeda Galaxy (M31)",
+   "wiki": "Andromeda Galaxy"
+  },
+  "dso:m8": {
+   "name": "Lagoon Nebula (M8)",
+   "wiki": "Lagoon Nebula",
+   "aliases": [
+    "M8",
+    "NGC 6523",
+    "Lagoon"
+   ]
+  },
+  "dso:m20": {
+   "name": "Trifid Nebula (M20)",
+   "wiki": "Trifid Nebula",
+   "aliases": [
+    "M20",
+    "NGC 6514",
+    "Trifid"
+   ]
+  },
+  "dso:m13": {
+   "name": "Hercules Globular Cluster (M13)",
+   "wiki": "Messier 13",
+   "aliases": [
+    "M13",
+    "NGC 6205",
+    "Great Globular Cluster in Hercules"
+   ]
+  },
+  "dso:m22": {
+   "name": "Globular cluster M22",
+   "wiki": "Messier 22"
+  },
+  "gal:s1": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s2": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s4": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s8": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s9": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s12": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s13": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s14": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s18": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s19": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s22": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s23": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s29": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s31": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s33": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s39": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s55": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s175": {
+   "phys": {
+    "spectral": "young, massive B-type star"
+   }
+  },
+  "gal:s17": {
+   "phys": {
+    "spectral": "cool K- or M-type giant"
+   }
+  },
+  "gal:s21": {
+   "phys": {
+    "spectral": "cool K- or M-type giant"
+   }
+  },
+  "gal:s24": {
+   "phys": {
+    "spectral": "cool K- or M-type giant"
+   }
+  },
+  "gal:s38": {
+   "phys": {
+    "spectral": "cool K- or M-type giant"
+   }
+  }
+ },
+ "values": {
+  "Stella di Barnard": "Barnard's Star",
+  "Stella di Teegarden": "Teegarden's Star",
+  "Stella di Kapteyn": "Kapteyn's Star",
+  "Polluce": "Pollux",
+  "pulsar (stella di neutroni)": "pulsar (neutron star)",
+  "pianeta roccioso rovente": "scorching rocky planet",
+  "pianeta roccioso": "rocky planet",
+  "super-Terra o mini-Nettuno": "super-Earth or mini-Neptune",
+  "gigante di ghiaccio, simile a Nettuno": "ice giant, similar to Neptune",
+  "gigante gassoso rovente («Giove caldo»)": "scorching gas giant («hot Jupiter»)",
+  "gigante gassoso": "gas giant",
+  "velocità radiali (la stella oscilla avanti e indietro)": "radial velocity (the star wobbles back and forth)",
+  "transiti (il pianeta passa davanti alla stella e ne attenua la luce)": "transits (the planet passes in front of the star and dims its light)",
+  "immagine diretta": "direct imaging",
+  "astrometria (la stella si sposta in cielo)": "astrometry (the star shifts in the sky)",
+  "microlente gravitazionale": "gravitational microlensing",
+  "ritardi nei segnali della pulsar": "pulsar timing delays",
+  "variazioni nei tempi dei transiti": "transit timing variations",
+  "variazioni nei tempi delle eclissi": "eclipse timing variations",
+  "MESSENGER (Anderson e collaboratori, 2012): circa 195 nT all'equatore; per lo spostamento del dipolo verso nord, al polo sud il campo è più debole che al polo nord": "MESSENGER (Anderson et al., 2012): about 195 nT at the equator; because the dipole is shifted north, the field is weaker at the south pole than at the north pole",
+  "Venere non ha un campo magnetico proprio: il vento solare, urtando la ionosfera, crea attorno al pianeta un campo «indotto» debole, di poche decine di nanotesla.": "Venus has no magnetic field of its own: the solar wind, striking the ionosphere, creates a weak “induced” field around the planet, a few tens of nanotesla.",
+  "IGRF-14, termine di dipolo per il 2025 (circa 29.400 nT); il campo vero varia da circa 22 µT (anomalia del Sud Atlantico) a 67 µT (vicino ai poli magnetici)": "IGRF-14, dipole term for 2025 (about 29,400 nT); the real field ranges from about 22 µT (South Atlantic Anomaly) to 67 µT (near the magnetic poles)",
+  "Marte non ha più un campo magnetico globale, ma la crosta ne conserva tracce antiche, soprattutto nell'emisfero sud. Nel punto di atterraggio la sonda InSight ha misurato circa 2.000 nT, dieci volte più del previsto.": "Mars no longer has a global magnetic field, but its crust keeps ancient traces of one, mostly in the southern hemisphere. At its landing site, the InSight lander measured about 2,000 nT, ten times more than expected.",
+  "JRM09 (Connerney e collaboratori, 2018): circa 4,2 gauss all'equatore; vicino ai poli il campo vero supera 1 mT, il più forte fra i pianeti": "JRM09 (Connerney et al., 2018): about 4.2 gauss at the equator; near the poles the real field exceeds 1 mT, the strongest of any planet",
+  "Cassini Grand Finale (Dougherty e collaboratori, 2018): circa 0,21 gauss all'equatore": "Cassini Grand Finale (Dougherty et al., 2018): about 0.21 gauss at the equator",
+  "Voyager 2 (Ness e collaboratori, 1986): circa 0,23 gauss; per lo spostamento del dipolo, sulla superficie il campo va da circa 0,1 a 1,1 gauss": "Voyager 2 (Ness et al., 1986): about 0.23 gauss; because the dipole is offset, the surface field ranges from about 0.1 to 1.1 gauss",
+  "Voyager 2 (Ness e collaboratori, 1989): circa 0,14 gauss; per lo spostamento del dipolo, sulla superficie il campo va da meno di 0,1 a circa 0,9 gauss": "Voyager 2 (Ness et al., 1989): about 0.14 gauss; because the dipole is offset, the surface field ranges from under 0.1 to about 0.9 gauss",
+  "La Luna non ha un campo magnetico globale: restano piccole zone magnetizzate nella crosta. Gli astronauti dell'Apollo 16 ne hanno misurato circa 300 nT, fra i valori più alti trovati sulla Luna.": "The Moon has no global magnetic field: only small magnetized patches remain in its crust. The Apollo 16 astronauts measured about 300 nT, among the highest values found on the Moon.",
+  "sonda Galileo (Kivelson e collaboratori, 2002): circa 719 nT all'equatore": "Galileo probe (Kivelson et al., 2002): about 719 nT at the equator",
+  "campo polare medio del Sole vicino al minimo di attività, circa 1 gauss (Wilcox Solar Observatory)": "mean polar field of the Sun near solar minimum, about 1 gauss (Wilcox Solar Observatory)"
+ }
+}

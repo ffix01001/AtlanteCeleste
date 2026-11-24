@@ -1,0 +1,840 @@
+{
+"_descrizione": "Surface places (English): [name, latitude, east longitude (degrees), importance (1 = shown first), type, caption]. Types: mare, cratere, monte, regione, missione",
+"_fonte": "Nomi e coordinate: Gazetteer of Planetary Nomenclature (IAU/USGS); siti di atterraggio: NASA, ESA, CNSA, ISRO, Roscosmos",
+"luoghi": {
+"naif:301": [
+[
+"Mare Imbrium",
+32.8,
+-15.6,
+1,
+"mare",
+"The «Sea of Showers»: a huge impact basin about 1,150 km across, dug out 3.9 billion years ago and then filled with dark lava. It is surrounded by mountain ranges, such as the lunar Apennines."
+],
+[
+"Mare Serenitatis",
+28.0,
+17.5,
+1,
+"mare",
+"The «Sea of Serenity», a lava plain about 700 km across. On its eastern edge, in the Taurus-Littrow valley, Apollo 17 landed."
+],
+[
+"Mare Tranquillitatis",
+8.5,
+31.4,
+1,
+"mare",
+"The «Sea of Tranquility», about 870 km across. Here, on 20 July 1969, the first human beings set foot on the Moon."
+],
+[
+"Mare Crisium",
+17.0,
+59.1,
+1,
+"mare",
+"The «Sea of Crises», a dark, isolated oval about 550 km across: it can be recognized even with the naked eye near the edge of the Moon. In 1976 the Soviet probe Luna 24 brought back samples from it."
+],
+[
+"Oceanus Procellarum",
+18.4,
+-57.4,
+1,
+"mare",
+"The «Ocean of Storms»: the largest expanse of lava on the Moon, more than 2,500 km long from north to south. It is the only lunar «sea» called an ocean."
+],
+[
+"Mare Nubium",
+-21.3,
+-16.6,
+2,
+"mare",
+"The «Sea of Clouds», about 700 km across. It hosts Rupes Recta, the «Straight Wall»: a fault 110 km long, visible with a small telescope."
+],
+[
+"Mare Fecunditatis",
+-7.8,
+51.3,
+2,
+"mare",
+"The «Sea of Fertility», about 840 km across. In 1970 the Soviet probe Luna 16 collected here the first sample of lunar soil brought back to Earth by a robotic probe."
+],
+[
+"Mare Nectaris",
+-15.2,
+35.5,
+2,
+"mare",
+"The «Sea of Nectar», small (about 340 km) but important: the basin that holds it gives its name to a whole era of lunar history, the Nectarian."
+],
+[
+"Mare Humorum",
+-24.4,
+-38.6,
+2,
+"mare",
+"The «Sea of Moisture», a round basin about 420 km across. On its northern edge lies the large crater Gassendi, its floor furrowed by fractures."
+],
+[
+"Mare Frigoris",
+56.0,
+1.4,
+2,
+"mare",
+"The «Sea of Cold»: a long strip of lava, about 1,500 km, running near the lunar north pole."
+],
+[
+"Mare Orientale",
+-19.4,
+-92.8,
+2,
+"mare",
+"A bull's-eye of concentric mountain rings about 930 km across: it is the youngest of the great lunar basins. It lies right on the edge and can barely be seen from Earth."
+],
+[
+"Mare Moscoviense",
+27.3,
+147.9,
+3,
+"mare",
+"The «Sea of Moscow», one of the very few seas on the far side. It was discovered in 1959 in the first photographs of that side, taken by the Soviet probe Luna 3."
+],
+[
+"South Pole–Aitken basin",
+-53.0,
+-169.0,
+2,
+"regione",
+"One of the largest and oldest impact scars in the Solar System: about 2,500 km wide and several kilometers deep. It covers a good part of the far side and greatly interests geologists, because the impact may have exposed deep rocks."
+],
+[
+"Tycho",
+-43.31,
+-11.36,
+1,
+"cratere",
+"A young crater (about 108 million years old), 85 km across. Its bright rays, made of material thrown out by the impact, stretch for more than 1,500 km: at full Moon it is the most striking spot."
+],
+[
+"Copernicus",
+9.62,
+-20.08,
+1,
+"cratere",
+"A crater 93 km across, with terraced walls and a group of central peaks. It is about 800 million years old; with binoculars you can see its bright ray system."
+],
+[
+"Kepler",
+8.1,
+-38.0,
+2,
+"cratere",
+"A small crater (about 30 km) surrounded by a bright ray system that stands out on the Ocean of Storms."
+],
+[
+"Aristarchus",
+23.7,
+-47.4,
+2,
+"cratere",
+"40 km across, it is the brightest area on the near side of the Moon: it reflects almost twice as much light as the surrounding ground. Nearby runs Vallis Schröteri, the largest lunar lava channel."
+],
+[
+"Plato",
+51.6,
+-9.4,
+2,
+"cratere",
+"A crater about 100 km across with a flat, dark floor flooded by lava: it looks like a lake among the mountains north of Mare Imbrium."
+],
+[
+"Clavius",
+-58.4,
+-14.4,
+2,
+"cratere",
+"One of the largest craters on the near side: about 230 km. In 2020 the flying observatory SOFIA detected water molecules there, even in sunlit ground."
+],
+[
+"Grimaldi",
+-5.2,
+-68.6,
+3,
+"cratere",
+"A basin about 170 km across near the western edge. Its lava floor is among the darkest areas on the whole Moon."
+],
+[
+"Tsiolkovskiy",
+-20.4,
+129.1,
+3,
+"cratere",
+"A far-side crater about 185 km across, with a central peak and a very dark lava floor. It was among the first features recognized in the Luna 3 photos (1959)."
+],
+[
+"Apollo 11 (1969)",
+0.674,
+23.473,
+1,
+"missione",
+"20 July 1969: Neil Armstrong and Buzz Aldrin are the first human beings to walk on another world, while Michael Collins waits for them in orbit. They stay on the surface for 21 and a half hours and bring back 21.5 kg of rocks."
+],
+[
+"Apollo 12 (1969)",
+-3.012,
+-23.422,
+2,
+"missione",
+"November 1969: Pete Conrad and Alan Bean land with great precision 160 meters from the Surveyor 3 probe, which had arrived two years earlier, and bring some of its parts back home."
+],
+[
+"Apollo 14 (1971)",
+-3.645,
+-17.471,
+2,
+"missione",
+"February 1971: Alan Shepard and Edgar Mitchell explore the Fra Mauro hills. Before leaving, Shepard hits two golf balls."
+],
+[
+"Apollo 15 (1971)",
+26.132,
+3.634,
+2,
+"missione",
+"July 1971: David Scott and James Irwin land between the lunar Apennines and Rima Hadley. It is the first mission with the lunar car (rover) and with three full days on the surface."
+],
+[
+"Apollo 16 (1972)",
+-8.973,
+15.5,
+2,
+"missione",
+"April 1972: John Young and Charles Duke land on the Descartes highlands. It is the only Apollo mission that landed on the bright highlands instead of the seas."
+],
+[
+"Apollo 17 (1972)",
+20.191,
+30.772,
+2,
+"missione",
+"December 1972: Eugene Cernan and Harrison Schmitt, the only geologist to land on the Moon, explore the Taurus-Littrow valley. It is the last mission of the Apollo program."
+],
+[
+"Luna 9 (1966)",
+7.08,
+-64.37,
+3,
+"missione",
+"3 February 1966: the Soviet probe Luna 9 makes the first soft landing on another celestial body and transmits the first photographs from the lunar surface."
+],
+[
+"Chang'e 3 (2013)",
+44.12,
+-19.51,
+3,
+"missione",
+"December 2013: China brings a lander and the small rover Yutu («Jade Rabbit») to the Moon. It is the first soft landing since 1976."
+],
+[
+"Chang'e 4 (2019)",
+-45.46,
+177.59,
+2,
+"missione",
+"3 January 2019: the first landing on the far side of the Moon, in the Von Kármán crater. The rover Yutu-2 communicates with Earth thanks to a satellite acting as a radio relay."
+],
+[
+"Chandrayaan-3 (2023)",
+-69.37,
+32.35,
+3,
+"missione",
+"23 August 2023: India lands the Vikram lander and the Pragyan rover closer to the south pole than any previous mission."
+],
+[
+"Luna 2 (1959)",
+29.1,
+0.0,
+3,
+"missione",
+"14 September 1959: the Soviet probe Luna 2 crashes on the Moon on purpose. It is the first human-made object to touch another celestial body."
+],
+[
+"Chang'e 5 (2020)",
+43.06,
+-51.92,
+3,
+"missione",
+"December 2020: the Chinese probe collects 1.7 kg of soil and brings it back to Earth. These are the first lunar samples since 1976, and among the youngest mare rocks ever dated (about 2 billion years)."
+],
+[
+"Chang'e 6 (2024)",
+-41.64,
+-153.99,
+2,
+"missione",
+"June 2024: the Chinese probe collects the first samples ever taken on the far side of the Moon, in the South Pole–Aitken basin, and brings them back to Earth."
+],
+[
+"SLIM (2024)",
+-13.32,
+25.25,
+3,
+"missione",
+"19 January 2024: Japan becomes the fifth country to land on the Moon. The small SLIM probe touches down a few tens of meters from its target, but ends up upside down."
+],
+[
+"Shackleton",
+-89.67,
+129.2,
+2,
+"cratere",
+"A crater 21 km across almost exactly at the south pole. Its floor never sees the Sun and is among the coldest places in the Solar System: it may hold water ice. The region is the destination of the Artemis program."
+]
+],
+"naif:499": [
+[
+"Olympus Mons",
+18.65,
+226.2,
+1,
+"monte",
+"The highest known volcano in the Solar System: about 22 km above the mean level of Mars (up to 25 above the surrounding plains, depending on how it is measured), almost three times Everest, with a base 600 km across (as large as northern and central Italy put together)."
+],
+[
+"Valles Marineris",
+-13.9,
+300.8,
+1,
+"regione",
+"A canyon system about 4,000 km long, up to 200 wide and up to 7 deep: on Earth it would stretch from one coast of the United States to the other. It is named after the Mariner 9 probe, which discovered it in 1971."
+],
+[
+"Hellas Planitia",
+-42.4,
+70.5,
+1,
+"regione",
+"A gigantic impact basin about 2,300 km across and more than 7 deep: its floor is the lowest point on Mars, and there the air pressure is almost twice the planet's average."
+],
+[
+"Elysium Mons",
+25.0,
+147.2,
+2,
+"monte",
+"The main volcano of the Elysium region: it rises about 13 km above the surrounding plains."
+],
+[
+"Syrtis Major",
+8.4,
+69.5,
+2,
+"regione",
+"The great dark spot of Mars: it was the first feature of another planet ever drawn, by Christiaan Huygens in 1659. It is a very low shield volcano, covered with dark basalt."
+],
+[
+"Ascraeus Mons",
+11.9,
+255.9,
+3,
+"monte",
+"The northernmost and highest of the three volcanoes in a row of the Tharsis Montes: about 18 km."
+],
+[
+"Pavonis Mons",
+1.5,
+247.0,
+3,
+"monte",
+"The central volcano of the Tharsis Montes, about 14 km high and sitting almost exactly on the equator."
+],
+[
+"Arsia Mons",
+-8.3,
+239.9,
+3,
+"monte",
+"The southernmost of the three Tharsis Montes. Its caldera, about 110 km across, is one of the largest on Mars."
+],
+[
+"Argyre Planitia",
+-49.7,
+316.0,
+3,
+"regione",
+"An impact basin about 1,800 km across and 5 deep, surrounded by mountains. The name comes from the Greek word for «silver»."
+],
+[
+"Utopia Planitia",
+46.7,
+117.5,
+3,
+"regione",
+"The largest recognized impact basin in the Solar System: about 3,300 km. Viking 2 landed there in 1976 and the Chinese rover Zhurong in 2021."
+],
+[
+"North polar cap",
+88.0,
+0.0,
+2,
+"regione",
+"About 1,000 km across and up to 2-3 km thick, it is made mostly of water ice. In winter it is covered by a thin layer of frozen carbon dioxide («dry ice»)."
+],
+[
+"South polar cap",
+-88.0,
+0.0,
+2,
+"regione",
+"Smaller than the northern one (about 350 km), it has a layer of dry ice on top of the water ice that never disappears completely, not even in summer."
+],
+[
+"Curiosity (2012), Gale crater",
+-4.59,
+137.44,
+1,
+"missione",
+"A car-sized rover powered by a nuclear generator, landed on 6 August 2012. It discovered that Gale crater once held a lake suitable for microbial life, and since then it has been climbing Mount Sharp, in the middle of the crater."
+],
+[
+"Perseverance (2021), Jezero crater",
+18.44,
+77.45,
+1,
+"missione",
+"Landed on 18 February 2021 next to the delta of an ancient river. It collects rock samples to be brought back to Earth one day; with it came Ingenuity, the first helicopter to fly on another planet (72 flights)."
+],
+[
+"Viking 1 (1976)",
+22.27,
+312.05,
+2,
+"missione",
+"20 July 1976: the first probe to work for a long time on the surface of Mars, in Chryse Planitia. It looked for traces of life in the soil, with results that remained ambiguous, and worked for more than six years."
+],
+[
+"Opportunity (2004)",
+-1.95,
+354.47,
+2,
+"missione",
+"Arrived in January 2004 in Meridiani Planum, it was supposed to last 90 days: it worked until 2018, traveling 45 km. It found evidence that liquid water once existed there."
+],
+[
+"Viking 2 (1976)",
+47.64,
+134.29,
+3,
+"missione",
+"Landed on 3 September 1976 in Utopia Planitia. It photographed a veil of frost on the ground on winter mornings."
+],
+[
+"Pathfinder (1997)",
+19.13,
+326.78,
+3,
+"missione",
+"4 July 1997: it lands in Ares Vallis bouncing on large airbags and releases Sojourner, the first rover to move on Mars."
+],
+[
+"Spirit (2004)",
+-14.57,
+175.47,
+3,
+"missione",
+"Twin of Opportunity, landed in January 2004 in Gusev crater. It climbed the Columbia Hills and remained active until 2010, after getting stuck in sand."
+],
+[
+"Phoenix (2008)",
+68.22,
+234.25,
+3,
+"missione",
+"Landed on 25 May 2008 in the Arctic plains. Digging a few centimeters with its robotic arm, it found water ice."
+],
+[
+"InSight (2018)",
+4.5,
+135.62,
+3,
+"missione",
+"Landed on 26 November 2018 in Elysium Planitia with a seismometer: until 2022 it recorded more than 1,300 marsquakes, which made it possible to measure the planet's crust, mantle and core."
+],
+[
+"Zhurong (2021)",
+25.07,
+109.93,
+3,
+"missione",
+"The first Chinese rover on Mars, landed in May 2021 in Utopia Planitia. It worked for about a year, studying the ground also with a radar that sees below the surface."
+],
+[
+"Korolev crater",
+72.8,
+164.5,
+3,
+"cratere",
+"A crater 82 km across near the north pole, filled all year round with water ice: a layer up to 1.8 km thick."
+]
+],
+"naif:199": [
+[
+"Caloris basin",
+30.5,
+170.2,
+1,
+"regione",
+"One of the largest impact basins in the Solar System: about 1,550 km, a third of Mercury's diameter. The name means «heat»: at every close pass to the Sun, alternating with the opposite point, it lies right under the Sun."
+],
+[
+"Rachmaninoff",
+27.6,
+57.4,
+2,
+"cratere",
+"A double-ring basin about 290 km across, among the youngest on Mercury. On its floor lies one of the lowest points on the planet."
+],
+[
+"Hokusai",
+57.8,
+16.9,
+2,
+"cratere",
+"A young crater about 95 km across: its bright rays stretch for thousands of kilometers, over a large part of the planet."
+],
+[
+"Kuiper",
+-11.3,
+328.6,
+3,
+"cratere",
+"A bright crater 62 km across: it was among the first features seen by the Mariner 10 probe in 1974. It is named after the astronomer Gerard Kuiper."
+],
+[
+"MESSENGER (2015)",
+54.4,
+210.1,
+3,
+"missione",
+"30 April 2015: out of fuel after four years in orbit, NASA's MESSENGER probe crashes here, digging a small crater."
+]
+],
+"naif:299": [
+[
+"Maxwell Montes",
+65.2,
+3.3,
+1,
+"monte",
+"The highest mountains on Venus: about 11 km. They are named after the physicist James Clerk Maxwell and are almost the only feature on Venus with a male name."
+],
+[
+"Aphrodite Terra",
+-5.8,
+104.8,
+1,
+"regione",
+"The largest highland on Venus, stretching along the equator. According to NASA it is comparable to Africa in size; other estimates say about half that."
+],
+[
+"Ishtar Terra",
+70.4,
+27.5,
+2,
+"regione",
+"A highland near the north pole, about as large as Australia. It contains the Maxwell Montes and the raised plain Lakshmi Planum."
+],
+[
+"Venera 13 (1982)",
+-7.5,
+303.0,
+2,
+"missione",
+"1 March 1982: the Soviet probe transmits the first color photographs of the surface of Venus and survives 127 minutes at about 460 °C and a pressure almost 90 times that on Earth."
+],
+[
+"Maat Mons",
+0.5,
+194.6,
+2,
+"monte",
+"The highest volcano on Venus: about 8 km above the plains. In 2023, in old radar data from the Magellan probe, evidence was found of an eruption that happened nearby in 1991."
+],
+[
+"Venera 9 (1975)",
+31.0,
+291.6,
+3,
+"missione",
+"22 October 1975: the Soviet probe transmits the first photograph taken from the surface of another planet. It survives 53 minutes."
+]
+],
+"naif:606": [
+[
+"Huygens (2005)",
+-10.57,
+167.66,
+1,
+"missione",
+"14 January 2005: the European probe Huygens, carried by Cassini, descends by parachute through Titan's haze and touches down. It is the most distant landing ever made; it transmitted from the surface for more than an hour."
+],
+[
+"Kraken Mare",
+68.0,
+50.0,
+2,
+"mare",
+"The largest sea on Titan: not water, but liquid methane and ethane at −180 °C. It is roughly as large as the Caspian Sea."
+],
+[
+"Xanadu",
+-15.0,
+260.0,
+2,
+"regione",
+"A bright region as large as Australia: it was the first feature of Titan's surface ever seen, in 1994, by the Hubble Space Telescope."
+],
+[
+"Ligeia Mare",
+79.0,
+112,
+3,
+"mare",
+"Titan's second sea, about 500 km across: almost pure methane. The radar of the Cassini probe measured its depth, about 160 meters."
+]
+],
+"naif:501": [
+[
+"Loki Patera",
+13.0,
+51.2,
+1,
+"regione",
+"A lava lake about 200 km across: it is Io's most powerful volcano and, on its own, gives off a good part of the heat of the whole moon."
+],
+[
+"Pele",
+-18.7,
+104.7,
+1,
+"monte",
+"A volcano in almost continuous eruption: its plume rises up to 300 km and falls back forming a large red ring of sulfur more than 1,000 km across."
+],
+[
+"Prometheus",
+-1.5,
+206.1,
+2,
+"monte",
+"A volcanic plume active without interruption at least since 1979, when the Voyager probes saw it: that is why it is called Io's «Old Faithful»."
+],
+[
+"Tvashtar Paterae",
+62.8,
+236.5,
+3,
+"monte",
+"A chain of calderas near the north pole. In 2007 the New Horizons probe, passing by, filmed its plume about 330 km high."
+],
+[
+"Boösaule Montes",
+-4.4,
+90,
+3,
+"monte",
+"The highest mountains on Io: about 17 km, twice Everest. They are not volcanoes, but blocks of crust pushed upwards."
+]
+],
+"naif:502": [
+[
+"Pwyll",
+-25.2,
+88.6,
+1,
+"cratere",
+"A young crater 45 km across: its bright rays of fresh ice extend for more than 1,000 km."
+],
+[
+"Conamara Chaos",
+9.7,
+87.3,
+2,
+"regione",
+"An expanse of ice rafts broken, rotated and then frozen again: one of the clues that there is an ocean under Europa's crust."
+],
+[
+"Tyre",
+33.6,
+213.4,
+3,
+"cratere",
+"A structure of concentric rings about 140 km across: the scar of an impact that almost broke through the ice crust."
+]
+],
+"naif:503": [
+[
+"Galileo Regio",
+47.0,
+230.4,
+1,
+"regione",
+"A large, dark and ancient region about 3,200 km across, covered with craters: it is a piece of Ganymede's original crust."
+],
+[
+"Uruk Sulcus",
+0.8,
+199.7,
+2,
+"regione",
+"A band of bright, grooved terrain, younger than the dark regions: here the ice crust has stretched and renewed itself."
+],
+[
+"Tros",
+11.1,
+332.7,
+2,
+"cratere",
+"A young crater about 94 km across, surrounded by a ray system of bright ice: it is one of the brightest spots on Ganymede."
+]
+],
+"naif:504": [
+[
+"Valhalla",
+14.7,
+304,
+1,
+"regione",
+"The largest ring structure in the Solar System: a bright central zone 360 km across surrounded by concentric rings up to 1,900 km from the center."
+],
+[
+"Asgard",
+32.2,
+220.1,
+2,
+"regione",
+"Callisto's second great ring basin, about 1,600 km across."
+]
+],
+"naif:601": [
+[
+"Herschel",
+-1.4,
+248.2,
+1,
+"cratere",
+"139 km across, a third of Mimas's diameter: it is the crater that makes the moon look like the «Death Star» from Star Wars. A slightly more violent impact would have destroyed the moon."
+]
+],
+"naif:602": [
+[
+"South polar jets",
+-85.0,
+0.0,
+1,
+"regione",
+"From four long fractures, the «tiger stripes», come jets of vapor and ice discovered by the Cassini probe in 2005. They come from an ocean of salt water under the crust and feed Saturn's E ring."
+]
+],
+"naif:603": [
+[
+"Odysseus",
+32.8,
+231.1,
+1,
+"cratere",
+"A crater 445 km across, almost two fifths of Tethys's diameter."
+],
+[
+"Ithaca Chasma",
+-14.0,
+354,
+2,
+"regione",
+"A canyon about 2,000 km long, 100 wide and up to 4 deep: it runs three quarters of the way around Tethys."
+]
+],
+"naif:608": [
+[
+"Cassini Regio",
+-28.0,
+267.5,
+1,
+"regione",
+"The dark half of Iapetus: the hemisphere facing forward along the orbit is as black as coal, the other is as bright as dirty snow. Giovanni Domenico Cassini already noticed it in 1671: he could see the moon only on one side of Saturn."
+]
+],
+"naif:901": [
+[
+"Mordor Macula",
+80.0,
+0.0,
+1,
+"regione",
+"The dark, reddish spot on Charon's north pole, about 475 km across. It is thought to be made of gases escaped from Pluto, captured by the frozen pole and transformed by radiation. The name, unofficial, comes from «The Lord of the Rings»."
+]
+],
+"naif:999": [
+[
+"Sputnik Planitia",
+20.0,
+180.0,
+1,
+"regione",
+"The left lobe of Pluto's «heart»: a plain of nitrogen ice about 1,000 km across, without craters because the ice slowly churns and renews itself. Photographed by the New Horizons probe in July 2015."
+],
+[
+"Tenzing Montes",
+-16.0,
+176.0,
+2,
+"monte",
+"Mountains of water ice up to 6 km high on the edge of Sputnik Planitia. At those temperatures (−230 °C) water ice is as hard as rock. They honor Tenzing Norgay, who first climbed Everest with Edmund Hillary."
+],
+[
+"Belton Regio",
+-9.0,
+85.0,
+2,
+"regione",
+"The long dark region along the equator (formerly called Cthulhu), covered with tholins: reddish compounds that form when sunlight strikes methane."
+]
+],
+"sb:1": [
+[
+"Occator crater",
+19.8,
+239.3,
+1,
+"cratere",
+"92 km across, it hosts the brightest spots on Ceres: salt deposits (sodium carbonate) left by salty water that rose from underground. The Dawn probe saw them in 2015."
+],
+[
+"Ahuna Mons",
+-10.5,
+316.2,
+2,
+"monte",
+"An isolated mountain about 4 km high: a cryovolcano, that is a volcano that erupted salty mud and ice instead of lava."
+],
+[
+"Kerwan",
+-10.8,
+124.0,
+3,
+"cratere",
+"The largest crater on Ceres, about 280 km across, with low rims softened by ice."
+]
+],
+"sb:4": [
+[
+"Rheasilvia",
+-72.0,
+86.0,
+1,
+"regione",
+"An impact basin about 500 km across, almost as large as Vesta itself, with a central peak more than 20 km high: one of the highest mountains in the Solar System. Fragments thrown out by the impact still reach Earth today as meteorites."
+]
+]
+}
+}

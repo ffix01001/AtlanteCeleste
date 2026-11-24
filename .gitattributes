@@ -1,0 +1,8 @@
+# i file per Windows devono avere i fine riga CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.vbs text eol=crlf
+*.ps1 text eol=crlf
+# gli script per il Mac (e Linux) devono avere i fine riga LF
+*.command text eol=lf
+*.sh text eol=lf

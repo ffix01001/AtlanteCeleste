@@ -1,0 +1,4055 @@
+{
+ " — dalla raccolta di ": {
+  "file": "ui/infopanel.ts"
+ },
+ " · {v0} stelle finora": {
+  "file": "ui/gaia.ts"
+ },
+ " · mancano {v0}": {
+  "file": "ui/gaia.ts"
+ },
+ " ({v0} UA: {orbit})": {
+  "file": "ui/infopanel.ts"
+ },
+ " (al massimo il Sole è già sotto l'orizzonte)": {
+  "file": "events/astroevents.ts"
+ },
+ " (circa: con la rotazione non è rotonda)": {
+  "file": "ui/bhhud.ts"
+ },
+ " (già scaricate {zones_on_disk} zone su {v1})": {
+  "file": "ui/gaia.ts"
+ },
+ " (quasi sopra la testa)": {
+  "file": "events/astroevents.ts"
+ },
+ " (retrograda)": {
+  "file": "core/format.ts"
+ },
+ " {phase}, illuminata al {v1}%{v2}": {
+  "file": "ui/events.ts"
+ },
+ " {v0}: vedi l'elenco qui sotto": {
+  "file": "ui/events.ts"
+ },
+ " © 2026 Giovanni Frasca, autore e padre del progetto. Software libero, licenza GNU GPL 3.0. ": {
+  "file": "ui/help.ts"
+ },
+ " con il Sole alto {v0}°": {
+  "file": "events/astroevents.ts"
+ },
+ " dalle {v0} alle {v1}, alto fino a {v2}° verso {dir} (magnitudine {mag})": {
+  "file": "ui/events.ts"
+ },
+ " Dentro ci starebbero circa {n}{v1} {plural}.": {
+  "file": "ui/sizecompare.ts"
+ },
+ " di": {
+  "file": "ui/sizecompare.ts"
+ },
+ " giù e su": {
+  "file": "ui/flighthud.ts"
+ },
+ " guarda il corpo selezionato": {
+  "file": "ui/groundhud.ts"
+ },
+ " Intensità: {src}.": {
+  "file": "ui/infopanel.ts"
+ },
+ " La Luna copre tutto il Sole: per pochi minuti si vede la corona.": {
+  "file": "events/astroevents.ts"
+ },
+ " La Luna è troppo lontana per coprire tutto il Sole: resta un anello di fuoco.": {
+  "file": "events/astroevents.ts"
+ },
+ " muoviti": {
+  "file": "ui/flighthud.ts"
+ },
+ " Per fare il volume {gen} ne servirebbero circa {n}.": {
+  "file": "ui/sizecompare.ts"
+ },
+ " più veloce": {
+  "file": "ui/flighthud.ts"
+ },
+ " Più vicino della Luna!": {
+  "file": "ui/events.ts"
+ },
+ " Poi entra nell'ombra della Terra e svanisce a metà cielo.": {
+  "file": "events/astroevents.ts"
+ },
+ " raddrizza": {
+  "file": "ui/flighthud.ts"
+ },
+ " ruota": {
+  "file": "ui/flighthud.ts"
+ },
+ " tramonta alle {v0}, sorge alle {v1}": {
+  "file": "ui/events.ts"
+ },
+ " velocità": {
+  "file": "ui/flighthud.ts"
+ },
+ ", con un astro molto brillante": {
+  "file": "events/astroevents.ts"
+ },
+ ", licenza ": {
+  "file": "ui/infopanel.ts"
+ },
+ ", totalità dalle {v0} alle {v1}": {
+  "file": "events/astroevents.ts"
+ },
+ "; buio completo dalle {v0} alle {v1}": {
+  "file": "ui/events.ts"
+ },
+ "; il cielo non diventa mai del tutto buio": {
+  "file": "ui/events.ts"
+ },
+ ": appare circa il 14% più grande e il 30% più luminosa di una luna piena all'apogeo": {
+  "file": "events/astroevents.ts"
+ },
+ ": innocua (un buco nero così grande non \"spaghettifica\")": {
+  "file": "ui/bhhud.ts"
+ },
+ ": letale": {
+  "file": "ui/bhhud.ts"
+ },
+ ": si sente": {
+  "file": "ui/bhhud.ts"
+ },
+ ". Vista dalla Terra coincide con il cielo vero; da altre direzioni si vede il modello 3D.": {
+  "file": "ui/infopanel.ts"
+ },
+ "({v0} mila km), a {v1} km/s. {size}{near}": {
+  "file": "ui/events.ts"
+ },
+ "(ESA/Gaia/DPAC, CC BY-SA 3.0 IGO). Stelle S: Gillessen et al. 2017 (ESO). Bracci della Via Lattea: Reid et al. 2019; forma della Galassia per la luce diffusa e le stelle generate: Bland-Hawthorn e Gerhard 2016. ": {
+  "file": "ui/help.ts"
+ },
+ "{accel} m/s² fra testa e piedi": {
+  "file": "ui/bhhud.ts"
+ },
+ "{aIt} e {bIt} vicini": {
+  "file": "events/astroevents.ts"
+ },
+ "{alt}, cioè {v1}": {
+  "file": "ui/infopanel.ts"
+ },
+ "{alt}; la luce del Sole arriva in {v1}": {
+  "file": "ui/infopanel.ts"
+ },
+ "{back}{a}× tempo reale": {
+  "file": "ui/timebar.ts"
+ },
+ "{base} e mezza": {
+  "file": "ui/gaia.ts"
+ },
+ "{d} g {h} h {min} min": {
+  "file": "core/format.ts"
+ },
+ "{edge}: oltre, il vento solare trascina via le linee": {
+  "file": "ui/infopanel.ts"
+ },
+ "{gruppo} e troiani": {
+  "file": "ui/layers.ts"
+ },
+ "{hh} h {mm} min": {
+  "file": "events/astroevents.ts"
+ },
+ "{it} alla massima distanza apparente dal Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "{it} è dalla parte opposta del Sole: visibile tutta la notte e alla minima distanza dell'anno, ": {
+  "file": "events/astroevents.ts"
+ },
+ "{it} in opposizione": {
+  "file": "events/astroevents.ts"
+ },
+ "{label} e {short}, in scala": {
+  "file": "ui/sizecompare.ts"
+ },
+ "{n} anni": {
+  "file": "core/format.ts"
+ },
+ "{n} anni luce": {
+  "file": "core/format.ts"
+ },
+ "{n} giorni": {
+  "file": "core/format.ts"
+ },
+ "{n} miliardi": {
+  "file": "ui/sizecompare.ts"
+ },
+ "{n} miliardi di km": {
+  "file": "core/format.ts"
+ },
+ "{n} milioni": {
+  "file": "ui/sizecompare.ts"
+ },
+ "{n} milioni di anni luce": {
+  "file": "core/format.ts"
+ },
+ "{n} milioni di km": {
+  "file": "core/format.ts"
+ },
+ "{n} minuti": {
+  "file": "events/astroevents.ts, ui/gaia.ts",
+  "one": "{n} minuto"
+ },
+ "{n} ore": {
+  "file": "ui/gaia.ts",
+  "one": "{n} ora"
+ },
+ "{n} passaggi visibili": {
+  "file": "ui/events.ts",
+  "one": "un passaggio visibile"
+ },
+ "{n} secondi": {
+  "file": "events/astroevents.ts"
+ },
+ "{name} passa vicino alla Terra": {
+  "file": "ui/events.ts"
+ },
+ "{ore} e {minuti}": {
+  "file": "ui/gaia.ts"
+ },
+ "{regione}, Italia": {
+  "file": "core/places.ts"
+ },
+ "{v0} ({v1} UA)": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} a nord, {v1} a sud": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} anni luce": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} anni luce al secondo": {
+  "file": "ui/flighthud.ts"
+ },
+ "{v0} distanze lunari": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} è {v1} volte più grande.{many}": {
+  "file": "ui/sizecompare.ts"
+ },
+ "{v0} è circa {v1} volte più grande.": {
+  "file": "ui/sizecompare.ts"
+ },
+ "{v0} il radiante resta basso o sotto l'orizzonte: se ne vedranno poche.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} il Sole non sorge: notte polare.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} il Sole non tramonta: giorno polare.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} la coppia è troppo bassa o nel chiarore del Sole.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} masse solari": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} mila volte il Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} miliardi di anni": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} miliardi di masse solari": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} milioni di masse solari": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} millesimi di secondo d'arco": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} primi d'arco (meno di due lune piene)": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} resta troppo basso nel chiarore {v1}: {v2}°.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} sorge alle {v1} {v2}, a {v3}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} UA ({v1} milioni di km). Magnitudine {v2}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0} UA ({v1})": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} volte il raggio dell'orizzonte · 1 ora qui = {v1} lontano da qui": {
+  "file": "ui/bhhud.ts"
+ },
+ "{v0} volte il raggio dell'orizzonte ({v1})": {
+  "file": "ui/bhhud.ts"
+ },
+ "{v0} volte il Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} volte il Sole{v1}": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0} volte la luce": {
+  "file": "ui/flighthud.ts"
+ },
+ "{v0} volte la Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0}, ore {v1}": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0}: {v1} milioni di km. ": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: alle {v1}, 40 minuti {v2}, è {v3}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: dalle {v1} (a {v2}) alle {v3} (a {v4}), ": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: il Sole sorge alle {v1} e tramonta alle {v2}, {v3} di luce.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: inizia {v1} a nord, {v2} a sud": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0}: radiante più alto verso le {v1} ({v2}°): sotto un cielo buio, lontano dalle luci, fino a {v3} meteore all'ora circa.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: resta basso, al massimo {v1}° sull'orizzonte.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: sorge al tramonto e verso le {v1} è {v2}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}: verso le {v1}, {v2}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}{v1} · orari: {v2}": {
+  "file": "ui/place.ts"
+ },
+ "{v0}% del massimo": {
+  "file": "ui/bhhud.ts"
+ },
+ "{v0}% del Sole coperto": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}% della Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0}° dal Sole: il momento migliore per vederlo, {when}.": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}° di latitudine {v1}": {
+  "file": "ui/infopanel.ts"
+ },
+ "{v0}° sopra": {
+  "file": "ui/groundhud.ts"
+ },
+ "{v0}° sopra l'orizzonte a {v1}": {
+  "file": "events/astroevents.ts"
+ },
+ "{v0}° sotto": {
+  "file": "ui/groundhud.ts"
+ },
+ "{v0}un giro in {v1} a {v2}": {
+  "file": "ui/bhhud.ts"
+ },
+ "{v0}un giro in {v1}, sull'equatore e nel verso della rotazione": {
+  "file": "ui/bhhud.ts"
+ },
+ "← più calde        temperatura        più fredde →": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "★ Aggiungi milioni di stelle dal satellite Gaia…": {
+  "file": "ui/gaia.ts"
+ },
+ "★ Preferito": {
+  "file": "ui/infopanel.ts"
+ },
+ "☆ Preferito": {
+  "file": "ui/infopanel.ts"
+ },
+ "0 km/s": {
+  "file": "ui/flighthud.ts"
+ },
+ "1 anno al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1 giorno al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1 mese al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1 minuto al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1 ora": {
+  "file": "ui/bhhud.ts"
+ },
+ "1 ora al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1 ora qui = {v0} per chi è lontano": {
+  "file": "ui/bhhud.ts"
+ },
+ "1 settimana al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "1/{v0} del Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "10 minuti al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "12 mesi": {
+  "file": "ui/events.ts"
+ },
+ "30 (risparmio energetico)": {
+  "file": "ui/layers.ts"
+ },
+ "5 anni": {
+  "file": "ui/events.ts"
+ },
+ "5.200-6.000 K (il Sole)": {
+  "file": "ui/layers.ts"
+ },
+ "6 ore al secondo": {
+  "file": "ui/timebar.ts"
+ },
+ "60 (consigliato)": {
+  "file": "ui/layers.ts"
+ },
+ "85 m² di pannelli solari, rivolti verso il Sole, per lavorare con la sua luce debole attorno a Giove. Nel Sistema Solare interno l'antenna grande fa anche da ombrello.": {
+  "file": "render/procedural.ts"
+ },
+ "a {nome}": {
+  "file": "ui/infopanel.ts"
+ },
+ "a {v0} dal centro della Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "A {v0} distanze lunari ": {
+  "file": "ui/events.ts"
+ },
+ "a 1,001 volte ne vale 32, e più vicino ancora cresce senza limite. Sotto l'orizzonte non si può restare fermi: ": {
+  "file": "ui/bhhud.ts"
+ },
+ "Abruzzo": {
+  "file": "core/places.ts"
+ },
+ "Adesso": {
+  "file": "ui/timebar.ts"
+ },
+ "Adesso: {v0}": {
+  "file": "ui/groundhud.ts"
+ },
+ "Afelio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Agenzia": {
+  "file": "ui/infopanel.ts"
+ },
+ "Agenzia Spaziale Europea": {
+  "file": "ui/lexicon.ts"
+ },
+ "Aggiungi ai preferiti o togli: i preferiti compaiono aprendo la ricerca": {
+  "file": "ui/infopanel.ts"
+ },
+ "Agrigento": {
+  "file": "core/places.ts"
+ },
+ "Ai poli": {
+  "file": "ui/infopanel.ts"
+ },
+ "al centro del corpo": {
+  "file": "ui/infopanel.ts"
+ },
+ "al mattino, prima dell'alba, a est": {
+  "file": "events/astroevents.ts"
+ },
+ "Alaska": {
+  "file": "core/places.ts"
+ },
+ "Albedo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Alessandria": {
+  "file": "core/places.ts"
+ },
+ "Algeria": {
+  "file": "ui/lexicon.ts"
+ },
+ "alla sera, dopo il tramonto, a ovest": {
+  "file": "events/astroevents.ts"
+ },
+ "alla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "alta {gradi}° a {dir}": {
+  "file": "events/astroevents.ts"
+ },
+ "alta fino a {v0}°{overhead} alle {v2}. Magnitudine {v3}: {brightTxt}.": {
+  "file": "events/astroevents.ts"
+ },
+ "alto {gradi}° a {dir}": {
+  "file": "events/astroevents.ts"
+ },
+ "Altre megacostellazioni": {
+  "file": "render/satellites.ts"
+ },
+ "Altri satelliti": {
+  "file": "render/satellites.ts"
+ },
+ "Ammasso aperto di stelle": {
+  "file": "ui/lexicon.ts"
+ },
+ "Ammasso globulare": {
+  "file": "ui/lexicon.ts"
+ },
+ "Amsterdam": {
+  "file": "core/places.ts"
+ },
+ "Anchorage": {
+  "file": "core/places.ts"
+ },
+ "Ancona": {
+  "file": "core/places.ts"
+ },
+ "Andria": {
+  "file": "core/places.ts"
+ },
+ "Anelli": {
+  "file": "ui/infopanel.ts"
+ },
+ "Angola": {
+  "file": "ui/lexicon.ts"
+ },
+ "Anulare {from}: {times}{low}.": {
+  "file": "events/astroevents.ts"
+ },
+ "Aosta": {
+  "file": "core/places.ts"
+ },
+ "Apocentro": {
+  "file": "ui/infopanel.ts"
+ },
+ "Apogeo": {
+  "file": "ui/infopanel.ts"
+ },
+ "appena accennate: l'asse è quasi perpendicolare all'orbita": {
+  "file": "ui/infopanel.ts"
+ },
+ "Approfondisci su Wikipedia": {
+  "file": "ui/infopanel.ts"
+ },
+ "Arabia Saudita": {
+  "file": "ui/lexicon.ts"
+ },
+ "Arabsat": {
+  "file": "ui/lexicon.ts"
+ },
+ "Arco osservativo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Arezzo": {
+  "file": "core/places.ts"
+ },
+ "Argentina": {
+  "file": "ui/lexicon.ts"
+ },
+ "arriva più blu e più intensa: frequenza ×{v0}, luminosità ×{v1}": {
+  "file": "ui/bhhud.ts"
+ },
+ "arriva quasi come da lontano": {
+  "file": "ui/bhhud.ts"
+ },
+ "Ascensione retta (dalla Terra)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Ascoli Piceno": {
+  "file": "core/places.ts"
+ },
+ "Asse di rotazione ed equatore (corpo selezionato)": {
+  "file": "ui/layers.ts"
+ },
+ "Asse magnetico": {
+  "file": "ui/infopanel.ts"
+ },
+ "Asteroide": {
+  "file": "data/classes.ts, ui/lexicon.ts"
+ },
+ "Asteroide che incrocia l'orbita di Marte": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide della fascia principale": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide della fascia principale esterna": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide della fascia principale interna": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide near-Earth (gruppo Amor)": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide near-Earth (gruppo Apollo)": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide near-Earth (gruppo Aten)": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide near-Earth (gruppo Atira)": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide su orbita iperbolica": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide su orbita parabolica": {
+  "file": "data/classes.ts"
+ },
+ "Asteroide troiano di Giove": {
+  "file": "data/classes.ts"
+ },
+ "Asteroidi": {
+  "file": "ui/events.ts"
+ },
+ "Asteroidi e comete: {v0}": {
+  "file": "app.ts"
+ },
+ "Asteroidi near-Earth": {
+  "file": "ui/layers.ts"
+ },
+ "Asteroidi notevoli": {
+  "file": "ui/layers.ts"
+ },
+ "Asti": {
+  "file": "core/places.ts"
+ },
+ "Atene": {
+  "file": "core/places.ts"
+ },
+ "Australia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Austria": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "autobus (12 m)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "autori e licenze nelle schede). Foto del cielo profondo: Stellarium e gli astrofotografi citati nelle schede. ": {
+  "file": "ui/help.ts"
+ },
+ "autunno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Avanti, a sinistra, indietro, a destra (anche con le frecce)": {
+  "file": "ui/help.ts"
+ },
+ "Avellino": {
+  "file": "core/places.ts"
+ },
+ "Avvia Atlante Celeste con il file «{v0}» nella cartella del progetto, poi ricarica questa pagina.": {
+  "file": "app.ts"
+ },
+ "Avvicinati o allontanati": {
+  "file": "ui/help.ts"
+ },
+ "Azerbaigian": {
+  "file": "ui/lexicon.ts"
+ },
+ "Baikonur (Kazakistan)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Bangkok": {
+  "file": "core/places.ts"
+ },
+ "Bangladesh": {
+  "file": "ui/lexicon.ts"
+ },
+ "Barcellona": {
+  "file": "core/places.ts"
+ },
+ "Bari": {
+  "file": "core/places.ts"
+ },
+ "Barletta": {
+  "file": "core/places.ts"
+ },
+ "Base di lancio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Basilicata": {
+  "file": "core/places.ts"
+ },
+ "Belgio": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Belluno": {
+  "file": "core/places.ts"
+ },
+ "ben visibile a occhio nudo": {
+  "file": "events/astroevents.ts"
+ },
+ "Benevento": {
+  "file": "core/places.ts"
+ },
+ "Bergamo": {
+  "file": "core/places.ts"
+ },
+ "Berlino": {
+  "file": "core/places.ts"
+ },
+ "Biella": {
+  "file": "core/places.ts"
+ },
+ "Bielorussia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Bogotá": {
+  "file": "core/places.ts"
+ },
+ "Bolivia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Bologna": {
+  "file": "core/places.ts"
+ },
+ "Bolzano": {
+  "file": "core/places.ts"
+ },
+ "Braccio a spirale della Via Lattea": {
+  "file": "ui/lexicon.ts"
+ },
+ "Brasile": {
+  "file": "ui/lexicon.ts"
+ },
+ "Brescia": {
+  "file": "core/places.ts"
+ },
+ "Brindisi": {
+  "file": "core/places.ts"
+ },
+ "Bruxelles": {
+  "file": "core/places.ts"
+ },
+ "Bucarest": {
+  "file": "core/places.ts"
+ },
+ "Buco nero supermassiccio": {
+  "file": "ui/lexicon.ts"
+ },
+ "Budapest": {
+  "file": "core/places.ts"
+ },
+ "Bulgaria": {
+  "file": "ui/lexicon.ts"
+ },
+ "Cagliari": {
+  "file": "core/places.ts"
+ },
+ "Calabria": {
+  "file": "core/places.ts"
+ },
+ "Calcolo degli eventi non riuscito.": {
+  "file": "ui/events.ts"
+ },
+ "Calcolo in corso…": {
+  "file": "ui/events.ts"
+ },
+ "Caltanissetta": {
+  "file": "core/places.ts"
+ },
+ "Cambia": {
+  "file": "ui/place.ts"
+ },
+ "Campania": {
+  "file": "core/places.ts"
+ },
+ "Campi magnetici: MESSENGER, WMM2025 e IGRF-14, Juno (JRM09), Cassini, Voyager 2, Galileo per Ganimede (fonti nelle schede).": {
+  "file": "ui/help.ts"
+ },
+ "campo da calcio (105 m)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "campo da tennis (24 m)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Campo magnetico": {
+  "file": "ui/infopanel.ts"
+ },
+ "Campo magnetico ({name}): {b}": {
+  "file": "ui/flighthud.ts"
+ },
+ "Campo magnetico alla camera": {
+  "file": "ui/infopanel.ts"
+ },
+ "Campo magnetico del corpo selezionato (M)": {
+  "file": "ui/layers.ts"
+ },
+ "Campobasso": {
+  "file": "core/places.ts"
+ },
+ "Canada": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Canarie, Spagna": {
+  "file": "core/places.ts"
+ },
+ "Cape Canaveral (Florida, USA)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Caratteristiche fisiche": {
+  "file": "ui/infopanel.ts"
+ },
+ "Carico le stelle…": {
+  "file": "ui/gaia.ts"
+ },
+ "Carico utile (satellite)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Caserta": {
+  "file": "core/places.ts"
+ },
+ "Catalogo in uso: {label}, {v1} stelle": {
+  "file": "ui/gaia.ts"
+ },
+ "Catalogo SATCAT": {
+  "file": "ui/infopanel.ts"
+ },
+ "Catania": {
+  "file": "core/places.ts"
+ },
+ "Catanzaro": {
+  "file": "core/places.ts"
+ },
+ "CC0 (pubblico dominio)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Centauri": {
+  "file": "data/classes.ts"
+ },
+ "Centauro": {
+  "file": "data/classes.ts"
+ },
+ "Centro del campo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Cerca": {
+  "file": "ui/help.ts, ui/search.ts"
+ },
+ "Cerca un corpo celeste, un satellite, una stella": {
+  "file": "ui/search.ts"
+ },
+ "Cerca un luogo": {
+  "file": "ui/place.ts"
+ },
+ "Cerca una città o un paese…": {
+  "file": "ui/place.ts"
+ },
+ "Cesena": {
+  "file": "core/places.ts"
+ },
+ "Che stella è": {
+  "file": "ui/infopanel.ts"
+ },
+ "Chicago": {
+  "file": "core/places.ts"
+ },
+ "Chiedo la posizione al sistema…": {
+  "file": "ui/place.ts"
+ },
+ "Chieti": {
+  "file": "core/places.ts"
+ },
+ "Chiudi": {
+  "file": "render/places.ts, ui/events.ts"
+ },
+ "Chiudi (E)": {
+  "file": "ui/events.ts"
+ },
+ "Chiudi (Esc)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Chiudi il pannello": {
+  "file": "ui/infopanel.ts"
+ },
+ "Chiudi la scheda": {
+  "file": "ui/help.ts"
+ },
+ "Cielo": {
+  "file": "app.ts"
+ },
+ "Cielo da": {
+  "file": "ui/groundhud.ts"
+ },
+ "Cielo e grafica": {
+  "file": "ui/layers.ts"
+ },
+ "Cielo visto da ": {
+  "file": "ui/place.ts"
+ },
+ "Cielo visto da terra": {
+  "file": "ui/groundhud.ts"
+ },
+ "Cielo visto da terra (T): guarda il cielo dal luogo scelto, con l'orizzonte e le costellazioni": {
+  "file": "app.ts"
+ },
+ "Cielo visto da terra, dal luogo scelto in Eventi (di nuovo T per tornare nello spazio)": {
+  "file": "ui/help.ts"
+ },
+ "Cile": {
+  "file": "ui/lexicon.ts"
+ },
+ "Cina": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Cinque volte più veloce, finché lo tieni premuto": {
+  "file": "ui/help.ts"
+ },
+ "circa {durata}": {
+  "file": "ui/gaia.ts"
+ },
+ "circa {eq} all'equatore, {pole} ai poli": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} ({v1} della Terra)": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} anni": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} K": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} milioni di K": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} milioni di stelle (fino alla magnitudine {gmax}) — circa {mb} MB, {v3}{resume}": {
+  "file": "ui/gaia.ts"
+ },
+ "circa {v0} raggi ({v1})": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} volte più debole": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0} volte più intenso": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa {v0}, molto variabile; nelle macchie solari fino a circa 0,3 T": {
+  "file": "ui/infopanel.ts"
+ },
+ "circa come la Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Città del Messico": {
+  "file": "core/places.ts"
+ },
+ "Città del Vaticano": {
+  "file": "core/places.ts"
+ },
+ "Classe {k}: {txt}": {
+  "file": "ui/layers.ts"
+ },
+ "Classe orbitale": {
+  "file": "ui/infopanel.ts"
+ },
+ "Classi spettrali: dalla più calda alla più fredda": {
+  "file": "ui/layers.ts"
+ },
+ "Classificazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Clic": {
+  "file": "ui/help.ts"
+ },
+ "Clic per saperne di più": {
+  "file": "render/places.ts"
+ },
+ "Clic su un luogo": {
+  "file": "ui/help.ts"
+ },
+ "Colombia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Colori delle stelle accentuati": {
+  "file": "ui/layers.ts"
+ },
+ "Comandi": {
+  "file": "app.ts, ui/help.ts"
+ },
+ "Comandi (?)": {
+  "file": "app.ts"
+ },
+ "Cometa": {
+  "file": "data/classes.ts, ui/lexicon.ts"
+ },
+ "Cometa della famiglia di Giove": {
+  "file": "data/classes.ts"
+ },
+ "Cometa di tipo Chirone": {
+  "file": "data/classes.ts"
+ },
+ "Cometa di tipo Encke": {
+  "file": "data/classes.ts"
+ },
+ "Cometa di tipo Halley": {
+  "file": "data/classes.ts"
+ },
+ "Cometa radente: passando ad appena {v0} dalla superficie del Sole ": {
+  "file": "app.ts"
+ },
+ "Cometa su orbita iperbolica": {
+  "file": "data/classes.ts"
+ },
+ "Cometa su orbita parabolica": {
+  "file": "data/classes.ts"
+ },
+ "Comete di lungo periodo": {
+  "file": "data/classes.ts"
+ },
+ "Comete notevoli": {
+  "file": "ui/layers.ts"
+ },
+ "Comete periodiche brevi": {
+  "file": "data/classes.ts"
+ },
+ "Como": {
+  "file": "core/places.ts"
+ },
+ "Con questa rotazione": {
+  "file": "ui/bhhud.ts"
+ },
+ "Coordinate eliocentriche ICRF, in km": {
+  "file": "ui/infopanel.ts"
+ },
+ "Coordinate esatte": {
+  "file": "ui/place.ts"
+ },
+ "Coordinate non valide: latitudine fra -90 e 90, longitudine fra -180 e 180 (est positiva).": {
+  "file": "ui/place.ts"
+ },
+ "Copenaghen": {
+  "file": "core/places.ts"
+ },
+ "copre più di metà del cielo: resta un cerchio di {v0}° di stelle alle tue spalle": {
+  "file": "ui/bhhud.ts"
+ },
+ "Corea del Nord": {
+  "file": "ui/lexicon.ts"
+ },
+ "Corea del Sud": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Corpi del catalogo": {
+  "file": "ui/layers.ts"
+ },
+ "Corpi minori non disponibili": {
+  "file": "app.ts"
+ },
+ "Corpo minore": {
+  "file": "app.ts, ui/search.ts"
+ },
+ "Cosa proveresti stando fermo qui, sospeso con i razzi:": {
+  "file": "ui/bhhud.ts"
+ },
+ "Cosenza": {
+  "file": "core/places.ts"
+ },
+ "Costellazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Costellazioni (figure e nomi)": {
+  "file": "ui/layers.ts"
+ },
+ "Costellazioni non disponibili": {
+  "file": "render/view.ts"
+ },
+ "Cratere": {
+  "file": "render/places.ts"
+ },
+ "Crediti": {
+  "file": "ui/help.ts"
+ },
+ "Cremona": {
+  "file": "core/places.ts"
+ },
+ "crepuscolo: il cielo non è ancora del tutto buio": {
+  "file": "ui/groundhud.ts"
+ },
+ "crepuscolo: il Sole è appena sotto l'orizzonte": {
+  "file": "ui/groundhud.ts"
+ },
+ "Croazia": {
+  "file": "core/places.ts"
+ },
+ "Crotone": {
+  "file": "core/places.ts"
+ },
+ "Ctrl Cmd F": {
+  "file": "ui/help.ts"
+ },
+ "Cuba": {
+  "file": "core/places.ts"
+ },
+ "Cuneo": {
+  "file": "core/places.ts"
+ },
+ "Curiosità: {from} è estate. Le stagioni dipendono dall'inclinazione dell'asse, non dalla distanza.": {
+  "file": "events/astroevents.ts"
+ },
+ "Curiosità: {from} è inverno. Le stagioni dipendono dall'inclinazione dell'asse, non dalla distanza.": {
+  "file": "events/astroevents.ts"
+ },
+ "da {luogo}": {
+  "file": "core/places.ts"
+ },
+ "da {min} a {max}": {
+  "file": "ui/gaia.ts"
+ },
+ "da {v0} a {v1} °C": {
+  "file": "ui/infopanel.ts"
+ },
+ "da {v0} a {v1} dal centro": {
+  "file": "ui/infopanel.ts"
+ },
+ "Da Wikipedia": {
+  "file": "ui/infopanel.ts"
+ },
+ "Dal JPL Small-Body Database": {
+  "file": "ui/infopanel.ts"
+ },
+ "Dal Sole: {main}; la sua luce arriva qui in {v1}": {
+  "file": "ui/flighthud.ts"
+ },
+ "Dalla classe spettrale {v0}. Temperatura e raggio sono stime da relazioni medie.": {
+  "file": "ui/infopanel.ts"
+ },
+ "dalle {v0} alle {v1}": {
+  "file": "events/astroevents.ts"
+ },
+ "dalle {v0} alle {v1}, massimo alle {v2}": {
+  "file": "events/astroevents.ts"
+ },
+ "Danimarca": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Data": {
+  "file": "ui/infopanel.ts"
+ },
+ "Data di lancio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Dati: ESA/Gaia/DPAC, licenza CC BY-SA 3.0 IGO.": {
+  "file": "ui/gaia.ts"
+ },
+ "Declinazione (dalla Terra)": {
+  "file": "ui/infopanel.ts"
+ },
+ "del Sole": {
+  "file": "ui/sizecompare.ts"
+ },
+ "del telescopio spaziale Hubble": {
+  "file": "app.ts"
+ },
+ "del tramonto": {
+  "file": "events/astroevents.ts"
+ },
+ "dell'alba": {
+  "file": "events/astroevents.ts"
+ },
+ "della Luna": {
+  "file": "ui/sizecompare.ts"
+ },
+ "della sera prima": {
+  "file": "events/astroevents.ts"
+ },
+ "della stazione cinese Tiangong": {
+  "file": "app.ts"
+ },
+ "della Stazione Spaziale Internazionale": {
+  "file": "app.ts"
+ },
+ "della Terra": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Delta Aquaridi Sud": {
+  "file": "events/astroevents.ts"
+ },
+ "Densità media": {
+  "file": "ui/infopanel.ts"
+ },
+ "Designazione completa": {
+  "file": "ui/infopanel.ts"
+ },
+ "Designazione internazionale (COSPAR)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Detrito": {
+  "file": "ui/lexicon.ts"
+ },
+ "Dettagli": {
+  "file": "ui/bhhud.ts"
+ },
+ "di Giove": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Di riserva": {
+  "file": "ui/lexicon.ts"
+ },
+ "Di scorta": {
+  "file": "ui/lexicon.ts"
+ },
+ "Diagramma di Hertzsprung-Russell": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Diagramma di Hertzsprung-Russell con {label} evidenziata": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Diagramma di Hertzsprung-Russell: {v0} stelle del catalogo secondo colore e luminosità. ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Diametro stimato": {
+  "file": "ui/infopanel.ts"
+ },
+ "Diametro stimato fra {v0} e {v1} km.": {
+  "file": "ui/events.ts"
+ },
+ "Diametro stimato fra {v0} e {v1} metri.": {
+  "file": "ui/events.ts"
+ },
+ "Dimensioni": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza da {name}: {main} ({alt}). La luce impiega {v3}.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza dal centro": {
+  "file": "ui/bhhud.ts"
+ },
+ "Distanza dal Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza dalla camera": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza dalla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanza dalla Terra {v0} mila km{v1}.": {
+  "file": "events/astroevents.ts"
+ },
+ "Distanza minima dall'orbita terrestre (MOID)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Distanze: GRAVITY Collaboration e altri articoli citati nelle schede. Lampi di Sagittarius A*: GRAVITY Collaboration 2018. Buco nero che ruota: R. P. Kerr 1963; Bardeen, Press e Teukolsky 1972; Bardeen 1973. Luoghi sulle superfici: Gazetteer of Planetary Nomenclature (IAU/USGS). Pleiadi e Iadi in 3D: Lodieu et al. 2019, Röser et al. 2011; ": {
+  "file": "ui/help.ts"
+ },
+ "Dombarovskij (Russia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "dopo il tramonto": {
+  "file": "events/astroevents.ts"
+ },
+ "Doppio clic": {
+  "file": "ui/help.ts"
+ },
+ "Draconidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Dubai": {
+  "file": "core/places.ts"
+ },
+ "Dublino": {
+  "file": "core/places.ts"
+ },
+ "Durata del giorno solare": {
+  "file": "ui/infopanel.ts"
+ },
+ "E": {
+  "file": "core/places.ts, render/places.ts, ui/place.ts"
+ },
+ "È grande più o meno come {name}.": {
+  "file": "ui/sizecompare.ts"
+ },
+ "è larga {v0}°{circa} (la Luna piena, dalla Terra, è larga mezzo grado)": {
+  "file": "ui/bhhud.ts"
+ },
+ "Eccentricità": {
+  "file": "ui/infopanel.ts"
+ },
+ "Eclissi": {
+  "file": "ui/events.ts"
+ },
+ "Eclissi anulare di Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi di Luna": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi di Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi parziale di Luna": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi parziale di Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi penombrale di Luna": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi totale di Luna": {
+  "file": "events/astroevents.ts"
+ },
+ "Eclissi totale di Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Ecuador": {
+  "file": "ui/lexicon.ts"
+ },
+ "Egitto": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Elementi orbitali (CelesTrak)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Elementi orbitali JPL SBDB (problema dei due corpi)": {
+  "file": "sim/body.ts"
+ },
+ "Eliopausa · circa 120 UA": {
+  "file": "render/regions.ts"
+ },
+ "Emilia-Romagna": {
+  "file": "core/places.ts"
+ },
+ "Emirati Arabi Uniti": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Enna": {
+  "file": "core/places.ts"
+ },
+ "Entro 0,2 UA, nei prossimi 100 anni. Una distanza lunare = 384.400 km.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Epoca degli elementi": {
+  "file": "ui/infopanel.ts"
+ },
+ "equinozio": {
+  "file": "ui/infopanel.ts"
+ },
+ "equinozio di marzo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Equinozio di marzo": {
+  "file": "events/astroevents.ts"
+ },
+ "equinozio di settembre": {
+  "file": "ui/infopanel.ts"
+ },
+ "Equinozio di settembre": {
+  "file": "events/astroevents.ts"
+ },
+ "Errore sconosciuto": {
+  "file": "ephem/jpl.ts"
+ },
+ "Esc": {
+  "file": "ui/help.ts"
+ },
+ "Esci": {
+  "file": "ui/flighthud.ts, ui/groundhud.ts"
+ },
+ "Escursione termica": {
+  "file": "ui/infopanel.ts"
+ },
+ "Esopianeta": {
+  "file": "ui/lexicon.ts"
+ },
+ "Esopianeta di {stella}": {
+  "file": "ui/lexicon.ts"
+ },
+ "Esopianeti e le loro stelle": {
+  "file": "ui/layers.ts"
+ },
+ "est": {
+  "file": "core/places.ts, ui/groundhud.ts"
+ },
+ "est-nordest": {
+  "file": "core/places.ts"
+ },
+ "est-sudest": {
+  "file": "core/places.ts"
+ },
+ "estate": {
+  "file": "ui/infopanel.ts"
+ },
+ "Estensione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Estonia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Età": {
+  "file": "ui/infopanel.ts"
+ },
+ "Eta Aquaridi": {
+  "file": "events/astroevents.ts"
+ },
+ "Etiopia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Eutelsat": {
+  "file": "ui/lexicon.ts"
+ },
+ "Eventi": {
+  "file": "app.ts"
+ },
+ "Eventi astronomici": {
+  "file": "ui/events.ts"
+ },
+ "Eventi in cielo": {
+  "file": "ui/events.ts"
+ },
+ "Eventi in cielo (E)": {
+  "file": "app.ts"
+ },
+ "Eventi in cielo: eclissi, opposizioni, meteore, asteroidi in arrivo": {
+  "file": "ui/help.ts"
+ },
+ "Eventi: Astronomy Engine di Don Cross (MIT), International Meteor Organization. Luoghi: Open-Meteo e GeoNames (CC BY 4.0). ": {
+  "file": "ui/help.ts"
+ },
+ "Eventi: calcolo non riuscito": {
+  "file": "events/astroevents.ts"
+ },
+ "F o doppio clic": {
+  "file": "ui/help.ts"
+ },
+ "falce calante": {
+  "file": "events/astroevents.ts"
+ },
+ "falce crescente": {
+  "file": "events/astroevents.ts"
+ },
+ "Fascia di Kuiper · 30–50 UA": {
+  "file": "render/regions.ts"
+ },
+ "Fascia principale": {
+  "file": "data/classes.ts"
+ },
+ "fase parziale dalle {v0} alle {v1}": {
+  "file": "events/astroevents.ts"
+ },
+ "fase parziale di {v0} minuti": {
+  "file": "events/astroevents.ts"
+ },
+ "FastAPI, Uvicorn, httpx, NumPy, pywebview. Elenco completo e licenze nei file CREDITI.md e LICENZE_TERZE_PARTI.txt.": {
+  "file": "ui/help.ts"
+ },
+ "Ferrara": {
+  "file": "core/places.ts"
+ },
+ "Filippine": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Fine misura": {
+  "file": "ui/infopanel.ts"
+ },
+ "Finlandia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Fino a circa {zhr} meteore all'ora sotto un cielo perfetto, dal radiante {radiant}, a {speedKms} km/s. ": {
+  "file": "events/astroevents.ts"
+ },
+ "Firenze": {
+  "file": "core/places.ts"
+ },
+ "Foggia": {
+  "file": "core/places.ts"
+ },
+ "Fonte: {src}.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Forlì": {
+  "file": "core/places.ts"
+ },
+ "Forma": {
+  "file": "ui/infopanel.ts"
+ },
+ "forma delle Nubi di Magellano: Inno et al. 2016, Subramanian e Subramaniam 2015 (Cefeidi). ": {
+  "file": "ui/help.ts"
+ },
+ "Foto": {
+  "file": "app.ts"
+ },
+ "Foto: ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Fotografa la scena (l'immagine va nella cartella «immagini» del progetto)": {
+  "file": "ui/help.ts"
+ },
+ "Fotografa la scena (P): l'immagine, senza nomi né pannelli, va nella cartella «immagini» del progetto": {
+  "file": "app.ts"
+ },
+ "Fotogrammi al secondo": {
+  "file": "ui/layers.ts"
+ },
+ "Francia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Friuli-Venezia Giulia": {
+  "file": "core/places.ts"
+ },
+ "Frosinone": {
+  "file": "core/places.ts"
+ },
+ "fuori dalla magnetosfera": {
+  "file": "ui/infopanel.ts"
+ },
+ "Gaia {v0}%": {
+  "file": "app.ts"
+ },
+ "Gaia DR3 {gaia_dr3}": {
+  "file": "ui/infopanel.ts"
+ },
+ "Gaia, il satellite astrometrico dell'ESA, ha misurato posizione, distanza e colore di quasi due miliardi di stelle. ": {
+  "file": "ui/gaia.ts"
+ },
+ "Galassia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Geminidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Genova": {
+  "file": "core/places.ts"
+ },
+ "Geostazionari": {
+  "file": "render/satellites.ts"
+ },
+ "Germania": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Gerusalemme": {
+  "file": "core/places.ts"
+ },
+ "Ghana": {
+  "file": "ui/lexicon.ts"
+ },
+ "Giappone": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "gibbosa calante": {
+  "file": "events/astroevents.ts"
+ },
+ "gibbosa crescente": {
+  "file": "events/astroevents.ts"
+ },
+ "gigante": {
+  "file": "core/stellar.ts"
+ },
+ "gigante azzurra": {
+  "file": "core/stellar.ts"
+ },
+ "gigante bianca": {
+  "file": "core/stellar.ts"
+ },
+ "gigante bianco-gialla": {
+  "file": "core/stellar.ts"
+ },
+ "gigante blu": {
+  "file": "core/stellar.ts"
+ },
+ "gigante gialla": {
+  "file": "core/stellar.ts"
+ },
+ "gigante rossa": {
+  "file": "core/stellar.ts"
+ },
+ "giganti": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Ginevra": {
+  "file": "core/places.ts"
+ },
+ "Giordania": {
+  "file": "ui/lexicon.ts"
+ },
+ "giorno polare al polo nord, notte polare al polo sud": {
+  "file": "ui/infopanel.ts"
+ },
+ "giorno polare al polo sud, notte polare al polo nord": {
+  "file": "ui/infopanel.ts"
+ },
+ "giorno, Sole a {v0}° sull'orizzonte": {
+  "file": "ui/groundhud.ts"
+ },
+ "Giove": {
+  "file": "events/astroevents.ts, ui/sizecompare.ts"
+ },
+ "Giovi": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Giri al giorno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Giù e su": {
+  "file": "ui/help.ts"
+ },
+ "Globalstar": {
+  "file": "ui/lexicon.ts"
+ },
+ "GNU GPL 2.0 o successiva": {
+  "file": "ui/infopanel.ts"
+ },
+ "Gorizia": {
+  "file": "core/places.ts"
+ },
+ "Grafica lenta: {slowCount} fotogrammi lenti su {frameCount}": {
+  "file": "app.ts"
+ },
+ "Grande come una scrivania, porta con sé due CubeSat. Va a vedere che cosa ha lasciato la sonda DART sull'asteroide Dimorfo.": {
+  "file": "render/procedural.ts"
+ },
+ "Gravità alla superficie": {
+  "file": "ui/infopanel.ts"
+ },
+ "Grecia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Grosseto": {
+  "file": "core/places.ts"
+ },
+ "Guarda sotto le nubi": {
+  "file": "ui/infopanel.ts"
+ },
+ "Guardati intorno": {
+  "file": "ui/help.ts"
+ },
+ "Guardi {where}. Campo visivo: {v1}°": {
+  "file": "ui/groundhud.ts"
+ },
+ "Ha appena finito l'idrogeno nel nucleo e comincia a espandersi: è a metà strada verso la fase di gigante.": {
+  "file": "core/stellar.ts"
+ },
+ "Hai già il catalogo più grande che il programma sa scaricare.": {
+  "file": "ui/gaia.ts"
+ },
+ "Hammaguir (Algeria)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Hawaii": {
+  "file": "core/places.ts"
+ },
+ "Helsinki": {
+  "file": "core/places.ts"
+ },
+ "Hong Kong": {
+  "file": "core/places.ts"
+ },
+ "Honolulu": {
+  "file": "core/places.ts"
+ },
+ "Houston": {
+  "file": "core/places.ts"
+ },
+ "I due pannelli circolari, larghi più di 7 metri, si aprono come ventagli; sono rivolti verso il Sole.": {
+  "file": "render/procedural.ts"
+ },
+ "I preferiti compariranno qui appena i cataloghi sono caricati.": {
+  "file": "ui/search.ts"
+ },
+ "il {v0}% della velocità della luce": {
+  "file": "ui/bhhud.ts"
+ },
+ "Il browser non riesce a usare la scheda video (WebGL 2). Dettagli: {message}": {
+  "file": "app.ts"
+ },
+ "Il Cairo": {
+  "file": "core/places.ts"
+ },
+ "Il diametro è {v0} volte quello {gen}.{inside}": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Il giorno più corto dell'anno nell'emisfero nord: il Sole raggiunge il Tropico del Capricorno. Inizia l'inverno.": {
+  "file": "events/astroevents.ts"
+ },
+ "Il giorno più corto dell'anno nell'emisfero sud: inizia l'inverno. Il Sole è allo zenit sul Tropico del Cancro.": {
+  "file": "events/astroevents.ts"
+ },
+ "Il giorno più lungo dell'anno nell'emisfero nord: il Sole raggiunge il Tropico del Cancro. Inizia l'estate.": {
+  "file": "events/astroevents.ts"
+ },
+ "Il giorno più lungo dell'anno nell'emisfero sud: inizia l'estate. Il Sole è allo zenit sul Tropico del Capricorno.": {
+  "file": "events/astroevents.ts"
+ },
+ "il GRA di Roma (22 km)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "il Grande Raccordo Anulare di Roma": {
+  "file": "ui/sizecompare.ts"
+ },
+ "il luogo si cambia in Eventi": {
+  "file": "ui/groundhud.ts"
+ },
+ "il Monte Bianco, dal mare alla vetta": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Il nucleo spento di una stella come il Sole: grande come la Terra, ma con una massa simile a quella del Sole. Non produce più energia e si raffredda lentamente.": {
+  "file": "core/stellar.ts"
+ },
+ "Il programma può scaricarne le più luminose (quelle con una distanza affidabile) dall'archivio dell'ESA e prepararle per la mappa 3D. ": {
+  "file": "ui/gaia.ts"
+ },
+ "il prossimo fra {v0} (di solito tre o quattro al giorno)": {
+  "file": "ui/bhhud.ts"
+ },
+ "Il punto più lontano dal Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Il punto più vicino al Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Il server dati non risponde.": {
+  "file": "app.ts"
+ },
+ "Il server non risponde.": {
+  "file": "ui/gaia.ts"
+ },
+ "il Sole": {
+  "file": "ui/sizecompare.ts"
+ },
+ "il Sole non sorge (notte polare)": {
+  "file": "ui/infopanel.ts"
+ },
+ "il Sole non tramonta (giorno polare)": {
+  "file": "ui/infopanel.ts"
+ },
+ "il Sole scorre lungo l'orizzonte, a entrambi i poli": {
+  "file": "ui/infopanel.ts"
+ },
+ "Il tempo rallenta molto solo a ridosso dell'orizzonte: fermo a 2 volte il suo raggio, 1 ora ne vale appena 1,4 per chi è lontano; ": {
+  "file": "ui/bhhud.ts"
+ },
+ "Il tipo di stella più comune della Galassia: piccola, fredda e parsimoniosa. Può brillare per migliaia di miliardi di anni.": {
+  "file": "core/stellar.ts"
+ },
+ "Il tuo orologio": {
+  "file": "ui/bhhud.ts"
+ },
+ "Immagine salvata: {file}, nella cartella {folder}": {
+  "file": "app.ts"
+ },
+ "Immagine scaricata dal browser (cartella dei download).": {
+  "file": "app.ts"
+ },
+ "Imperia": {
+  "file": "core/places.ts"
+ },
+ "impossibile: qui nemmeno la luce può girare in tondo": {
+  "file": "ui/bhhud.ts"
+ },
+ "In attesa dei dati": {
+  "file": "ui/infopanel.ts"
+ },
+ "in corso da {v0}: una macchia di gas caldo gira attorno al buco nero in {v1}": {
+  "file": "ui/bhhud.ts"
+ },
+ "In diretta": {
+  "file": "ui/timebar.ts"
+ },
+ "in Orione": {
+  "file": "events/astroevents.ts"
+ },
+ "In parte visibile {from}: la Luna sorge durante l'eclissi ({span}).": {
+  "file": "events/astroevents.ts"
+ },
+ "In parte visibile {from}: la Luna tramonta durante l'eclissi ({span}).": {
+  "file": "events/astroevents.ts"
+ },
+ "in pausa": {
+  "file": "ui/timebar.ts"
+ },
+ "in penombra ({v0}% del disco del Sole)": {
+  "file": "ui/infopanel.ts"
+ },
+ "In viaggio le tre parti sono impilate: il modulo di trasferimento con i pannelli lunghi, l'orbiter europeo MPO e, sotto lo schermo conico, l'orbiter giapponese Mio. I pannelli guardano il Sole.": {
+  "file": "render/procedural.ts"
+ },
+ "In volo libero": {
+  "file": "ui/help.ts"
+ },
+ "incerta (parallasse non affidabile)": {
+  "file": "ui/infopanel.ts"
+ },
+ "inclinato di {v0}° rispetto all'asse di rotazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Inclinazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Inclinazione {ref}": {
+  "file": "ui/infopanel.ts"
+ },
+ "Inclinazione dell'asse": {
+  "file": "ui/infopanel.ts"
+ },
+ "India": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "indietro, ": {
+  "file": "ui/timebar.ts"
+ },
+ "Indonesia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Inizia l'autunno astronomico nell'emisfero nord (e la primavera in quello sud).": {
+  "file": "events/astroevents.ts"
+ },
+ "Inizia l'autunno astronomico nell'emisfero sud (e la primavera in quello nord): giorno e notte durano quasi uguali ovunque.": {
+  "file": "events/astroevents.ts"
+ },
+ "Inizia la primavera astronomica nell'emisfero nord (e l'autunno in quello sud): giorno e notte durano quasi uguali ovunque.": {
+  "file": "events/astroevents.ts"
+ },
+ "Inizia la primavera astronomica nell'emisfero sud (e l'autunno in quello nord).": {
+  "file": "events/astroevents.ts"
+ },
+ "Inquadra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Inquadra il corpo selezionato": {
+  "file": "ui/help.ts"
+ },
+ "instabile (sotto 3 volte l'orizzonte): ": {
+  "file": "ui/bhhud.ts"
+ },
+ "instabile (sotto l'ultima orbita stabile): ": {
+  "file": "ui/bhhud.ts"
+ },
+ "Intelsat": {
+  "file": "ui/lexicon.ts"
+ },
+ "Intensità ai poli": {
+  "file": "ui/infopanel.ts"
+ },
+ "Intensità alla superficie": {
+  "file": "ui/infopanel.ts"
+ },
+ "Interrompi": {
+  "file": "ui/gaia.ts"
+ },
+ "inverno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Iran": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Iridium": {
+  "file": "ui/lexicon.ts"
+ },
+ "Irlanda": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Isernia": {
+  "file": "core/places.ts"
+ },
+ "Islanda": {
+  "file": "core/places.ts"
+ },
+ "Israele": {
+  "file": "ui/lexicon.ts"
+ },
+ "Istanbul": {
+  "file": "core/places.ts"
+ },
+ "Italia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Italia (1200 km)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Jiuquan (Cina)": {
+  "file": "ui/lexicon.ts"
+ },
+ "JPL non raggiungibile: uso posizioni approssimate": {
+  "file": "app.ts"
+ },
+ "Kapustin Jar (Russia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kazakistan": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kenya": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kodiak (Alaska, USA)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kourou (Guyana francese)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kuwait": {
+  "file": "ui/lexicon.ts"
+ },
+ "Kwajalein (Isole Marshall)": {
+  "file": "ui/lexicon.ts"
+ },
+ "L'Aquila": {
+  "file": "core/places.ts"
+ },
+ "L'asse resta puntato sempre nella stessa direzione dello spazio mentre il pianeta gira attorno al Sole: per metà dell'orbita i raggi più diretti cadono sull'emisfero nord, per l'altra metà su quello sud. Sono le stagioni.": {
+  "file": "ui/infopanel.ts"
+ },
+ "l'asteroide 2003 EH1, forse una cometa spenta": {
+  "file": "events/astroevents.ts"
+ },
+ "l'asteroide 3200 Phaethon": {
+  "file": "events/astroevents.ts"
+ },
+ "l'autunno": {
+  "file": "ui/infopanel.ts"
+ },
+ "L'Avana": {
+  "file": "core/places.ts"
+ },
+ "l'estate": {
+  "file": "ui/infopanel.ts"
+ },
+ "l'inverno": {
+  "file": "ui/infopanel.ts"
+ },
+ "l'Italia, dalle Alpi alla punta della Calabria": {
+  "file": "ui/sizecompare.ts"
+ },
+ "L'ombra": {
+  "file": "ui/bhhud.ts"
+ },
+ "L'ombra della Luna sfiora la Terra senza toccarla al centro: solo parziale.": {
+  "file": "events/astroevents.ts"
+ },
+ "L2 · telescopio Webb": {
+  "file": "render/regions.ts"
+ },
+ "la cometa 109P/Swift-Tuttle": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa 21P/Giacobini-Zinner": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa 2P/Encke": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa 55P/Tempel-Tuttle": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa 8P/Tuttle": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa C/1861 G1 Thatcher": {
+  "file": "events/astroevents.ts"
+ },
+ "la cometa di Halley": {
+  "file": "events/astroevents.ts"
+ },
+ "La direzione del polo magnetico attorno all'asse è indicativa: il periodo di rotazione non è noto con abbastanza precisione da sapere dove si trova oggi. ": {
+  "file": "ui/infopanel.ts"
+ },
+ "la distanza fra Roma e Napoli": {
+  "file": "ui/sizecompare.ts"
+ },
+ "La grafica 3D non è disponibile.": {
+  "file": "app.ts"
+ },
+ "La luce dalla Terra impiega": {
+  "file": "ui/infopanel.ts"
+ },
+ "La luce delle stelle": {
+  "file": "ui/bhhud.ts"
+ },
+ "la luce può girare in tondo a {v0} raggi. Attorno all'equatore, fino a 1 raggio, c'è l'ergosfera: lì lo spazio è trascinato in tondo e nessuno può restare fermo.": {
+  "file": "ui/bhhud.ts"
+ },
+ "la Luna": {
+  "file": "ui/sizecompare.ts"
+ },
+ "La Luna accanto a {bIt}": {
+  "file": "events/astroevents.ts"
+ },
+ "la Luna diventa color rame: è la luce di tutti i tramonti e le albe della Terra": {
+  "file": "events/astroevents.ts"
+ },
+ "la Luna si scurisce appena: difficile da notare": {
+  "file": "events/astroevents.ts"
+ },
+ "La mia posizione": {
+  "file": "ui/place.ts"
+ },
+ "La nostra galassia": {
+  "file": "ui/lexicon.ts"
+ },
+ "La nostra stella · nana gialla": {
+  "file": "ui/lexicon.ts"
+ },
+ "La Palma (osservatorio del Roque)": {
+  "file": "core/places.ts"
+ },
+ "La posizione arriverà da NASA/JPL fra pochi istanti.": {
+  "file": "ui/infopanel.ts"
+ },
+ "la primavera": {
+  "file": "ui/infopanel.ts"
+ },
+ "La sonda più grande mai costruita dalla NASA per un altro pianeta: i pannelli solari, aperti, misurano 30 metri, e sono rivolti verso il Sole.": {
+  "file": "render/procedural.ts"
+ },
+ "La Spezia": {
+  "file": "core/places.ts"
+ },
+ "La stazione cinese a forma di T: il modulo centrale Tianhe e i laboratori Wentian e Mengtian, con i loro pannelli solari giganti che seguono il Sole.": {
+  "file": "render/procedural.ts"
+ },
+ "La sua luce, per arrivare qui, viaggia da": {
+  "file": "ui/infopanel.ts"
+ },
+ "la Terra": {
+  "file": "ui/sizecompare.ts"
+ },
+ "La Terra al perielio": {
+  "file": "events/astroevents.ts"
+ },
+ "La Terra all'afelio": {
+  "file": "events/astroevents.ts"
+ },
+ "la Torre Eiffel": {
+  "file": "ui/sizecompare.ts"
+ },
+ "la velocità della luce": {
+  "file": "ui/bhhud.ts"
+ },
+ "La velocità si adatta da sola: piano vicino a un asteroide, velocissimi fra le stelle. Non ci si schianta mai.": {
+  "file": "ui/help.ts"
+ },
+ "Lagos": {
+  "file": "core/places.ts"
+ },
+ "Lampi": {
+  "file": "ui/bhhud.ts"
+ },
+ "Lanciata nel 2018 dal primo Falcon Heavy, con il manichino «Starman» al volante: gira attorno al Sole fra la Terra e Marte, rotolando lentamente su se stessa.": {
+  "file": "render/procedural.ts"
+ },
+ "Lancio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Lancio da aereo (Pegasus)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Lancio da sottomarino": {
+  "file": "ui/lexicon.ts"
+ },
+ "Laos": {
+  "file": "ui/lexicon.ts"
+ },
+ "Latina": {
+  "file": "core/places.ts"
+ },
+ "Latitudine": {
+  "file": "ui/infopanel.ts, ui/place.ts"
+ },
+ "latitudine (es. 41,90)": {
+  "file": "ui/place.ts"
+ },
+ "Latitudine galattica": {
+  "file": "ui/infopanel.ts"
+ },
+ "Lazio": {
+  "file": "core/places.ts"
+ },
+ "Le ali a croce dei pannelli solari alimentano i motori a ioni, che spingono la sonda verso l'asteroide metallico Psiche.": {
+  "file": "render/procedural.ts"
+ },
+ "Le sonde e i radar hanno mappato anche ciò che le nubi nascondono": {
+  "file": "ui/infopanel.ts"
+ },
+ "Lecce": {
+  "file": "core/places.ts"
+ },
+ "Lecco": {
+  "file": "core/places.ts"
+ },
+ "Leggi la voce completa su Wikipedia": {
+  "file": "ui/infopanel.ts"
+ },
+ "Leonidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Liguria": {
+  "file": "core/places.ts"
+ },
+ "Linee azzurre: archi chiusi, tornano sul Sole. Viola: aperte, portate via dal vento solare. Tasto M per nasconderle. ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Linee azzurre: chiuse, tornano sul pianeta. Viola: aperte, nella coda opposta al Sole. Tasto M per nasconderle. ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Linee azzurre: chiuse, tornano sulla luna. Viola: aperte, stirate nella direzione in cui scorre il plasma di Giove. Tasto M per nasconderle. ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Liridi": {
+  "file": "events/astroevents.ts"
+ },
+ "Lisbona": {
+  "file": "core/places.ts"
+ },
+ "Lituania": {
+  "file": "ui/lexicon.ts"
+ },
+ "Livelli": {
+  "file": "app.ts, ui/layers.ts"
+ },
+ "Livelli (L)": {
+  "file": "app.ts"
+ },
+ "Livorno": {
+  "file": "core/places.ts"
+ },
+ "Lo schermo parasole di 10 metri tiene all'ombra il telescopio. Gaia girava su se stessa ogni sei ore per misurare un miliardo di stelle; dal 2025 è spenta.": {
+  "file": "render/procedural.ts"
+ },
+ "Lo scudo termico, sempre rivolto verso il Sole, protegge la sonda da temperature fino a 500 °C; dalle sue aperture guardano i telescopi.": {
+  "file": "render/procedural.ts"
+ },
+ "Lodi": {
+  "file": "core/places.ts"
+ },
+ "Lombardia": {
+  "file": "core/places.ts"
+ },
+ "Londra": {
+  "file": "core/places.ts"
+ },
+ "Longitudine": {
+  "file": "ui/infopanel.ts, ui/place.ts"
+ },
+ "longitudine (es. 12,50)": {
+  "file": "ui/place.ts"
+ },
+ "Longitudine galattica": {
+  "file": "ui/infopanel.ts"
+ },
+ "Longitudine solare (Ls)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Longyearbyen": {
+  "file": "core/places.ts"
+ },
+ "Los Angeles": {
+  "file": "core/places.ts"
+ },
+ "Lubiana": {
+  "file": "core/places.ts"
+ },
+ "Lucca": {
+  "file": "core/places.ts"
+ },
+ "Luce del giorno": {
+  "file": "ui/groundhud.ts"
+ },
+ "Luce del Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "Lugano": {
+  "file": "core/places.ts"
+ },
+ "luminosa come le stelle più brillanti": {
+  "file": "events/astroevents.ts"
+ },
+ "Luminosità": {
+  "file": "ui/infopanel.ts"
+ },
+ "luminosità (Sole = 1)": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Luminosità nel visibile": {
+  "file": "ui/infopanel.ts"
+ },
+ "Luminosità totale": {
+  "file": "ui/infopanel.ts"
+ },
+ "Luna": {
+  "file": "events/astroevents.ts, ui/events.ts, ui/lexicon.ts, ui/sizecompare.ts"
+ },
+ "Luna al {v0}%.": {
+  "file": "events/astroevents.ts"
+ },
+ "Luna della Terra": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di {pianeta}": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Giove": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Marte": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Nettuno": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Plutone": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Saturno": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna di Urano": {
+  "file": "ui/lexicon.ts"
+ },
+ "Luna illuminata al {v0}%: disturba.": {
+  "file": "events/astroevents.ts"
+ },
+ "Luna nuova": {
+  "file": "events/astroevents.ts"
+ },
+ "Luna piena": {
+  "file": "events/astroevents.ts"
+ },
+ "Luna piena (la più piccola dell'anno)": {
+  "file": "events/astroevents.ts"
+ },
+ "Luna quasi assente: condizioni ottime.": {
+  "file": "events/astroevents.ts"
+ },
+ "Lune": {
+  "file": "ui/layers.ts, ui/sizecompare.ts"
+ },
+ "Lune conosciute": {
+  "file": "ui/infopanel.ts"
+ },
+ "Luoghi sulle superfici (mari, crateri, missioni)": {
+  "file": "ui/layers.ts"
+ },
+ "Luoghi sulle superfici non disponibili": {
+  "file": "render/view.ts"
+ },
+ "Luogo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Lussemburgo": {
+  "file": "ui/lexicon.ts"
+ },
+ "Macerata": {
+  "file": "core/places.ts"
+ },
+ "Madrid": {
+  "file": "core/places.ts"
+ },
+ "Magnetopausa (lato da cui arriva il plasma di Giove)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnetopausa (lato del Sole)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnitudine apparente (dalla Terra)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnitudine assoluta": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnitudine assoluta (H)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnitudine G di Gaia (dalla Terra)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Magnitudine limite": {
+  "file": "ui/layers.ts"
+ },
+ "Mahia (Nuova Zelanda)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Malesia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Malta": {
+  "file": "core/places.ts"
+ },
+ "Malta (La Valletta)": {
+  "file": "core/places.ts"
+ },
+ "Manila": {
+  "file": "core/places.ts"
+ },
+ "Mantova": {
+  "file": "core/places.ts"
+ },
+ "Mappa (come appare da fuori)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Mappa della superficie": {
+  "file": "ui/infopanel.ts"
+ },
+ "Mar Giallo, lancio da piattaforma (Cina)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Marche": {
+  "file": "core/places.ts"
+ },
+ "Mare": {
+  "file": "render/places.ts"
+ },
+ "Marea su un corpo di 2 m": {
+  "file": "ui/bhhud.ts"
+ },
+ "Marocco": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Marrakech": {
+  "file": "core/places.ts"
+ },
+ "Marte": {
+  "file": "events/astroevents.ts"
+ },
+ "Massa": {
+  "file": "core/places.ts, ui/infopanel.ts"
+ },
+ "Massa al lancio": {
+  "file": "ui/infopanel.ts"
+ },
+ "massa terrestre": {
+  "file": "ui/infopanel.ts"
+ },
+ "masse terrestri": {
+  "file": "ui/infopanel.ts"
+ },
+ "Massimo a {v0}.": {
+  "file": "events/astroevents.ts"
+ },
+ "Massimo delle {name}": {
+  "file": "events/astroevents.ts"
+ },
+ "Matera": {
+  "file": "core/places.ts"
+ },
+ "materiale NASA, uso libero": {
+  "file": "ui/infopanel.ts"
+ },
+ "Mauna Kea (osservatori)": {
+  "file": "core/places.ts"
+ },
+ "Medio Oriente": {
+  "file": "core/places.ts"
+ },
+ "meno di due minuti": {
+  "file": "ui/gaia.ts"
+ },
+ "Mentre scarica puoi continuare a usarlo; se lo chiudi, la volta dopo riprende da dove era arrivato.": {
+  "file": "ui/gaia.ts"
+ },
+ "Mercurio": {
+  "file": "events/astroevents.ts"
+ },
+ "Messa al posto del Sole, arriverebbe {orbit}.": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Messico": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Messina": {
+  "file": "core/places.ts"
+ },
+ "Meteore": {
+  "file": "ui/events.ts"
+ },
+ "Metodo": {
+  "file": "ui/infopanel.ts"
+ },
+ "mezz'ora": {
+  "file": "ui/gaia.ts"
+ },
+ "Miami": {
+  "file": "core/places.ts"
+ },
+ "Milano": {
+  "file": "core/places.ts"
+ },
+ "Missione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Missione estesa": {
+  "file": "ui/lexicon.ts"
+ },
+ "Misura circa {v0} volte {name}.": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Misura da {name}: ora seleziona un altro corpo (con un clic o dalla ricerca).": {
+  "file": "ui/infopanel.ts"
+ },
+ "Misura da qui": {
+  "file": "ui/infopanel.ts"
+ },
+ "Misura la distanza fra questo corpo e un altro: premi qui, poi seleziona l'altro corpo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Modelli 3D delle sonde: NASA 3D Resources (la NASA non approva né sostiene questo progetto); per le sonde senza ": {
+  "file": "ui/help.ts"
+ },
+ "Modello 3D semplificato, costruito sulle dimensioni vere della sonda (": {
+  "file": "ui/infopanel.ts"
+ },
+ "Modello 3D: {autori} — ": {
+  "file": "ui/infopanel.ts"
+ },
+ "Modello della Via Lattea non disponibile": {
+  "file": "app.ts"
+ },
+ "Modello kepleriano approssimato (Standish)": {
+  "file": "sim/body.ts"
+ },
+ "Modello SGP4 con elementi CelesTrak": {
+  "file": "sim/body.ts"
+ },
+ "Modena": {
+  "file": "core/places.ts"
+ },
+ "Molise": {
+  "file": "core/places.ts"
+ },
+ "Moltiplicatore di velocità (+ e −)": {
+  "file": "ui/flighthud.ts"
+ },
+ "Mongolia": {
+  "file": "ui/lexicon.ts"
+ },
+ "Monte Bianco (4,8 km)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Monte o vulcano": {
+  "file": "render/places.ts"
+ },
+ "Montréal": {
+  "file": "core/places.ts"
+ },
+ "Monza": {
+  "file": "core/places.ts"
+ },
+ "Mosca": {
+  "file": "core/places.ts"
+ },
+ "Mostra le nubi": {
+  "file": "ui/infopanel.ts"
+ },
+ "Mostra o nascondi i livelli": {
+  "file": "ui/help.ts"
+ },
+ "Mostra o nascondi il campo magnetico del corpo selezionato": {
+  "file": "ui/help.ts"
+ },
+ "Mumbai": {
+  "file": "core/places.ts"
+ },
+ "N": {
+  "file": "core/places.ts, render/places.ts, ui/place.ts"
+ },
+ "nana arancione": {
+  "file": "core/stellar.ts"
+ },
+ "nana bianca": {
+  "file": "core/stellar.ts"
+ },
+ "nana bruna": {
+  "file": "core/stellar.ts"
+ },
+ "nana gialla": {
+  "file": "core/stellar.ts"
+ },
+ "nana rossa": {
+  "file": "core/stellar.ts"
+ },
+ "nane bianche": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Napoli": {
+  "file": "core/places.ts"
+ },
+ "Naro (Corea del Sud)": {
+  "file": "ui/lexicon.ts"
+ },
+ "NASA/JPL Horizons (interpolazione di Hermite)": {
+  "file": "sim/body.ts"
+ },
+ "NASA/JPL Horizons, proseguita col calcolo kepleriano mentre arriva il blocco successivo": {
+  "file": "sim/body.ts"
+ },
+ "Nascondi l'interfaccia (per gli screenshot)": {
+  "file": "ui/help.ts"
+ },
+ "Navigazione (GPS, Galileo, GLONASS, BeiDou)": {
+  "file": "render/satellites.ts"
+ },
+ "Near-Earth": {
+  "file": "data/classes.ts"
+ },
+ "Nebulosa": {
+  "file": "ui/lexicon.ts"
+ },
+ "Nebulose, ammassi, galassie, bracci": {
+  "file": "ui/layers.ts"
+ },
+ "Nei cataloghi": {
+  "file": "ui/infopanel.ts"
+ },
+ "nei Gemelli": {
+  "file": "events/astroevents.ts"
+ },
+ "nel Boote": {
+  "file": "events/astroevents.ts"
+ },
+ "nel Dragone": {
+  "file": "events/astroevents.ts"
+ },
+ "nel Leone": {
+  "file": "events/astroevents.ts"
+ },
+ "nel Perseo": {
+  "file": "events/astroevents.ts"
+ },
+ "nel Toro": {
+  "file": "events/astroevents.ts"
+ },
+ "nell'Acquario": {
+  "file": "events/astroevents.ts"
+ },
+ "nell'ombra della Terra (notte orbitale)": {
+  "file": "ui/infopanel.ts"
+ },
+ "nell'Orsa Minore": {
+  "file": "events/astroevents.ts"
+ },
+ "nella Lira": {
+  "file": "events/astroevents.ts"
+ },
+ "Nepal": {
+  "file": "ui/lexicon.ts"
+ },
+ "Nessun evento con questi filtri.": {
+  "file": "ui/events.ts"
+ },
+ "Nessun luogo con questo nome.": {
+  "file": "ui/place.ts"
+ },
+ "Nessun pianeta luminoso ben visibile stanotte.": {
+  "file": "ui/events.ts"
+ },
+ "Nessun risultato. Prova con il nome inglese o con il numero di catalogo.": {
+  "file": "ui/search.ts"
+ },
+ "Nessuna città inclusa con questo nome, e la ricerca in rete non è disponibile.": {
+  "file": "ui/place.ts"
+ },
+ "nessuna: orizzonte a 1 raggio, ultima orbita stabile del gas a 3 raggi": {
+  "file": "ui/bhhud.ts"
+ },
+ "nessuno nei prossimi giorni": {
+  "file": "ui/bhhud.ts"
+ },
+ "Nettuno": {
+  "file": "events/astroevents.ts"
+ },
+ "New York": {
+  "file": "core/places.ts"
+ },
+ "Nigeria": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "No": {
+  "file": "ui/infopanel.ts"
+ },
+ "Nomi": {
+  "file": "ui/layers.ts"
+ },
+ "Non esiste più": {
+  "file": "ui/infopanel.ts"
+ },
+ "Non operativo": {
+  "file": "ui/lexicon.ts"
+ },
+ "Non riesco a cominciare: {message}": {
+  "file": "ui/gaia.ts"
+ },
+ "Non si spargono a caso: si raccolgono in famiglie che raccontano le fasi della vita di una stella.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Non sono riuscito a fotografare la scena.": {
+  "file": "app.ts"
+ },
+ "Non sorge {from} in questo periodo.": {
+  "file": "events/astroevents.ts"
+ },
+ "Non visibile {from}: avviene di notte.": {
+  "file": "events/astroevents.ts"
+ },
+ "Non visibile {from}: la Luna è sotto l'orizzonte.": {
+  "file": "events/astroevents.ts"
+ },
+ "Non visibile {from}.": {
+  "file": "events/astroevents.ts"
+ },
+ "nord": {
+  "file": "core/places.ts, ui/groundhud.ts"
+ },
+ "nord-est": {
+  "file": "ui/groundhud.ts"
+ },
+ "nord-nordest": {
+  "file": "core/places.ts"
+ },
+ "nord-nordovest": {
+  "file": "core/places.ts"
+ },
+ "nord-ovest": {
+  "file": "ui/groundhud.ts"
+ },
+ "nordest": {
+  "file": "core/places.ts"
+ },
+ "nordovest": {
+  "file": "core/places.ts"
+ },
+ "Norvegia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Norvegia (oltre il Circolo polare)": {
+  "file": "core/places.ts"
+ },
+ "notte": {
+  "file": "ui/groundhud.ts"
+ },
+ "Notti senza Luna: le migliori per osservare galassie, nebulose e la Via Lattea.": {
+  "file": "events/astroevents.ts"
+ },
+ "Novara": {
+  "file": "core/places.ts"
+ },
+ "Nube di Oort · fino a circa 100.000 UA": {
+  "file": "render/regions.ts"
+ },
+ "Nube di Oort interna · da circa 2.000 UA": {
+  "file": "render/regions.ts"
+ },
+ "Numero NORAD": {
+  "file": "ui/infopanel.ts"
+ },
+ "Nuoro": {
+  "file": "core/places.ts"
+ },
+ "Nuova Delhi": {
+  "file": "core/places.ts"
+ },
+ "Nuova Zelanda": {
+  "file": "ui/lexicon.ts"
+ },
+ "O": {
+  "file": "core/places.ts, render/places.ts, ui/place.ts"
+ },
+ "O3b (SES)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Oggetto interstellare": {
+  "file": "ui/lexicon.ts"
+ },
+ "Oggetto transnettuniano": {
+  "file": "data/classes.ts"
+ },
+ "Oggetto transnettuniano (candidato pianeta nano)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Oggi il Sole non sorge": {
+  "file": "ui/events.ts"
+ },
+ "Oggi il Sole non tramonta": {
+  "file": "ui/events.ts"
+ },
+ "Olbia": {
+  "file": "core/places.ts"
+ },
+ "oltre 30.000 K": {
+  "file": "ui/layers.ts"
+ },
+ "Oltre il Sistema Solare": {
+  "file": "ui/layers.ts"
+ },
+ "oltre l'orbita della Terra": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre l'orbita di Giove": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre l'orbita di Marte": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre l'orbita di Mercurio": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre l'orbita di Saturno": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre l'orbita di Venere": {
+  "file": "ui/sizecompare.ts"
+ },
+ "oltre la superficie sorgente": {
+  "file": "ui/infopanel.ts"
+ },
+ "ombra sul {v0}% del disco": {
+  "file": "events/astroevents.ts"
+ },
+ "Operativo": {
+  "file": "ui/lexicon.ts"
+ },
+ "ora del computer": {
+  "file": "ui/place.ts"
+ },
+ "ora del luogo": {
+  "file": "ui/place.ts"
+ },
+ "ora del luogo{v0}": {
+  "file": "ui/place.ts"
+ },
+ "ora locale": {
+  "file": "ui/place.ts, ui/timebar.ts"
+ },
+ "Orbcomm": {
+  "file": "ui/lexicon.ts"
+ },
+ "Orbita circolare": {
+  "file": "ui/bhhud.ts"
+ },
+ "Orbita circolare con il periodo misurato (NASA Exoplanet Archive); l'orientamento nello spazio non è noto": {
+  "file": "sim/body.ts"
+ },
+ "Orbita in questo istante": {
+  "file": "ui/infopanel.ts"
+ },
+ "Orbita media approssimata (in attesa dei dati JPL)": {
+  "file": "sim/body.ts"
+ },
+ "Orbita misurata dall'ESO attorno a Sagittarius A* (Gillessen e collaboratori, 2017)": {
+  "file": "sim/body.ts"
+ },
+ "Orbita non calcolabile: manca la massa del corpo centrale.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Orbita osculatrice: la conica che il corpo percorrerebbe se da ora agisse solo la gravità del corpo centrale.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Orbite": {
+  "file": "ui/layers.ts"
+ },
+ "Orbite aperte": {
+  "file": "data/classes.ts"
+ },
+ "Orionidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Oristano": {
+  "file": "core/places.ts"
+ },
+ "orizzonte a {v0} raggi, ultima orbita stabile a {v1} raggi (un giro in {v2}), ": {
+  "file": "ui/bhhud.ts"
+ },
+ "Oslo": {
+  "file": "core/places.ts"
+ },
+ "Osservazioni usate per l'orbita": {
+  "file": "ui/infopanel.ts"
+ },
+ "ovest": {
+  "file": "core/places.ts, ui/groundhud.ts"
+ },
+ "ovest-nordovest": {
+  "file": "core/places.ts"
+ },
+ "ovest-sudovest": {
+  "file": "core/places.ts"
+ },
+ "Padova": {
+  "file": "core/places.ts"
+ },
+ "Paesi Bassi": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Pakistan": {
+  "file": "ui/lexicon.ts"
+ },
+ "Palermo": {
+  "file": "core/places.ts"
+ },
+ "Palmachim (Israele)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Parallasse": {
+  "file": "ui/infopanel.ts"
+ },
+ "Parigi": {
+  "file": "core/places.ts"
+ },
+ "Parma": {
+  "file": "core/places.ts"
+ },
+ "Parziale {from}: {times}, {cover}{low}. Solo con filtri solari adatti.": {
+  "file": "events/astroevents.ts"
+ },
+ "Parzialmente operativo": {
+  "file": "ui/lexicon.ts"
+ },
+ "Passa da ora locale a UTC": {
+  "file": "ui/timebar.ts"
+ },
+ "Passaggi ravvicinati degli asteroidi non disponibili: serve la connessione a internet (NASA/JPL CNEOS).": {
+  "file": "ui/events.ts"
+ },
+ "Passaggi ravvicinati: caricamento…": {
+  "file": "ui/events.ts"
+ },
+ "Passaggio visibile {of}": {
+  "file": "events/astroevents.ts"
+ },
+ "Pausa": {
+  "file": "ui/timebar.ts"
+ },
+ "Pausa / riprendi (spazio)": {
+  "file": "ui/timebar.ts"
+ },
+ "Pausa o riprendi il tempo": {
+  "file": "ui/help.ts"
+ },
+ "Pavia": {
+  "file": "core/places.ts"
+ },
+ "Pechino": {
+  "file": "core/places.ts"
+ },
+ "Per confronto": {
+  "file": "ui/infopanel.ts"
+ },
+ "per questo l'atlante non ti fa entrare. (L'«1 ora = 7 anni» dei film richiede un buco nero che ruota quasi al massimo.)": {
+  "file": "ui/bhhud.ts"
+ },
+ "Per restare fermo": {
+  "file": "ui/bhhud.ts"
+ },
+ "Pericentro": {
+  "file": "ui/infopanel.ts"
+ },
+ "Perielio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Perigeo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Periodo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Periodo di rotazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Periodo orbitale": {
+  "file": "ui/infopanel.ts"
+ },
+ "Perseidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Perù": {
+  "file": "ui/lexicon.ts"
+ },
+ "Perugia": {
+  "file": "core/places.ts"
+ },
+ "Pesaro": {
+  "file": "core/places.ts"
+ },
+ "Pescara": {
+  "file": "core/places.ts"
+ },
+ "Piacenza": {
+  "file": "core/places.ts"
+ },
+ "Pianeta gigante": {
+  "file": "ui/lexicon.ts"
+ },
+ "Pianeta nano": {
+  "file": "ui/lexicon.ts"
+ },
+ "Pianeta roccioso": {
+  "file": "ui/lexicon.ts"
+ },
+ "Pianeti": {
+  "file": "ui/events.ts, ui/layers.ts"
+ },
+ "Pianeti nani": {
+  "file": "ui/layers.ts"
+ },
+ "Piemonte": {
+  "file": "core/places.ts"
+ },
+ "piena (giorno orbitale)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Pisa": {
+  "file": "core/places.ts"
+ },
+ "Pistoia": {
+  "file": "core/places.ts"
+ },
+ "più brillante di qualsiasi stella": {
+  "file": "events/astroevents.ts"
+ },
+ "più grande dell'orbita della Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "più grande dell'orbita di Giove": {
+  "file": "ui/infopanel.ts"
+ },
+ "più grande dell'orbita di Marte": {
+  "file": "ui/infopanel.ts"
+ },
+ "più grande dell'orbita di Mercurio": {
+  "file": "ui/infopanel.ts"
+ },
+ "più grande dell'orbita di Venere": {
+  "file": "ui/infopanel.ts"
+ },
+ "Più lento / indietro (,)": {
+  "file": "ui/timebar.ts"
+ },
+ "Più lento o indietro": {
+  "file": "ui/timebar.ts"
+ },
+ "più o meno": {
+  "file": "ui/infopanel.ts"
+ },
+ "più o meno come quello della Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Più stelle": {
+  "file": "app.ts"
+ },
+ "Più stelle: scarica dal satellite Gaia (ESA) milioni di stelle con la loro distanza vera": {
+  "file": "app.ts"
+ },
+ "Più veloce": {
+  "file": "ui/timebar.ts"
+ },
+ "Più veloce (.)": {
+  "file": "ui/timebar.ts"
+ },
+ "Plesetsk (Russia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "poco meno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Polarità": {
+  "file": "ui/infopanel.ts"
+ },
+ "Polonia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Popolazioni": {
+  "file": "ui/layers.ts"
+ },
+ "Pordenone": {
+  "file": "core/places.ts"
+ },
+ "Porta il tempo a questo momento e inquadra": {
+  "file": "ui/events.ts"
+ },
+ "Portogallo": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Posizione fissa (catalogo stellare o di oggetti lontani)": {
+  "file": "sim/body.ts"
+ },
+ "Posizione non disponibile": {
+  "file": "sim/body.ts"
+ },
+ "Posizione non disponibile (permesso negato o servizio spento): cerca la tua città qui sopra.": {
+  "file": "ui/place.ts"
+ },
+ "Posizione: {v0}": {
+  "file": "ui/infopanel.ts"
+ },
+ "Posizione: coordinate e distanza dalla letteratura scientifica (vedi la scheda)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Posizione: modello della Via Lattea (Reid et al. 2019; distanza dal centro: GRAVITY 2021)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Posizioni JPL: {withData} di {total} corpi": {
+  "file": "app.ts"
+ },
+ "Posizioni: NASA/JPL Horizons, Small-Body Database e CNEOS; CelesTrak (satelliti). ": {
+  "file": "ui/help.ts"
+ },
+ "Potenza": {
+  "file": "core/places.ts"
+ },
+ "Potenzialmente pericoloso (PHA)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Praga": {
+  "file": "core/places.ts"
+ },
+ "Prato": {
+  "file": "core/places.ts"
+ },
+ "Preferiti": {
+  "file": "ui/search.ts"
+ },
+ "Preparo i tasselli del nuovo catalogo…": {
+  "file": "ui/gaia.ts"
+ },
+ "Preparo il Sistema Solare…": {
+  "file": "app.ts"
+ },
+ "Pressione al suolo": {
+  "file": "ui/infopanel.ts"
+ },
+ "prima dell'alba": {
+  "file": "events/astroevents.ts"
+ },
+ "Prima di quella data la trovi lungo la sua orbita.": {
+  "file": "app.ts"
+ },
+ "primavera": {
+  "file": "ui/infopanel.ts"
+ },
+ "primo quarto": {
+  "file": "events/astroevents.ts"
+ },
+ "probabilmente la cometa 96P/Machholz": {
+  "file": "events/astroevents.ts"
+ },
+ "Pronto: {label}, {v1} stelle.": {
+  "file": "ui/gaia.ts"
+ },
+ "Proprietario": {
+  "file": "ui/infopanel.ts"
+ },
+ "Prossimi passaggi vicino alla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Prossimo equinozio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Prossimo solstizio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Puglia": {
+  "file": "core/places.ts"
+ },
+ "Pulsar con pianeti": {
+  "file": "ui/lexicon.ts"
+ },
+ "Punto di riferimento": {
+  "file": "ui/lexicon.ts"
+ },
+ "Qatar": {
+  "file": "ui/lexicon.ts"
+ },
+ "Quadrantidi": {
+  "file": "events/astroevents.ts"
+ },
+ "quanti ne regge il monitor": {
+  "file": "ui/layers.ts"
+ },
+ "Quanto è grande?": {
+  "file": "ui/infopanel.ts"
+ },
+ "quasi allineato all'asse di rotazione": {
+  "file": "ui/infopanel.ts"
+ },
+ "questa stella": {
+  "file": "ui/infopanel.ts"
+ },
+ "Questo sistema non fornisce la posizione: cerca la tua città qui sopra.": {
+  "file": "ui/place.ts"
+ },
+ "Quota sulla superficie terrestre": {
+  "file": "ui/infopanel.ts"
+ },
+ "Raddoppia o dimezza la velocità": {
+  "file": "ui/help.ts"
+ },
+ "Raddrizza la vista (l'alto verso il nord dell'eclittica)": {
+  "file": "ui/help.ts"
+ },
+ "Raggio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Raggio dell'orizzonte degli eventi": {
+  "file": "ui/infopanel.ts"
+ },
+ "Raggio medio": {
+  "file": "ui/infopanel.ts"
+ },
+ "Ragusa": {
+  "file": "core/places.ts"
+ },
+ "Rallenta o accelera il tempo (sotto zero si va indietro)": {
+  "file": "ui/help.ts"
+ },
+ "Ravenna": {
+  "file": "core/places.ts"
+ },
+ "razzi accesi a {v0}": {
+  "file": "ui/bhhud.ts"
+ },
+ "Reggio Calabria": {
+  "file": "core/places.ts"
+ },
+ "Reggio Emilia": {
+  "file": "core/places.ts"
+ },
+ "Regione": {
+  "file": "render/places.ts"
+ },
+ "Regno Unito": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Repubblica Ceca": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Reykjavík": {
+  "file": "core/places.ts"
+ },
+ "Ricerca in rete non disponibile: solo le città incluse.": {
+  "file": "ui/place.ts"
+ },
+ "Ricerca in rete: Open-Meteo, con i dati di GeoNames (CC BY 4.0).": {
+  "file": "ui/place.ts"
+ },
+ "Riduci": {
+  "file": "ui/bhhud.ts"
+ },
+ "Rientrato": {
+  "file": "ui/lexicon.ts"
+ },
+ "Rieti": {
+  "file": "core/places.ts"
+ },
+ "Rimini": {
+  "file": "core/places.ts"
+ },
+ "Riprendi": {
+  "file": "ui/gaia.ts, ui/timebar.ts"
+ },
+ "rispetto all'eclittica": {
+  "file": "ui/infopanel.ts"
+ },
+ "rispetto all'equatore di {name}": {
+  "file": "ui/infopanel.ts"
+ },
+ "rispetto all'equatore terrestre": {
+  "file": "ui/infopanel.ts"
+ },
+ "Rispetto alla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Rivoluzioni al giorno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Roma": {
+  "file": "core/places.ts"
+ },
+ "Roma–Napoli (190 km)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Romania": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Rotazione (periodo siderale)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Rotazione del buco nero": {
+  "file": "ui/bhhud.ts"
+ },
+ "Rotazione del buco nero (non è ancora misurata con certezza: sceglila tu)": {
+  "file": "ui/bhhud.ts"
+ },
+ "Rotella": {
+  "file": "ui/help.ts"
+ },
+ "Rotella o pizzico": {
+  "file": "ui/help.ts"
+ },
+ "rotella per ingrandire": {
+  "file": "ui/groundhud.ts"
+ },
+ "Rovigo": {
+  "file": "core/places.ts"
+ },
+ "Ruanda": {
+  "file": "ui/lexicon.ts"
+ },
+ "Ruota la vista attorno al corpo inquadrato": {
+  "file": "ui/help.ts"
+ },
+ "Ruota su te stesso": {
+  "file": "ui/help.ts"
+ },
+ "Russia": {
+  "file": "core/places.ts"
+ },
+ "Russia (ex URSS)": {
+  "file": "ui/lexicon.ts"
+ },
+ "S": {
+  "file": "core/places.ts, render/places.ts, ui/place.ts"
+ },
+ "Salerno": {
+  "file": "core/places.ts"
+ },
+ "San Francisco": {
+  "file": "core/places.ts"
+ },
+ "San Marco (Kenya), base italiana": {
+  "file": "ui/lexicon.ts"
+ },
+ "San Marino": {
+  "file": "core/places.ts"
+ },
+ "Sardegna": {
+  "file": "core/places.ts"
+ },
+ "Sassari": {
+  "file": "core/places.ts"
+ },
+ "Satellite artificiale": {
+  "file": "ui/lexicon.ts"
+ },
+ "Satellite, NORAD {NORAD_CAT_ID}": {
+  "file": "app.ts"
+ },
+ "Satelliti artificiali": {
+  "file": "ui/layers.ts"
+ },
+ "Satelliti in arrivo": {
+  "file": "app.ts"
+ },
+ "Satelliti nascosti: i loro elementi valgono solo vicino a oggi": {
+  "file": "app.ts"
+ },
+ "Satelliti non disponibili": {
+  "file": "app.ts"
+ },
+ "Satelliti: {v0}": {
+  "file": "app.ts"
+ },
+ "Saturno": {
+  "file": "events/astroevents.ts"
+ },
+ "Savona": {
+  "file": "core/places.ts"
+ },
+ "Scarica": {
+  "file": "ui/gaia.ts"
+ },
+ "Scarica dall'archivio dell'ESA milioni di stelle in più, con la loro distanza vera": {
+  "file": "ui/gaia.ts"
+ },
+ "Scarico le stelle: zona {fatte} di {totali}": {
+  "file": "ui/gaia.ts"
+ },
+ "Scegli una data": {
+  "file": "ui/timebar.ts"
+ },
+ "Schermo intero": {
+  "file": "ui/help.ts"
+ },
+ "Sconosciuto": {
+  "file": "ui/lexicon.ts"
+ },
+ "Scoperta": {
+  "file": "ui/infopanel.ts"
+ },
+ "Scoperta (JPL)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Scopritore": {
+  "file": "ui/infopanel.ts"
+ },
+ "Scorciatoia": {
+  "file": "ui/search.ts"
+ },
+ "Scritto insieme a Claude, l'intelligenza artificiale di Anthropic (la \"mamma\", come dice Giovanni).": {
+  "file": "ui/help.ts"
+ },
+ "Sea Launch (oceano Pacifico)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Seleziona e vola fino al corpo": {
+  "file": "ui/help.ts"
+ },
+ "Seleziona un corpo e mostra la sua scheda": {
+  "file": "ui/help.ts"
+ },
+ "Semiasse maggiore": {
+  "file": "ui/infopanel.ts"
+ },
+ "Semnan (Iran)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Senza la luce del giorno le stelle si vedono anche con il Sole alto": {
+  "file": "ui/groundhud.ts"
+ },
+ "Senza un asse inclinato i raggi del Sole arrivano sempre con lo stesso angolo: non c'è un'estate né un inverno.": {
+  "file": "ui/infopanel.ts"
+ },
+ "sequenza principale": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Seul": {
+  "file": "core/places.ts"
+ },
+ "Sezione radar (RCS)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Shanghai": {
+  "file": "core/places.ts"
+ },
+ "Shift": {
+  "file": "ui/flighthud.ts, ui/help.ts"
+ },
+ "Shock di terminazione · circa 90 UA": {
+  "file": "render/regions.ts"
+ },
+ "Sì": {
+  "file": "ui/infopanel.ts"
+ },
+ "si è quasi certamente disintegrata al perielio, il {date}. ": {
+  "file": "app.ts"
+ },
+ "si inverte a ogni ciclo, circa ogni 11 anni": {
+  "file": "ui/infopanel.ts"
+ },
+ "Si vedono a {sepTxt} l'uno dall'altro: un bello spettacolo anche a occhio nudo{v1}. ": {
+  "file": "events/astroevents.ts"
+ },
+ "Sicilia": {
+  "file": "core/places.ts"
+ },
+ "Siena": {
+  "file": "core/places.ts"
+ },
+ "Singapore": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Siracusa": {
+  "file": "core/places.ts"
+ },
+ "Sito di atterraggio": {
+  "file": "render/places.ts"
+ },
+ "Slovenia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Sole": {
+  "file": "ui/events.ts, ui/hrdiagram.ts, ui/sizecompare.ts"
+ },
+ "Sole {v0}": {
+  "file": "ui/infopanel.ts"
+ },
+ "Sole allo zenit sopra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Soli": {
+  "file": "ui/sizecompare.ts"
+ },
+ "solstizio": {
+  "file": "ui/infopanel.ts"
+ },
+ "solstizio di dicembre": {
+  "file": "ui/infopanel.ts"
+ },
+ "Solstizio di dicembre": {
+  "file": "events/astroevents.ts"
+ },
+ "solstizio di giugno": {
+  "file": "ui/infopanel.ts"
+ },
+ "Solstizio di giugno": {
+  "file": "events/astroevents.ts"
+ },
+ "Sonda spaziale": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonda spaziale, in orbita attorno a {corpo}": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonda spaziale, in orbita della Terra": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonda spaziale, in orbita di Giove": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonda spaziale, in orbita di Marte": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonda spaziale, in orbita di Saturno": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sonde spaziali": {
+  "file": "ui/layers.ts"
+ },
+ "Sondrio": {
+  "file": "core/places.ts"
+ },
+ "Sono i detriti lasciati da {parent}: la Terra attraversa la loro scia. {moonTxt}": {
+  "file": "events/astroevents.ts"
+ },
+ "Sono vicini solo in prospettiva: in realtà li separano milioni di km.": {
+  "file": "events/astroevents.ts"
+ },
+ "sorge alle {v0}": {
+  "file": "ui/events.ts"
+ },
+ "sorge alle {v0} e tramonta alle {v1}: {v2} h {v3} min di luce": {
+  "file": "ui/infopanel.ts"
+ },
+ "sotto i 3.900 K": {
+  "file": "ui/layers.ts"
+ },
+ "Spagna": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Spazio": {
+  "file": "ui/help.ts"
+ },
+ "spostato di {v0} raggi ({v1}) dal centro": {
+  "file": "ui/infopanel.ts"
+ },
+ "Sri Lanka": {
+  "file": "ui/lexicon.ts"
+ },
+ "Sriharikota (India)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Stadio di razzo": {
+  "file": "ui/lexicon.ts"
+ },
+ "Stagione": {
+  "file": "ui/infopanel.ts"
+ },
+ "Stagioni": {
+  "file": "ui/events.ts, ui/infopanel.ts"
+ },
+ "Stanotte": {
+  "file": "ui/events.ts"
+ },
+ "Stati Uniti": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Stato": {
+  "file": "ui/infopanel.ts"
+ },
+ "Stazione spaziale": {
+  "file": "ui/events.ts"
+ },
+ "Stazione spaziale cinese Tiangong": {
+  "file": "app.ts"
+ },
+ "Stazione Spaziale Internazionale": {
+  "file": "app.ts, ui/infopanel.ts"
+ },
+ "Stazione Spaziale Internazionale (consorzio)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Stazione Spaziale Internazionale (ISS)": {
+  "file": "app.ts"
+ },
+ "Stazione spaziale Tiangong": {
+  "file": "ui/infopanel.ts"
+ },
+ "Stazione spaziale Tiangong (modulo Tianhe)": {
+  "file": "app.ts"
+ },
+ "Stazioni spaziali": {
+  "file": "render/satellites.ts, ui/events.ts"
+ },
+ "Stella": {
+  "file": "app.ts, ui/infopanel.ts, ui/lexicon.ts"
+ },
+ "Stella · {n}": {
+  "file": "ui/lexicon.ts"
+ },
+ "Stella {id} ({catalogLabel})": {
+  "file": "app.ts"
+ },
+ "stella al carbonio": {
+  "file": "core/stellar.ts"
+ },
+ "stella azzurra di sequenza principale": {
+  "file": "core/stellar.ts"
+ },
+ "stella bianca di sequenza principale": {
+  "file": "core/stellar.ts"
+ },
+ "stella bianco-gialla di sequenza principale": {
+  "file": "core/stellar.ts"
+ },
+ "stella blu di sequenza principale": {
+  "file": "core/stellar.ts"
+ },
+ "Stella con pianeti": {
+  "file": "ui/lexicon.ts"
+ },
+ "stella di sequenza principale": {
+  "file": "core/stellar.ts"
+ },
+ "stella di Wolf-Rayet": {
+  "file": "core/stellar.ts"
+ },
+ "Stella in orbita attorno a Sagittarius A*": {
+  "file": "ui/lexicon.ts"
+ },
+ "Stelle": {
+  "file": "ui/layers.ts"
+ },
+ "Stelle pronte!": {
+  "file": "app.ts"
+ },
+ "Stelle visibili fino alla magnitudine": {
+  "file": "ui/layers.ts"
+ },
+ "Stelle: {v0} di {v1} ({catalogLabel}, {tilesLoaded}/{tilesTotal} tasselli)": {
+  "file": "app.ts"
+ },
+ "Stelle: catalogo HYG v4.1 di David Nash (CC BY-SA 4.0) e, se scaricato dal pannello dei livelli, Gaia DR3 ": {
+  "file": "ui/help.ts"
+ },
+ "Stoccolma": {
+  "file": "core/places.ts"
+ },
+ "subgigante": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante arancione": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante azzurra": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante bianca": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante bianco-gialla": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante blu": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante gialla": {
+  "file": "core/stellar.ts"
+ },
+ "subgigante rossa": {
+  "file": "core/stellar.ts"
+ },
+ "subnana": {
+  "file": "core/stellar.ts"
+ },
+ "sud": {
+  "file": "core/places.ts, ui/groundhud.ts"
+ },
+ "sud-est": {
+  "file": "ui/groundhud.ts"
+ },
+ "sud-ovest": {
+  "file": "ui/groundhud.ts"
+ },
+ "sud-sudest": {
+  "file": "core/places.ts"
+ },
+ "sud-sudovest": {
+  "file": "core/places.ts"
+ },
+ "Sudafrica": {
+  "file": "ui/lexicon.ts"
+ },
+ "sudest": {
+  "file": "core/places.ts"
+ },
+ "sudovest": {
+  "file": "core/places.ts"
+ },
+ "Sulla superficie di un corpo: apre la descrizione del luogo (mare, cratere, sito di atterraggio)": {
+  "file": "ui/help.ts"
+ },
+ "Superficie sorgente": {
+  "file": "ui/infopanel.ts"
+ },
+ "supergigante blu": {
+  "file": "core/stellar.ts"
+ },
+ "supergigante gialla": {
+  "file": "core/stellar.ts"
+ },
+ "supergigante rossa": {
+  "file": "core/stellar.ts"
+ },
+ "supergiganti": {
+  "file": "ui/hrdiagram.ts"
+ },
+ "Superluna": {
+  "file": "events/astroevents.ts"
+ },
+ "Svalbard": {
+  "file": "core/places.ts"
+ },
+ "Svezia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Svizzera": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Svobodnyj (Russia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Taiwan": {
+  "file": "ui/lexicon.ts"
+ },
+ "Taiyuan (Cina)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Tanegashima (Giappone)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Taranto": {
+  "file": "core/places.ts"
+ },
+ "Tauridi del Nord": {
+  "file": "events/astroevents.ts"
+ },
+ "Teheran": {
+  "file": "core/places.ts"
+ },
+ "Telescopio spaziale Hubble": {
+  "file": "app.ts, ui/infopanel.ts"
+ },
+ "Temperatura del nucleo": {
+  "file": "ui/infopanel.ts"
+ },
+ "Temperatura della superficie": {
+  "file": "ui/infopanel.ts"
+ },
+ "Temperatura media": {
+  "file": "ui/infopanel.ts"
+ },
+ "Temperatura superficiale": {
+  "file": "ui/infopanel.ts"
+ },
+ "tempo reale": {
+  "file": "ui/timebar.ts"
+ },
+ "Teoria analitica (Astronomy Engine), in attesa dei dati JPL": {
+  "file": "sim/body.ts"
+ },
+ "Teramo": {
+  "file": "core/places.ts"
+ },
+ "Terni": {
+  "file": "core/places.ts"
+ },
+ "Terra": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Terre": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Testi: Wikipedia (CC BY-SA 4.0). Software: three.js, satellite.js, marked (MIT); caratteri Bodoni Moda e IBM Plex Sans (OFL); ": {
+  "file": "ui/help.ts"
+ },
+ "Texture ad alta risoluzione (8K, più lente da caricare)": {
+  "file": "ui/layers.ts"
+ },
+ "Texture: Solar System Scope (CC BY 4.0) e progetto Celestia (Urano, Nettuno, lune, pianeti nani e asteroidi; ": {
+  "file": "ui/help.ts"
+ },
+ "Thailandia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Tipo di oggetto": {
+  "file": "ui/infopanel.ts"
+ },
+ "Tipo spettrale": {
+  "file": "ui/infopanel.ts"
+ },
+ "Tipo stimato dal colore e dalla luminosità: il catalogo non riporta la classe spettrale.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Tokyo": {
+  "file": "core/places.ts"
+ },
+ "Torino": {
+  "file": "core/places.ts"
+ },
+ "Torna a girare attorno al corpo più vicino (V)": {
+  "file": "ui/flighthud.ts"
+ },
+ "Torna al Sole": {
+  "file": "ui/help.ts"
+ },
+ "Torna all'istante presente": {
+  "file": "ui/help.ts"
+ },
+ "Torna all'istante presente (N)": {
+  "file": "ui/timebar.ts"
+ },
+ "Torna nello spazio (T)": {
+  "file": "ui/groundhud.ts"
+ },
+ "Toronto": {
+  "file": "core/places.ts"
+ },
+ "Torre Eiffel (330 m)": {
+  "file": "ui/sizecompare.ts"
+ },
+ "Toscana": {
+  "file": "core/places.ts"
+ },
+ "Totale {from}! Totalità dalle {v1} alle {v2}; {times}{low}.": {
+  "file": "events/astroevents.ts"
+ },
+ "totalità di {v0} minuti": {
+  "file": "events/astroevents.ts"
+ },
+ "Traiettorie delle sonde": {
+  "file": "ui/layers.ts"
+ },
+ "tramonta alle {v0}": {
+  "file": "ui/events.ts"
+ },
+ "Transito di {v0} davanti al Sole": {
+  "file": "events/astroevents.ts"
+ },
+ "Transnettuniani": {
+  "file": "data/classes.ts"
+ },
+ "Trapani": {
+  "file": "core/places.ts"
+ },
+ "Trascina": {
+  "file": "ui/help.ts"
+ },
+ "trascina per guardarti intorno": {
+  "file": "ui/flighthud.ts, ui/groundhud.ts"
+ },
+ "Trasforma idrogeno in elio nel nucleo, nella fase stabile della sua vita. Più è calda e massiccia, più in fretta consuma il suo combustibile.": {
+  "file": "core/stellar.ts"
+ },
+ "Trentino-Alto Adige": {
+  "file": "core/places.ts"
+ },
+ "Trento": {
+  "file": "core/places.ts"
+ },
+ "Treviso": {
+  "file": "core/places.ts"
+ },
+ "Trieste": {
+  "file": "core/places.ts"
+ },
+ "Troiani di Giove": {
+  "file": "data/classes.ts"
+ },
+ "Tromsø": {
+  "file": "core/places.ts"
+ },
+ "Troppo piccola per accendere la fusione dell'idrogeno: una via di mezzo fra un pianeta gigante e una stella.": {
+  "file": "core/stellar.ts"
+ },
+ "Tunisi": {
+  "file": "core/places.ts"
+ },
+ "Tunisia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Turchia": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Tutte le comete conosciute": {
+  "file": "ui/layers.ts"
+ },
+ "UA": {
+  "file": "core/format.ts, ui/infopanel.ts"
+ },
+ "Uchinoura (Giappone)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Ucraina": {
+  "file": "ui/lexicon.ts"
+ },
+ "Udine": {
+  "file": "core/places.ts"
+ },
+ "ultimo quarto": {
+  "file": "events/astroevents.ts"
+ },
+ "Umbria": {
+  "file": "core/places.ts"
+ },
+ "un autobus": {
+  "file": "ui/sizecompare.ts"
+ },
+ "un campo da calcio": {
+  "file": "ui/sizecompare.ts"
+ },
+ "un campo da tennis": {
+  "file": "ui/sizecompare.ts"
+ },
+ "un grande dipolo, come una calamita, vicino al minimo dell'attività; al massimo diventa un groviglio": {
+  "file": "ui/infopanel.ts"
+ },
+ "un modello pubblico, versioni semplificate sulle dimensioni vere.": {
+  "file": "ui/help.ts"
+ },
+ "un po' più": {
+  "file": "ui/infopanel.ts"
+ },
+ "Un po' più piccola e fredda del Sole, molto stabile: vive decine di miliardi di anni.": {
+  "file": "core/stellar.ts"
+ },
+ "Un puntino nero attraversa il disco del Sole per {v0} ore. Da osservare solo con filtri solari adatti.": {
+  "file": "events/astroevents.ts"
+ },
+ "Un punto luminoso che attraversa il cielo in {v0}, senza lampeggiare.{shadow}": {
+  "file": "events/astroevents.ts"
+ },
+ "una bussola punterebbe verso nord, come sulla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "una bussola punterebbe verso sud (al contrario della Terra di oggi)": {
+  "file": "ui/infopanel.ts"
+ },
+ "una calamita da frigorifero fa circa 5 mT: {v0} volte di più": {
+  "file": "ui/infopanel.ts"
+ },
+ "Una delle stelle più grandi e luminose che esistano: decine di volte più massiccia del Sole, vive pochi milioni di anni e finirà come supernova.": {
+  "file": "core/stellar.ts"
+ },
+ "Una gigante rossa molto evoluta, con più carbonio che ossigeno nell'atmosfera: per questo appare di un rosso intenso.": {
+  "file": "core/stellar.ts"
+ },
+ "Una spinta in avanti o indietro": {
+  "file": "ui/help.ts"
+ },
+ "Una stella antica e povera di metalli, un po' meno luminosa di quelle di sequenza principale con lo stesso colore.": {
+  "file": "core/stellar.ts"
+ },
+ "Una stella che ha finito l'idrogeno nel nucleo e si è gonfiata: decine o centinaia di volte più grande del Sole. Fra circa 5 miliardi di anni anche il Sole diventerà così.": {
+  "file": "core/stellar.ts"
+ },
+ "Una stella come il Sole, nella fase stabile della sua vita: trasforma idrogeno in elio nel nucleo.": {
+  "file": "core/stellar.ts"
+ },
+ "Una stella massiccia e caldissima che ha perso gli strati esterni in un vento violento: destinata a esplodere come supernova.": {
+  "file": "core/stellar.ts"
+ },
+ "Una stella più grande e luminosa di quelle di sequenza principale con lo stesso colore: sta lasciando la fase stabile della sua vita.": {
+  "file": "core/stellar.ts"
+ },
+ "Ungheria": {
+  "file": "core/places.ts, ui/lexicon.ts"
+ },
+ "Urano": {
+  "file": "events/astroevents.ts"
+ },
+ "Urano ruota quasi \"sdraiato\": a turno ogni polo resta al Sole per circa 42 anni e poi al buio per altri 42.": {
+  "file": "ui/infopanel.ts"
+ },
+ "Ursidi": {
+  "file": "events/astroevents.ts"
+ },
+ "Uruguay": {
+  "file": "ui/lexicon.ts"
+ },
+ "Usa il nuovo catalogo": {
+  "file": "ui/gaia.ts"
+ },
+ "Usa la mia posizione": {
+  "file": "ui/place.ts"
+ },
+ "Usa queste coordinate": {
+  "file": "ui/place.ts"
+ },
+ "va quasi come lontano da qui": {
+  "file": "ui/bhhud.ts"
+ },
+ "Vai": {
+  "file": "ui/events.ts"
+ },
+ "Vai a una data": {
+  "file": "ui/timebar.ts"
+ },
+ "Valle d'Aosta": {
+  "file": "core/places.ts"
+ },
+ "Vancouver": {
+  "file": "core/places.ts"
+ },
+ "Vandenberg (California, USA)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Varese": {
+  "file": "core/places.ts"
+ },
+ "Variabile": {
+  "file": "ui/infopanel.ts"
+ },
+ "Varsavia": {
+  "file": "core/places.ts"
+ },
+ "Vaticano": {
+  "file": "core/places.ts"
+ },
+ "Velocità": {
+  "file": "ui/infopanel.ts"
+ },
+ "Velocità d'uscita (all'infinito)": {
+  "file": "ui/infopanel.ts"
+ },
+ "Velocità di fuga": {
+  "file": "ui/bhhud.ts, ui/infopanel.ts"
+ },
+ "Velocità rispetto {v0}": {
+  "file": "ui/infopanel.ts"
+ },
+ "Velocità rispetto al Sole": {
+  "file": "ui/infopanel.ts"
+ },
+ "Velocità rispetto alla Terra": {
+  "file": "ui/infopanel.ts"
+ },
+ "Venere": {
+  "file": "events/astroevents.ts"
+ },
+ "Veneto": {
+  "file": "core/places.ts"
+ },
+ "Venezia": {
+  "file": "core/places.ts"
+ },
+ "Venezuela": {
+  "file": "ui/lexicon.ts"
+ },
+ "Vercelli": {
+  "file": "core/places.ts"
+ },
+ "Verona": {
+  "file": "core/places.ts"
+ },
+ "verso {wind} ({v1}°), {v2} l'orizzonte": {
+  "file": "ui/groundhud.ts"
+ },
+ "verso lo zenit": {
+  "file": "ui/groundhud.ts"
+ },
+ "Vettore": {
+  "file": "ui/infopanel.ts"
+ },
+ "Via Lattea (modello)": {
+  "file": "ui/layers.ts"
+ },
+ "Vibo Valentia": {
+  "file": "core/places.ts"
+ },
+ "Vicenza": {
+  "file": "core/places.ts"
+ },
+ "Vicino a Sagittarius A*": {
+  "file": "ui/bhhud.ts"
+ },
+ "Vicino a: {name}, {d} dalla superficie più vicina": {
+  "file": "ui/flighthud.ts"
+ },
+ "Vienna": {
+  "file": "core/places.ts"
+ },
+ "Vietnam": {
+  "file": "ui/lexicon.ts"
+ },
+ "Visibile {from}, dalle {v1} alle {v2} (in parte se il Sole sorge o tramonta).": {
+  "file": "events/astroevents.ts"
+ },
+ "Visibile {from}: {span}; al massimo ({v2}) la Luna è {v3}.": {
+  "file": "events/astroevents.ts"
+ },
+ "Visibilità e orari {v0} ({v1}). Calcoli: Astronomy Engine (D. Cross), satellite.js (SGP4); passaggi ravvicinati: NASA/JPL CNEOS; meteore: International Meteor Organization.": {
+  "file": "ui/events.ts"
+ },
+ "Viterbo": {
+  "file": "core/places.ts"
+ },
+ "Vola fino al corpo e torna a girargli attorno": {
+  "file": "ui/help.ts"
+ },
+ "Vola fuori dalla Galassia (vista della Via Lattea)": {
+  "file": "ui/help.ts"
+ },
+ "Volo": {
+  "file": "app.ts"
+ },
+ "Volo libero": {
+  "file": "ui/flighthud.ts"
+ },
+ "Volo libero (V): muoviti nello spazio con W A S D e il mouse": {
+  "file": "app.ts"
+ },
+ "Volo libero: muoviti nello spazio come con un'astronave (di nuovo V per tornare all'orbita)": {
+  "file": "ui/help.ts"
+ },
+ "Vostočnyj (Russia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Wallops (Virginia, USA)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Washington": {
+  "file": "core/places.ts"
+ },
+ "Wenchang (Cina)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Woomera (Australia)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Xichang (Cina)": {
+  "file": "ui/lexicon.ts"
+ },
+ "Zagabria": {
+  "file": "core/places.ts"
+ },
+ "Zona abitabile": {
+  "file": "render/regions.ts"
+ },
+ "Zone e confini (zona abitabile, Kuiper, eliopausa, Oort, punti di Lagrange)": {
+  "file": "ui/layers.ts"
+ },
+ "Zurigo": {
+  "file": "core/places.ts"
+ }
+}

@@ -1,0 +1,815 @@
+{
+ "_descrizione": "Texture incluse nel progetto. Generato da scripts/prepara_texture_lune.py: non modificare a mano.",
+ "fonte": {
+  "nome": "Celestia",
+  "repository": "https://github.com/CelestiaProject/CelestiaContent",
+  "commit": "e6d05411f1ab8aecbd8d72173711ae37f228deaf"
+ },
+ "textures": {
+  "amalthea": {
+   "file": "amalthea.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/lores/amalthea.jpg",
+   "autori": [
+    "2024 ItzImcool"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it"
+  },
+  "ariel": {
+   "file": "ariel.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ariel.jpg",
+   "autori": [
+    "2024-2026 ItzImcool",
+    "2020 Paul Schenk",
+    "NASA / JPL / Ted Stryk"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ariel.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "arrokoth": {
+   "file": "arrokoth.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.36,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/arrokoth.jpg",
+   "autori": [
+    "2023 Roman Tkachenko",
+    "2023 Askaniy Anpilogov"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/arrokoth.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "bennu": {
+   "file": "bennu.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.46,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/bennu.jpg",
+   "autori": [
+    "2023 Askaniy Anpilogov",
+    "Lunar and Planetary Laboratory, University of Arizona"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/bennu.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "callisto": {
+   "file": "callisto.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/callisto.jpg",
+   "autori": [
+    "Askaniy Anpilogov, da una mappa di John van Vliet"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/callisto.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "ceres": {
+   "file": "ceres.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.44,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ceres.jpg",
+   "autori": [
+    "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA (sonda Dawn)",
+    "SevenSpheres (zone mancanti)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ceres.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "charon": {
+   "file": "charon.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "fonte": "NASA",
+   "url": "https://science.nasa.gov/photojournal/charons-surface-in-detail/",
+   "autori": [
+    "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute (PIA21860)",
+    "zone mai fotografate e colore della calotta nord aggiunti da Atlante Celeste"
+   ],
+   "licenza": "NASA",
+   "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+   "grigia": false
+  },
+  "deimos": {
+   "file": "deimos.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 2.72,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/deimos.jpg",
+   "autori": [
+    "Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015."
+   ],
+   "licenza": "CC0-1.0",
+   "licenza_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/deimos.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "dione": {
+   "file": "dione.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/dione.jpg",
+   "autori": [
+    "Paul Schenk (mappe a colori migliorati, NASA Photojournal)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/dione.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "enceladus": {
+   "file": "enceladus.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/enceladus.jpg",
+   "autori": [
+    "Paul Schenk (mappe a colori migliorati, NASA Photojournal)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/enceladus.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "eros": {
+   "file": "eros.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/eros.jpg",
+   "autori": [
+    "2020 Askaniy Anpilogov",
+    "Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015",
+    "NEAR-A-MSI-5-DIM-EROS/ORBIT-V1.0 <https://sbnarchive.psi.edu/pds3/near/NEAR_A_MSI_5_DIM_EROS_ORBIT_V1_0/>"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/eros.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "europa": {
+   "file": "europa.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/europa.jpg",
+   "autori": [
+    "John van Vliet"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/europa.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "ganymede": {
+   "file": "ganymede.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ganymede.jpg",
+   "autori": [
+    "2019 Askaniy Anpilogov",
+    "NASA/JPL-Caltech/ASI/USGS",
+    "NASA/JPL-Caltech/Björn Jónsson",
+    "NASA/JPL-Caltech/SwRI/MSSS/Brian Swift"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ganymede.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "hydra": {
+   "file": "hydra.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/lores/hydra.jpg",
+   "autori": [
+    "2022 Askaniy Anpilogov"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it"
+  },
+  "hyperion": {
+   "file": "hyperion.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/hyperion.jpg",
+   "autori": [
+    "2024, 2026 ItzImcool"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it"
+  },
+  "iapetus": {
+   "file": "iapetus.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/iapetus.jpg",
+   "autori": [
+    "Paul Schenk (mappe a colori migliorati, NASA Photojournal)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/iapetus.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "ida": {
+   "file": "ida.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/ida.jpg",
+   "autori": [
+    "2025 ItzImcool"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/ida.jpg",
+   "hi_size": [
+    2048,
+    1024
+   ]
+  },
+  "io": {
+   "file": "io.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/io.png",
+   "autori": [
+    "2024-2025 ItzImcool",
+    "NASA/JPL-Caltech/ASI/USGS",
+    "NASA / JPL / SwRI / MSSS / Gerald Eichstädt / Jason Perry / John Rogers",
+    "2026 AstroChara"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/io.png",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "itokawa": {
+   "file": "itokawa.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 2.07,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/itokawa.jpg",
+   "autori": [
+    "Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015."
+   ],
+   "licenza": "CC0-1.0",
+   "licenza_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/itokawa.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "lutetia": {
+   "file": "lutetia.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/lutetia.jpg",
+   "autori": [
+    "2024 ItzImcool",
+    "ESA 2010 MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/lutetia.jpg",
+   "hi_size": [
+    2048,
+    1024
+   ]
+  },
+  "mimas": {
+   "file": "mimas.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/mimas.jpg",
+   "autori": [
+    "Paul Schenk (mappe a colori migliorati, NASA Photojournal)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/mimas.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "miranda": {
+   "file": "miranda.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/miranda.jpg",
+   "autori": [
+    "2025-2026 ItzImcool",
+    "2020 Paul Schenk",
+    "NASA / JPL / Ted Stryk"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/miranda.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "neptune": {
+   "file": "neptune.jpg",
+   "size": [
+    4096,
+    2048
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/neptune.jpg",
+   "autori": [
+    "2018 Askaniy Anpilogov",
+    "NASA/JPL-Caltech/Björn Jónsson",
+    "Karkoschka, E. 1994"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it"
+  },
+  "nix": {
+   "file": "nix.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/nix.jpg",
+   "autori": [
+    "2022 Askaniy Anpilogov"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/nix.jpg",
+   "hi_size": [
+    2048,
+    1024
+   ]
+  },
+  "oberon": {
+   "file": "oberon.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/oberon.jpg",
+   "autori": [
+    "2025-2026 ItzImcool",
+    "2020 Paul Schenk",
+    "NASA / JPL / Ted Stryk"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+  },
+  "phobos": {
+   "file": "phobos.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 3.5,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/phobos.jpg",
+   "autori": [
+    "2019 Askaniy Anpilogov",
+    "Stooke. P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/phobos.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "phoebe": {
+   "file": "phoebe.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.28,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/phoebe.jpg",
+   "autori": [
+    "da una mappa di John van Vliet"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/phoebe.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "pluto": {
+   "file": "pluto.jpg",
+   "size": [
+    1920,
+    960
+   ],
+   "gain": 1.0,
+   "fonte": "NASA",
+   "url": "https://science.nasa.gov/image-detail/amf-pia11707/",
+   "autori": [
+    "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute (PIA11707)",
+    "zone mai fotografate riempite da Atlante Celeste"
+   ],
+   "licenza": "NASA",
+   "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+   "grigia": false
+  },
+  "proteus": {
+   "file": "proteus.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/lores/proteus.jpg",
+   "autori": [
+    "Astra-Planetshine"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+  },
+  "rhea": {
+   "file": "rhea.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/rhea.jpg",
+   "autori": [
+    "Paul Schenk (NASA Photojournal)",
+    "Björn Jónsson (mappa di albedo)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/rhea.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "ryugu": {
+   "file": "ryugu.jpg",
+   "size": [
+    1024,
+    512
+   ],
+   "gain": 1.78,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ryugu.jpg",
+   "autori": [
+    "2026 Askaniy Anpilogov",
+    "ISAS/JAXA",
+    "Yasuhiro Yokota et al 2021 Planet. Sci. J. 2 177, Opposition Observations of 162173 Ryugu: Normal Albedo Map Highlights Variations in Regolith Characteristics, DOI 10.3847/PSJ/ac14ba"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/ryugu.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "tethys": {
+   "file": "tethys.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/tethys.jpg",
+   "autori": [
+    "Paul Schenk (mappe a colori migliorati, NASA Photojournal)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/tethys.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "titan": {
+   "file": "titan.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/titan.png",
+   "autori": [
+    "2026 Askaniy Anpilogov, Pedro Garcia, AstroChara",
+    "Martonchik & Orton (1994)",
+    "Karkoschka et al. (2016)",
+    "Seignovert et al. (2019)",
+    "NASA/JPL-Caltech/ASI/USGS",
+    "Caltech-JPL/Univ. of Arizona/LPG-Univ. of Nantes-CNRS"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/titan.png",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "titan_haze": {
+   "file": "titan_haze.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/titan-clouds.jpg",
+   "autori": [
+    "Gordan Ugarković",
+    "Kevin M. Gill",
+    "2025 ShadowDragon777",
+    "2026 AstroChara"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/titan-clouds.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "titania": {
+   "file": "titania.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/titania.jpg",
+   "autori": [
+    "2025-2026 ItzImcool",
+    "2020 Paul Schenk",
+    "NASA / JPL / Ted Stryk"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+  },
+  "triton": {
+   "file": "triton.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/triton.jpg",
+   "autori": [
+    "2018 Askaniy Anpilogov",
+    "NASA/JPL-Caltech/ASI/USGS"
+   ],
+   "licenza": "CC-BY-3.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/3.0/deed.it",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/triton.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  },
+  "umbriel": {
+   "file": "umbriel.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": true,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/medres/umbriel.jpg",
+   "autori": [
+    "2025-2026 ItzImcool",
+    "2020 Paul Schenk",
+    "2006 Phil Stooke",
+    "NASA / JPL / Ted Stryk"
+   ],
+   "licenza": "CC-BY-SA-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+  },
+  "uranus": {
+   "file": "uranus.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "fonte": "Solar System Scope",
+   "url": "https://www.solarsystemscope.com/textures/",
+   "autori": [
+    "Solar System Scope (INOVE), su dati NASA"
+   ],
+   "licenza": "CC-BY-4.0",
+   "licenza_url": "https://creativecommons.org/licenses/by/4.0/deed.it",
+   "grigia": false
+  },
+  "vesta": {
+   "file": "vesta.jpg",
+   "size": [
+    2048,
+    1024
+   ],
+   "gain": 1.0,
+   "grigia": false,
+   "fonte": "Celestia",
+   "url": "https://github.com/CelestiaProject/CelestiaContent/blob/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/vesta.jpg",
+   "autori": [
+    "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA (sonda Dawn)",
+    "USGS (topografia)"
+   ],
+   "licenza": "GPL-2.0-or-later",
+   "licenza_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+   "hi_url": "https://raw.githubusercontent.com/CelestiaProject/CelestiaContent/e6d05411f1ab8aecbd8d72173711ae37f228deaf/textures/hires/vesta.jpg",
+   "hi_size": [
+    4096,
+    2048
+   ]
+  }
+ }
+}

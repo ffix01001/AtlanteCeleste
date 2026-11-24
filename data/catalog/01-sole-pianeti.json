@@ -1,0 +1,138 @@
+{
+  "_descrizione": "Baricentro, Sole e pianeti. Unità: km, kg, gradi, ore. Rotazione: modello IAU WGCCRE (ra/dec del polo in funzione dei secoli T da J2000, meridiano W in funzione dei giorni d). Elementi di riserva: JPL 'Approximate Positions of the Planets' (Standish), eclittica J2000.",
+  "bodies": [
+    {
+      "id": "ssb", "slug": "baricentro", "name": "Baricentro del Sistema Solare", "kind": "barycenter",
+      "parent": null, "rank": 9, "radius_km": 0
+    },
+    {
+      "id": "naif:10", "slug": "sole", "name": "Sole", "kind": "star", "parent": "ssb", "rank": 0,
+      "radius_km": 695700, "color": "#fff1d6", "texture": "sun", "wiki": "Sole",
+      "magnetic": {"pole_lat": 90.0, "pole_lon": 0.0, "moment_north": false, "offset_r": [0.0, 0.0, 0.0], "magnetopause_r": 2.5, "model": "source_surface", "src": "modello del dipolo con superficie sorgente a 2,5 raggi (Altschuler e Newkirk, 1969; Schatten, Wilcox e Ness, 1969). È uno schema del Sole vicino al minimo di attività: il campo vero cambia di continuo e non è prevedibile a lungo termine", "b_eq_nt": 50000, "b_src": "campo polare medio del Sole vicino al minimo di attività, circa 1 gauss (Wilcox Solar Observatory)"},
+      "rotation": {"model": "iau", "ra": [286.13, 0], "dec": [63.87, 0], "w": [84.176, 14.1844]},
+      "horizons": {"command": "10", "center": "500@0", "step": "2 d"},
+      "phys": {
+        "mass_kg": 1.9885e30, "gm_km3s2": 132712440041.94, "radius_km": 695700, "density_gcm3": 1.408,
+        "gravity_ms2": 274.0, "escape_kms": 617.6, "rotation_h": 609.12, "obliquity_deg": 7.25,
+        "temp_surface_k": 5772, "temp_core_k": 15700000, "luminosity_w": 3.828e26, "spectral": "G2V", "age_gyr": 4.6
+      }
+    },
+    {
+      "id": "naif:199", "slug": "mercurio", "name": "Mercurio", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 2439.4, "color": "#9a9592", "texture": "mercury", "wiki": "Mercurio (astronomia)",
+      "magnetic": {"pole_lat": 90.0, "pole_lon": 0.0, "moment_north": false, "offset_r": [0.0, 0.0, 0.196], "magnetopause_r": 1.45, "src": "MESSENGER (Anderson e collaboratori, 2012): inclinazione sotto 0,8°, centro spostato di 479 km verso nord; magnetopausa a circa 1,4 raggi", "b_eq_nt": 195, "b_src": "MESSENGER (Anderson e collaboratori, 2012): circa 195 nT all'equatore; per lo spostamento del dipolo verso nord, al polo sud il campo è più debole che al polo nord"},
+      "rotation": {"model": "iau", "ra": [281.0103, -0.0328], "dec": [61.4155, -0.0049], "w": [329.5988, 6.1385108]},
+      "horizons": {"command": "199", "center": "500@10", "step": "1 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [0.38709927, 0.00000037], "e": [0.20563593, 0.00001906], "i": [7.00497902, -0.00594749], "L": [252.25032350, 149472.67411175], "lp": [77.45779628, 0.16047689], "node": [48.33076593, -0.12534081]},
+      "phys": {
+        "mass_kg": 3.3011e23, "gm_km3s2": 22031.86, "radius_km": 2439.4, "density_gcm3": 5.429, "gravity_ms2": 3.70,
+        "escape_kms": 4.25, "rotation_h": 1407.6, "solar_day_h": 4222.6, "obliquity_deg": 0.034, "temp_c": 167,
+        "temp_range_c": [-173, 427], "pressure_bar": 0, "albedo": 0.142, "moons": 0
+      }
+    },
+    {
+      "id": "naif:299", "slug": "venere", "name": "Venere", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "field_note": "Venere non ha un campo magnetico proprio: il vento solare, urtando la ionosfera, crea attorno al pianeta un campo «indotto» debole, di poche decine di nanotesla.",
+      "radius_km": 6051.8, "color": "#e8d5a8", "texture": "venus_atmosphere", "texture_alt": "venus_surface", "wiki": "Venere (astronomia)",
+      "atmosphere": {"color": "#ffdfa8", "scale": 1.012, "strength": 0.9},
+      "rotation": {"model": "iau", "ra": [272.76, 0], "dec": [67.16, 0], "w": [160.20, -1.4813688]},
+      "horizons": {"command": "299", "center": "500@10", "step": "1 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [0.72333566, 0.00000390], "e": [0.00677672, -0.00004107], "i": [3.39467605, -0.00078890], "L": [181.97909950, 58517.81538729], "lp": [131.60246718, 0.00268329], "node": [76.67984255, -0.27769418]},
+      "phys": {
+        "mass_kg": 4.8673e24, "gm_km3s2": 324858.59, "radius_km": 6051.8, "density_gcm3": 5.243, "gravity_ms2": 8.87,
+        "escape_kms": 10.36, "rotation_h": -5832.6, "solar_day_h": 2802.0, "obliquity_deg": 177.36, "temp_c": 464,
+        "pressure_bar": 92, "albedo": 0.689, "moons": 0
+      }
+    },
+    {
+      "id": "naif:399", "slug": "terra", "name": "Terra", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 6371.0, "radii_km": [6378.137, 6378.137, 6356.752], "color": "#4a77c5", "texture": "earth_daymap",
+      "night_texture": "earth_nightmap", "clouds_texture": "earth_clouds", "wiki": "Terra",
+      "atmosphere": {"color": "#6fa8ff", "scale": 1.018, "strength": 1.0},
+      "scatter": {"top_km": 60, "rayleigh_km": [0.0058, 0.0135, 0.0331], "h_r_km": 8.0, "mie_km": 0.021, "mie_albedo": [0.9, 0.9, 0.9], "h_m_km": 1.2, "g": 0.76, "ms": 0.3},
+      "magnetic": {"pole_lat": 80.8, "pole_lon": -72.8, "moment_north": false, "offset_r": [0.0, 0.0, 0.0], "magnetopause_r": 10.0, "src": "WMM2025 e IGRF-14 (NOAA, IAGA): polo geomagnetico nord a 80,8° N, 72,8° O, asse inclinato di 9,2°; magnetopausa a 6–15 raggi, di solito 10", "b_eq_nt": 29400, "b_src": "IGRF-14, termine di dipolo per il 2025 (circa 29.400 nT); il campo vero varia da circa 22 µT (anomalia del Sud Atlantico) a 67 µT (vicino ai poli magnetici)"},
+      "rotation": {"model": "iau", "ra": [0.0, -0.641], "dec": [90.0, -0.557], "w": [190.147, 360.9856235]},
+      "horizons": {"command": "399", "center": "500@10", "step": "1 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [1.00000261, 0.00000562], "e": [0.01671123, -0.00004392], "i": [-0.00001531, -0.01294668], "L": [100.46457166, 35999.37244981], "lp": [102.93768193, 0.32327364], "node": [0.0, 0.0]},
+      "phys": {
+        "mass_kg": 5.9722e24, "gm_km3s2": 398600.435, "radius_km": 6371.0, "density_gcm3": 5.513, "gravity_ms2": 9.80,
+        "escape_kms": 11.19, "rotation_h": 23.9345, "solar_day_h": 24.0, "obliquity_deg": 23.44, "temp_c": 15,
+        "temp_range_c": [-89, 57], "pressure_bar": 1.014, "albedo": 0.434, "moons": 1
+      }
+    },
+    {
+      "id": "naif:499", "slug": "marte", "name": "Marte", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "field_note": "Marte non ha più un campo magnetico globale, ma la crosta ne conserva tracce antiche, soprattutto nell'emisfero sud. Nel punto di atterraggio la sonda InSight ha misurato circa 2.000 nT, dieci volte più del previsto.",
+      "radius_km": 3389.5, "radii_km": [3396.2, 3396.2, 3376.2], "color": "#c1440e", "texture": "mars", "wiki": "Marte (astronomia)",
+      "atmosphere": {"color": "#e0a080", "scale": 1.01, "strength": 0.35},
+      "scatter": {"top_km": 80, "rayleigh_km": [0.0001, 0.00024, 0.0006], "h_r_km": 11.1, "mie_km": 0.045, "mie_albedo": [0.97, 0.86, 0.66], "h_m_km": 11.0, "g": 0.65, "ms": 0.8},
+      "rotation": {"model": "iau", "ra": [317.68143, -0.1061], "dec": [52.88650, -0.0609], "w": [176.630, 350.89198226]},
+      "horizons": {"command": "499", "center": "500@10", "step": "1 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [1.52371034, 0.00001847], "e": [0.09339410, 0.00007882], "i": [1.84969142, -0.00813131], "L": [-4.55343205, 19140.30268499], "lp": [-23.94362959, 0.44441088], "node": [49.55953891, -0.29257343]},
+      "phys": {
+        "mass_kg": 6.4171e23, "gm_km3s2": 42828.37, "radius_km": 3389.5, "density_gcm3": 3.934, "gravity_ms2": 3.73,
+        "escape_kms": 5.03, "rotation_h": 24.6229, "solar_day_h": 24.6597, "obliquity_deg": 25.19, "temp_c": -65,
+        "temp_range_c": [-140, 20], "pressure_bar": 0.006, "albedo": 0.170, "moons": 2
+      }
+    },
+    {
+      "id": "naif:599", "slug": "giove", "name": "Giove", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 69911, "radii_km": [71492, 71492, 66854], "color": "#d8ca9d", "texture": "jupiter", "wiki": "Giove (astronomia)",
+      "atmosphere": {"color": "#e8dcc0", "scale": 1.01, "strength": 0.5},
+      "rings": {"inner_km": 92000, "outer_km": 226000, "color": "#b89a7a", "bands": [[107250, 30500, 0.03], [125750, 6500, 0.14], [155500, 53000, 0.025], [204000, 44000, 0.012]], "src": "Voyager, Galileo e New Horizons: alone interno, anello principale (da 122.500 a 129.000 km) e due anelli «di garza» fatti di polvere strappata alle lune Amaltea e Tebe. Sono così tenui che dalla Terra non si vedono: nel disegno sono molto più visibili del vero"},
+      "magnetic": {"pole_lat": 79.69, "pole_lon": 163.39, "moment_north": true, "offset_r": [0.0, 0.0, 0.0], "magnetopause_r": 75.0, "src": "JRM09 (Connerney e collaboratori, 2018, sonda Juno): asse inclinato di 10,3° verso la longitudine ovest 196,6°; magnetopausa a 45–100 raggi", "b_eq_nt": 417000, "b_src": "JRM09 (Connerney e collaboratori, 2018): circa 4,2 gauss all'equatore; vicino ai poli il campo vero supera 1 mT, il più forte fra i pianeti"},
+      "rotation": {"model": "iau", "ra": [268.056595, -0.006499], "dec": [64.495303, 0.002413], "w": [284.95, 870.5360000]},
+      "horizons": {"command": "599", "center": "500@10", "step": "4 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [5.20288700, -0.00011607], "e": [0.04838624, -0.00013253], "i": [1.30439695, -0.00183714], "L": [34.39644051, 3034.74612775], "lp": [14.72847983, 0.21252668], "node": [100.47390909, 0.20469106]},
+      "phys": {
+        "mass_kg": 1.89813e27, "gm_km3s2": 126686531.9, "radius_km": 69911, "density_gcm3": 1.326, "gravity_ms2": 24.79,
+        "escape_kms": 59.5, "rotation_h": 9.925, "obliquity_deg": 3.13, "temp_c": -110, "albedo": 0.538,
+        "moons": 95, "moons_note": "più di 90 lune note; il numero cresce con le nuove scoperte"
+      }
+    },
+    {
+      "id": "naif:699", "slug": "saturno", "name": "Saturno", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 58232, "radii_km": [60268, 60268, 54364], "color": "#e3d3a3", "texture": "saturn", "wiki": "Saturno (astronomia)",
+      "atmosphere": {"color": "#f0e0b0", "scale": 1.01, "strength": 0.45},
+      "rings": {"inner_km": 74500, "outer_km": 136780, "texture": "saturn_ring_alpha", "color": "#d8c8a0"},
+      "magnetic": {"pole_lat": 90.0, "pole_lon": 0.0, "moment_north": true, "offset_r": [0.0, 0.0, 0.0468], "magnetopause_r": 20.0, "src": "Cassini Grand Finale (Cao e collaboratori): inclinazione sotto 0,007°, equatore magnetico spostato di 0,047 raggi (2820 km) verso nord; magnetopausa a 16–22 raggi", "b_eq_nt": 21100, "b_src": "Cassini Grand Finale (Dougherty e collaboratori, 2018): circa 0,21 gauss all'equatore"},
+      "rotation": {"model": "iau", "ra": [40.589, -0.036], "dec": [83.537, -0.004], "w": [38.90, 810.7939024]},
+      "horizons": {"command": "699", "center": "500@10", "step": "4 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [9.53667594, -0.00125060], "e": [0.05386179, -0.00050991], "i": [2.48599187, 0.00193609], "L": [49.95424423, 1222.49362201], "lp": [92.59887831, -0.41897216], "node": [113.66242448, -0.28867794]},
+      "phys": {
+        "mass_kg": 5.6834e26, "gm_km3s2": 37931206.2, "radius_km": 58232, "density_gcm3": 0.687, "gravity_ms2": 10.44,
+        "escape_kms": 35.5, "rotation_h": 10.656, "obliquity_deg": 26.73, "temp_c": -140, "albedo": 0.499,
+        "moons": 274, "moons_note": "274 lune riconosciute (marzo 2025): il pianeta con più lune note"
+      }
+    },
+    {
+      "id": "naif:799", "slug": "urano", "name": "Urano", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 25362, "radii_km": [25559, 25559, 24973], "color": "#b5e3e3", "texture": "uranus", "wiki": "Urano (astronomia)",
+      "atmosphere": {"color": "#b0f0ff", "scale": 1.012, "strength": 0.6},
+      "rings": {"inner_km": 41000, "outer_km": 51400, "color": "#9aa0a8", "bands": [[41837, 2, 0.3], [42234, 2, 0.3], [42571, 3, 0.3], [44718, 8, 0.45], [45661, 8, 0.45], [47176, 2, 0.3], [47627, 3, 0.5], [48300, 5, 0.5], [50024, 2, 0.12], [51149, 58, 0.8]], "src": "Scoperti nel 1977 guardando una stella sparire dietro di loro, poi fotografati da Voyager 2 (1986): nove anelli principali strettissimi e scuri come il carbone (6, 5, 4, α, β, η, γ, δ, ε), più il tenue λ. Il più largo, ε, misura da 20 a 96 km. Nel disegno sono più chiari e un po' più larghi del vero, altrimenti non si vedrebbero"},
+      "magnetic": {"pole_lat": 31.4, "pole_lon": 0.0, "moment_north": true, "offset_r": [-0.02, 0.02, -0.31], "magnetopause_r": 18.0, "lon_known": false, "src": "Voyager 2 (Ness e collaboratori, 1986): dipolo inclinato di 59° e spostato di 0,31 raggi verso il polo sud; magnetopausa a 18 raggi", "b_eq_nt": 22800, "b_src": "Voyager 2 (Ness e collaboratori, 1986): circa 0,23 gauss; per lo spostamento del dipolo, sulla superficie il campo va da circa 0,1 a 1,1 gauss"},
+      "rotation": {"model": "iau", "ra": [257.311, 0], "dec": [-15.175, 0], "w": [203.81, -501.1600928]},
+      "horizons": {"command": "799", "center": "500@10", "step": "8 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [19.18916464, -0.00196176], "e": [0.04725744, -0.00004397], "i": [0.77263783, -0.00242939], "L": [313.23810451, 428.48202785], "lp": [170.95427630, 0.40805281], "node": [74.01692503, 0.04240589]},
+      "phys": {
+        "mass_kg": 8.6810e25, "gm_km3s2": 5793951.3, "radius_km": 25362, "density_gcm3": 1.27, "gravity_ms2": 8.87,
+        "escape_kms": 21.3, "rotation_h": -17.24, "obliquity_deg": 97.77, "temp_c": -195, "albedo": 0.488,
+        "moons": 29, "moons_note": "29 lune note dopo la scoperta di S/2025 U1 con il telescopio James Webb (2025)"
+      }
+    },
+    {
+      "id": "naif:899", "slug": "nettuno", "name": "Nettuno", "kind": "planet", "parent": "naif:10", "rank": 1,
+      "radius_km": 24622, "radii_km": [24764, 24764, 24341], "color": "#4b70dd", "texture": "neptune", "wiki": "Nettuno (astronomia)",
+      "atmosphere": {"color": "#7090ff", "scale": 1.012, "strength": 0.6},
+      "rings": {"inner_km": 40900, "outer_km": 63100, "color": "#9fa8b8", "bands": [[41900, 2000, 0.05], [53200, 113, 0.3], [55200, 4000, 0.04], [57200, 100, 0.15], [62933, 35, 0.4]], "src": "Voyager 2 (1989): cinque anelli di polvere, dall'interno Galle, Le Verrier, Lassell, Arago e Adams. In quello di Adams la materia è raccolta in alcuni archi più densi (qui non disegnati). Nel disegno sono più visibili del vero"},
+      "magnetic": {"pole_lat": 43.1, "pole_lon": 0.0, "moment_north": true, "offset_r": [0.17, 0.46, -0.24], "magnetopause_r": 26.5, "lon_known": false, "src": "Voyager 2 (Ness e collaboratori, 1989): dipolo inclinato di 47° e spostato di 0,55 raggi; magnetopausa a 26,5 raggi", "b_eq_nt": 14200, "b_src": "Voyager 2 (Ness e collaboratori, 1989): circa 0,14 gauss; per lo spostamento del dipolo, sulla superficie il campo va da meno di 0,1 a circa 0,9 gauss"},
+      "rotation": {"model": "iau", "ra": [299.36, 0], "dec": [43.46, 0], "w": [249.978, 541.1397757]},
+      "horizons": {"command": "899", "center": "500@10", "step": "8 d"},
+      "elements": {"frame": "ecliptic_j2000", "a": [30.06992276, 0.00026291], "e": [0.00859048, 0.00005105], "i": [1.77004347, 0.00035372], "L": [-55.12002969, 218.45945325], "lp": [44.96476227, -0.32241464], "node": [131.78422574, -0.00508664]},
+      "phys": {
+        "mass_kg": 1.02413e26, "gm_km3s2": 6835099.5, "radius_km": 24622, "density_gcm3": 1.638, "gravity_ms2": 11.15,
+        "escape_kms": 23.5, "rotation_h": 16.11, "obliquity_deg": 28.32, "temp_c": -200, "albedo": 0.442, "moons": 16
+      }
+    }
+  ]
+}

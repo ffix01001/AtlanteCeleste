@@ -1,0 +1,285 @@
+{
+ "descrizione": "Bracci a spirale della Via Lattea: spirali logaritmiche a tratti. Nei tratti misurati i parametri sono quelli di Reid et al. 2019 (ApJ 885, 131, tabella 2); il lato opposto della Galassia, mai osservato direttamente, è un prolungamento plausibile.",
+ "convenzioni": "beta (gradi) = azimut galattocentrico, 0 verso il Sole, crescente nel verso della rotazione galattica; R in kpc. Coordinate: x = -R cos(beta), y = R sin(beta), assi galattici IAU centrati su Sgr A*.",
+ "fonti": [
+  "Reid M. J. et al. 2019, ApJ 885, 131",
+  "GRAVITY Collaboration 2021, A&A 647, A59 (R0 = 8,275 kpc)"
+ ],
+ "R0_kpc": 8.275,
+ "barra": {
+  "semi_lunghezza_kpc": 5.0,
+  "angolo_deg": 27.0,
+  "nota": "angolo fra l'asse della barra e la linea Sole-centro; estremo vicino a longitudini positive (Bland-Hawthorn & Gerhard 2016)"
+ },
+ "disco": {
+  "scala_radiale_kpc": 2.6,
+  "spessore_sottile_kpc": 0.3,
+  "spessore_spesso_kpc": 0.9,
+  "nota": "Bland-Hawthorn & Gerhard 2016"
+ },
+ "bracci": [
+  {
+   "id": "norma-esterno",
+   "name": "Braccio Norma-Esterno",
+   "major": true,
+   "measured": [
+    [
+     -16,
+     71
+    ],
+    [
+     354,
+     414
+    ]
+   ],
+   "points": [
+    [
+     -110,
+     16.863
+    ],
+    [
+     -60,
+     14.458
+    ],
+    [
+     -16,
+     12.627
+    ],
+    [
+     18,
+     12.24
+    ],
+    [
+     45,
+     11.321
+    ],
+    [
+     71,
+     10.502
+    ],
+    [
+     354,
+     4.428
+    ],
+    [
+     378,
+     4.46
+    ],
+    [
+     396,
+     3.99
+    ],
+    [
+     414,
+     3.57
+    ]
+   ],
+   "label_beta": 30,
+   "label_xyz": [
+    -10.239,
+    5.911,
+    0.0
+   ]
+  },
+  {
+   "id": "scudo-centauro",
+   "name": "Braccio Scudo-Centauro",
+   "major": true,
+   "measured": [
+    [
+     0,
+     104
+    ]
+   ],
+   "points": [
+    [
+     -170,
+     10.202
+    ],
+    [
+     -120,
+     8.475
+    ],
+    [
+     -60,
+     6.784
+    ],
+    [
+     0,
+     5.431
+    ],
+    [
+     23,
+     4.91
+    ],
+    [
+     60,
+     4.275
+    ],
+    [
+     104,
+     3.626
+    ]
+   ],
+   "label_beta": -120,
+   "label_xyz": [
+    4.237,
+    -7.34,
+    0.0
+   ]
+  },
+  {
+   "id": "sagittario-carena",
+   "name": "Braccio Sagittario-Carena",
+   "major": true,
+   "measured": [
+    [
+     -33,
+     97
+    ]
+   ],
+   "points": [
+    [
+     -160,
+     12.62
+    ],
+    [
+     -100,
+     10.296
+    ],
+    [
+     -60,
+     8.989
+    ],
+    [
+     -33,
+     8.203
+    ],
+    [
+     0,
+     6.871
+    ],
+    [
+     24,
+     6.04
+    ],
+    [
+     60,
+     5.974
+    ],
+    [
+     97,
+     5.907
+    ],
+    [
+     140,
+     5.036
+    ],
+    [
+     190,
+     4.184
+    ]
+   ],
+   "label_beta": -60,
+   "label_xyz": [
+    -4.457,
+    -7.719,
+    0.0
+   ]
+  },
+  {
+   "id": "perseo",
+   "name": "Braccio di Perseo",
+   "major": true,
+   "measured": [
+    [
+     -23,
+     115
+    ]
+   ],
+   "points": [
+    [
+     -120,
+     14.734
+    ],
+    [
+     -70,
+     12.573
+    ],
+    [
+     -23,
+     10.832
+    ],
+    [
+     0,
+     10.07
+    ],
+    [
+     40,
+     8.87
+    ],
+    [
+     80,
+     7.971
+    ],
+    [
+     115,
+     7.26
+    ],
+    [
+     160,
+     6.144
+    ],
+    [
+     210,
+     5.104
+    ]
+   ],
+   "label_beta": 70,
+   "label_xyz": [
+    -2.8,
+    7.693,
+    0.0
+   ]
+  },
+  {
+   "id": "orione",
+   "name": "Braccio di Orione (Braccio Locale)",
+   "major": false,
+   "measured": [
+    [
+     -8,
+     34
+    ]
+   ],
+   "points": [
+    [
+     -30,
+     9.475
+    ],
+    [
+     -8,
+     8.769
+    ],
+    [
+     9,
+     8.26
+    ],
+    [
+     34,
+     7.564
+    ],
+    [
+     55,
+     7.025
+    ]
+   ],
+   "label_beta": 22,
+   "label_xyz": [
+    -7.316,
+    2.956,
+    0.0
+   ]
+  }
+ ]
+}

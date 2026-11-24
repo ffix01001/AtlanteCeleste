@@ -1,0 +1,17 @@
+# dipendenze e build
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+__pycache__/
+.pytest_cache/
+
+# dati scaricati al volo (si ricreano da soli)
+data/cache/
+data/textures/
+data/sources/
+
+*.log
+
+# diagramma H-R calcolato dal server (si ricrea da solo)
+data/generated/stars/*/hr.json
+scripts/modelli_3d/node_modules/

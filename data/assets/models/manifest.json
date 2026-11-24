@@ -1,0 +1,394 @@
+{
+ "models": {
+  "voyager": {
+   "file": "voyager.glb",
+   "name": "Voyager",
+   "size_m": [
+    7.75,
+    11.04,
+    16.91
+   ],
+   "radius_m": 14.22,
+   "note": "L'antenna parabolica resta puntata verso la Terra, come sulla sonda vera: è da lì che arrivano, dopo quasi un giorno di viaggio, i suoi segnali.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "earth"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      0,
+      1
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "view": {
+    "phase_deg": 80,
+    "elev_deg": 20
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/JPL-Caltech",
+    "originale": "Voyager Probe (B).glb"
+   }
+  },
+  "pioneer": {
+   "file": "pioneer.glb",
+   "name": "Pioneer 10 e 11",
+   "size_m": [
+    4.52,
+    8.25,
+    2.54
+   ],
+   "radius_m": 6.88,
+   "note": "L'antenna è puntata verso la Terra e la sonda ruota su se stessa, quasi cinque giri al minuto. Il modello è quello di Pioneer 10; Pioneer 11 è la sua gemella.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      0,
+      -1
+     ],
+     "to": "earth"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      -1,
+      0
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "spin_rpm": 4.8,
+   "view": {
+    "phase_deg": 80,
+    "elev_deg": 20
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/Ames",
+    "originale": "Pioneer 10.glb"
+   }
+  },
+  "jwst": {
+   "file": "jwst.glb",
+   "name": "James Webb",
+   "size_m": [
+    12.87,
+    11.26,
+    21
+   ],
+   "radius_m": 11.01,
+   "note": "Lo schermo solare, grande come un campo da tennis, è sempre rivolto verso il Sole: gli specchi dorati restano al buio e al freddo, a circa −230 °C.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      -1,
+      0
+     ],
+     "to": "sun"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      0,
+      1
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "view": {
+    "phase_deg": 115,
+    "elev_deg": 30
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/GSFC",
+    "originale": "James Webb Space Telescope (B).glb"
+   }
+  },
+  "juno": {
+   "file": "juno.glb",
+   "name": "Juno",
+   "size_m": [
+    16.75,
+    6.29,
+    16.5
+   ],
+   "radius_m": 11.89,
+   "note": "Juno ruota su se stessa (due giri al minuto) con l'antenna verso la Terra, e i tre pannelli solari rivolti al Sole: è la sonda a energia solare arrivata più lontano.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "earth"
+    },
+    "secondary": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "spin_rpm": 2,
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/JPL-Caltech",
+    "originale": "Juno (B).glb"
+   }
+  },
+  "parker": {
+   "file": "parker.glb",
+   "name": "Parker Solar Probe",
+   "size_m": [
+    5.75,
+    5.26,
+    6.61
+   ],
+   "radius_m": 5.26,
+   "note": "Lo scudo termico, spesso 11 cm, è sempre rivolto verso il Sole: dietro, gli strumenti restano a temperatura ambiente mentre davanti si superano i 1000 °C.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      0,
+      -1
+     ],
+     "to": "sun"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/Johns Hopkins APL",
+    "originale": "Parker Solar Probe.glb"
+   }
+  },
+  "osiris": {
+   "file": "osiris.glb",
+   "name": "OSIRIS-REx / OSIRIS-APEX",
+   "size_m": [
+    2.74,
+    2.4,
+    6.93
+   ],
+   "radius_m": 3.61,
+   "note": "Il modello è quello di OSIRIS-REx, che nel 2023 ha riportato sulla Terra i campioni dell'asteroide Bennu; ora, come OSIRIS-APEX, è in viaggio verso Apophis. L'antenna è puntata verso la Terra.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "to": "earth"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/Goddard/University of Arizona",
+    "originale": "OSIRIS-REx.glb"
+   }
+  },
+  "hubble": {
+   "file": "hubble.glb",
+   "name": "Hubble",
+   "size_m": [
+    11.64,
+    13.35,
+    12.73
+   ],
+   "radius_m": 8.68,
+   "note": "Il telescopio è puntato sul campo dell'Hubble Ultra Deep Field, una delle immagini più profonde dell'universo.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "radec:53.1625,-27.7914"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      0,
+      1
+     ],
+     "to": "sun"
+    }
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/STScI",
+    "originale": "Hubble Space Telescope (A).glb"
+   }
+  },
+  "iss": {
+   "file": "iss.glb",
+   "name": "Stazione Spaziale Internazionale",
+   "size_m": [
+    73.3,
+    28.99,
+    99.22
+   ],
+   "radius_m": 63.49,
+   "note": "Vola con un lato sempre rivolto verso la Terra e la prua nel verso del moto; gli otto grandi pannelli solari ruotano sui loro giunti per seguire il Sole. A ogni giro passa circa 35 minuti nell'ombra della Terra, al buio.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "nadir"
+    },
+    "secondary": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "to": "velocity"
+    }
+   },
+   "trackers": [
+    {
+     "match": "ALPHA_ROT",
+     "axis": [
+      0,
+      0,
+      1
+     ],
+     "normal": [
+      0,
+      1,
+      0
+     ],
+     "two_sided": true
+    },
+    {
+     "match": "BETA_ROT",
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "normal": "inward_z"
+    }
+   ],
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA (modello IGOAL, Johnson Space Center)",
+    "originale": "International Space Station (ISS).glb"
+   }
+  },
+  "newhorizons": {
+   "file": "newhorizons.glb",
+   "name": "New Horizons",
+   "size_m": [
+    3.82,
+    2.18,
+    2.41
+   ],
+   "radius_m": 2.33,
+   "note": "L'antenna parabolica resta puntata verso la Terra. Dal 2015, quando ha sorvolato Plutone, la sonda si allontana nella fascia di Kuiper.",
+   "attitude": {
+    "primary": {
+     "axis": [
+      0,
+      1,
+      0
+     ],
+     "to": "earth"
+    },
+    "secondary": {
+     "axis": [
+      0,
+      0,
+      1
+     ],
+     "to": "eclnorth"
+    }
+   },
+   "view": {
+    "phase_deg": 75,
+    "elev_deg": 25
+   },
+   "credit": {
+    "fonte": "NASA 3D Resources",
+    "url": "https://science.nasa.gov/3d-resources/",
+    "licenza": "Materiale NASA, uso libero (linee guida per i media NASA)",
+    "licenza_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "autori": "NASA/Johns Hopkins APL",
+    "originale": "New Horizons (stampa 3D)"
+   }
+  }
+ },
+ "bodies": {
+  "naif:-31": "voyager",
+  "naif:-32": "voyager",
+  "naif:-23": "pioneer",
+  "naif:-24": "pioneer",
+  "naif:-170": "jwst",
+  "naif:-61": "juno",
+  "naif:-96": "parker",
+  "naif:-64": "osiris",
+  "naif:-98": "newhorizons",
+  "norad:20580": "hubble",
+  "norad:25544": "iss"
+ },
+ "_descrizione": "Modelli 3D di sonde e satelliti (scripts/modelli_3d/prepara.mjs). Assi nel sistema del modello, in metri."
+}

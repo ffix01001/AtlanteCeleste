@@ -1,0 +1,101 @@
+{
+  "_descrizione": "Comete e oggetti interstellari notevoli. ID = designazione primaria nel JPL Small-Body Database. I comandi Horizons sono in ordine di tentativo.",
+  "bodies": [
+    {
+      "id": "sb:1P", "slug": "halley", "name": "Cometa di Halley (1P)", "kind": "comet", "parent": "naif:10", "rank": 2,
+      "radius_km": 5.5, "radii_km": [7.5, 4, 4], "color": "#cfd8e0", "wiki": "Cometa di Halley", "sbdb": "1P",
+      "rotation": {"model": "spin", "period_h": 52.8},
+      "horizons": {"command": ["DES=1P;CAP;NOFRAG;", "DES=1P;CAP;", "1P;"], "center": "500@10", "step": "1 d"},
+      "phys": {"mass_kg": 2.2e14, "dimensions": "circa 15 × 8 × 8 km", "albedo": 0.04, "period_y": 75.3,
+               "discovery": {"by": "Edmond Halley (riconobbe la periodicità)", "date": "1705", "place": "Oxford"}}
+    },
+    {
+      "id": "sb:2P", "slug": "encke", "name": "Cometa Encke (2P)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 2.4, "color": "#cfd8e0", "wiki": "2P/Encke", "sbdb": "2P",
+      "rotation": {"model": "spin", "period_h": 11.1},
+      "horizons": {"command": ["DES=2P;CAP;NOFRAG;", "DES=2P;CAP;", "2P;"], "center": "500@10", "step": "1 d"},
+      "phys": {"radius_km": 2.4, "albedo": 0.046, "period_y": 3.3,
+               "discovery": {"by": "Pierre Méchain (prima osservazione); Johann Franz Encke calcolò l'orbita", "date": "1786-01-17"}}
+    },
+    {
+      "id": "sb:67P", "slug": "67p", "name": "Cometa 67P/Churyumov-Gerasimenko", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 1.65, "radii_km": [2.2, 1.4, 1.1], "color": "#7a7a78", "wiki": "67P/Churyumov-Gerasimenko", "sbdb": "67P",
+      "rotation": {"model": "spin", "period_h": 12.06},
+      "horizons": {"command": ["DES=67P;CAP;NOFRAG;", "DES=67P;CAP;", "67P;"], "center": "500@10", "step": "1 d"},
+      "phys": {"mass_kg": 9.982e12, "dimensions": "lobo maggiore 4,1 × 3,3 × 1,8 km; lobo minore 2,6 × 2,3 × 1,8 km",
+               "density_gcm3": 0.533, "rotation_h": 12.06, "albedo": 0.06, "period_y": 6.4,
+               "discovery": {"by": "Klim Churyumov, Svetlana Gerasimenko", "date": "1969", "place": "lastre fotografiche riprese ad Alma-Ata (oggi Almaty)"}}
+    },
+    {
+      "id": "sb:109P", "slug": "swift-tuttle", "name": "Cometa Swift-Tuttle (109P)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 13, "color": "#cfd8e0", "wiki": "109P/Swift-Tuttle", "sbdb": "109P",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=109P;CAP;NOFRAG;", "DES=109P;CAP;", "109P;"], "center": "500@10", "step": "2 d"},
+      "phys": {"radius_km": 13, "period_y": 133,
+               "discovery": {"by": "Lewis Swift, Horace Tuttle", "date": "1862-07-16"}}
+    },
+    {
+      "id": "sb:55P", "slug": "tempel-tuttle", "name": "Cometa Tempel-Tuttle (55P)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 1.8, "color": "#cfd8e0", "wiki": "55P/Tempel-Tuttle", "sbdb": "55P",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=55P;CAP;NOFRAG;", "DES=55P;CAP;", "55P;"], "center": "500@10", "step": "1 d"},
+      "phys": {"radius_km": 1.8, "period_y": 33.2,
+               "discovery": {"by": "Wilhelm Tempel, Horace Tuttle", "date": "1865-12-19"}}
+    },
+    {
+      "id": "sb:12P", "slug": "pons-brooks", "name": "Cometa Pons-Brooks (12P)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 15, "color": "#a8e0d0", "wiki": "12P/Pons-Brooks", "sbdb": "12P",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=12P;CAP;NOFRAG;", "DES=12P;CAP;", "12P;"], "center": "500@10", "step": "1 d"},
+      "phys": {"radius_km": 15, "period_y": 71,
+               "discovery": {"by": "Jean-Louis Pons", "date": "1812-07-12", "place": "Marsiglia"}}
+    },
+    {
+      "id": "sb:C/1995 O1", "slug": "hale-bopp", "name": "Cometa Hale-Bopp", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 30, "color": "#cfe0ff", "wiki": "C/1995 O1 (Hale-Bopp)", "sbdb": "C/1995 O1",
+      "rotation": {"model": "spin", "period_h": 11.35},
+      "horizons": {"command": ["DES=C/1995 O1;", "C/1995 O1;"], "center": "500@10", "step": "4 d"},
+      "phys": {"radius_km": 30, "rotation_h": 11.35, "period_y": 2500,
+               "discovery": {"by": "Alan Hale, Thomas Bopp", "date": "1995-07-23", "place": "Nuovo Messico e Arizona"}}
+    },
+    {
+      "id": "sb:C/2020 F3", "slug": "neowise", "name": "Cometa NEOWISE (C/2020 F3)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 2.5, "color": "#e0e8ff", "wiki": "C/2020 F3 (NEOWISE)", "sbdb": "C/2020 F3",
+      "rotation": {"model": "spin", "period_h": 7.6},
+      "horizons": {"command": ["DES=C/2020 F3;", "C/2020 F3;"], "center": "500@10", "step": "2 d"},
+      "phys": {"radius_km": 2.5, "period_y": 6700,
+               "discovery": {"by": "Telescopio spaziale NEOWISE (NASA)", "date": "2020-03-27"}}
+    },
+    {
+      "id": "sb:C/2023 A3", "slug": "tsuchinshan-atlas", "name": "Cometa Tsuchinshan-ATLAS (C/2023 A3)", "kind": "comet", "parent": "naif:10", "rank": 3,
+      "radius_km": 2, "color": "#e0e8ff", "wiki": "C/2023 A3 (Tsuchinshan-ATLAS)", "sbdb": "C/2023 A3",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=C/2023 A3;", "C/2023 A3;"], "center": "500@10", "step": "2 d"},
+      "phys": {"discovery": {"by": "Osservatorio della Montagna Purpurea (Tsuchinshan, Cina) e rete ATLAS (Sudafrica)", "date": "2023-01-09"}}
+    },
+    {
+      "id": "sb:1I", "slug": "oumuamua", "name": "1I/ʻOumuamua", "kind": "comet", "interstellar": true, "inactive": true, "parent": "naif:10", "rank": 2,
+      "radius_km": 0.1, "radii_km": [0.2, 0.03, 0.03], "color": "#c08060", "wiki": "1I/ʻOumuamua", "sbdb": "1I",
+      "rotation": {"model": "spin", "period_h": 8.67},
+      "horizons": {"command": ["DES=A/2017 U1;", "DES=1I;", "1I;", "A/2017 U1;"], "center": "500@10", "step": "2 d"},
+      "phys": {"dimensions": "forse 100–1000 m di lunghezza, molto allungato", "rotation_h": 8.67, "eccentricity": 1.20,
+               "discovery": {"by": "Robert Weryk, telescopio Pan-STARRS1", "date": "2017-10-19", "place": "Haleakalā, Hawaii"}}
+    },
+    {
+      "id": "sb:2I", "slug": "borisov", "name": "2I/Borisov", "kind": "comet", "interstellar": true, "parent": "naif:10", "rank": 3,
+      "radius_km": 0.2, "color": "#a8c8ff", "wiki": "2I/Borisov", "sbdb": "2I",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=C/2019 Q4;", "DES=2I;", "2I;", "C/2019 Q4;"], "center": "500@10", "step": "2 d"},
+      "phys": {"radius_km": 0.2, "eccentricity": 3.36,
+               "discovery": {"by": "Gennadij Borisov (astrofilo, telescopio autocostruito)", "date": "2019-08-30", "place": "Nauchnyj, Crimea"}}
+    },
+    {
+      "id": "sb:3I", "slug": "3i-atlas", "name": "3I/ATLAS", "kind": "comet", "interstellar": true, "parent": "naif:10", "rank": 2,
+      "radius_km": 1, "color": "#b0d8ff", "wiki": "3I/ATLAS", "sbdb": "3I",
+      "rotation": {"model": "none"},
+      "horizons": {"command": ["DES=1004083;", "DES=C/2025 N1;", "DES=3I;", "3I;"], "center": "500@10", "step": "1 d"},
+      "phys": {"eccentricity": 6.14, "perihelion_au": 1.36,
+               "discovery": {"by": "Rete ATLAS (telescopio di Río Hurtado)", "date": "2025-07-01", "place": "Cile"}}
+    }
+  ]
+}

@@ -1,0 +1,1196 @@
+{
+  "_descrizione": "Via Lattea e oggetti oltre il Sistema Solare. Posizioni fisse: 'fixed' con ascensione retta/declinazione ICRS (gradi) e distanza dal Sole (parsec), oppure 'model_kpc' nel sistema del modello galattico (origine in Sgr A*, assi galattici, kpc). 'show' limita la visibilità dell'etichetta in base alla distanza della camera dal Sole ('sun') o dall'oggetto stesso ('self'). Distanze: Sgr A* GRAVITY 2021 (8275 pc); Nubi di Magellano Pietrzyński 2019 e Graczyk 2020; Omega Centauri Baumgardt & Vasiliev 2021; Pleiadi e Iadi da Gaia; M16 Kuhn et al. 2019. Ammassi aperti stella per stella ('open_cluster': raggio di metà massa, raggio mareale, numero di stelle): Pleiadi Lodieu et al. 2019 (A&A 628, A66), Iadi Röser et al. 2011 (A&A 531, A92). Nubi di Magellano in 3D ('cloud': disco inclinato): Grande Nube Inno et al. 2016 (ApJ 832, 176, Cefeidi: i = 25,05°, linea dei nodi 150,76°; spessore 0,4 kpc indicativo), Piccola Nube Subramanian & Subramaniam 2015 (A&A 573, A135, Cefeidi: i = 64,4°, linea dei nodi 155,3°, altezza di scala 0,82 kpc); nella foto della Piccola Nube si escludono 47 Tucanae e NGC 362, ammassi della Via Lattea in primo piano.",
+  "bodies": [
+    {
+      "id": "gal:mw",
+      "slug": "via-lattea",
+      "name": "Via Lattea",
+      "kind": "galaxy",
+      "parent": "naif:10",
+      "rank": 0,
+      "radius_km": 462851637223705088,
+      "color": "#f2e6cc",
+      "wiki": "Via Lattea",
+      "aliases": [
+        "Galassia",
+        "Milky Way"
+      ],
+      "fixed": {
+        "ra_deg": 266.41683708,
+        "dec_deg": -29.00781056,
+        "dist_pc": 8275
+      },
+      "show": {
+        "from": "self",
+        "min_pc": 20000
+      },
+      "phys": {
+        "dimensions": "disco stellare di circa 100.000 anni luce di diametro",
+        "age_gyr": 13.6,
+        "morphology": "spirale barrata (SBbc)"
+      }
+    },
+    {
+      "id": "gal:sgra",
+      "slug": "sagittarius-a",
+      "name": "Sagittarius A*",
+      "kind": "blackhole",
+      "parent": "naif:10",
+      "rank": 1,
+      "radius_km": 12690116,
+      "color": "#ffb36b",
+      "globular": {"rh_pc": 4.2, "stars": 60000},
+      "wiki": "Sagittarius A*",
+      "aliases": [
+        "Sgr A*",
+        "Sagittario A*",
+        "centro galattico",
+        "buco nero"
+      ],
+      "fixed": {
+        "ra_deg": 266.41683708,
+        "dec_deg": -29.00781056,
+        "dist_pc": 8275
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 20000
+      },
+      "phys": {
+        "mass_kg": 8.544e+36,
+        "radius_km": 12690116
+      }
+    },
+    {
+      "id": "gal:arm:norma-esterno",
+      "slug": "braccio-norma-esterno",
+      "name": "Braccio Norma-Esterno",
+      "kind": "arm",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 30856775814913672,
+      "color": "#9fb8ff",
+      "fixed": {
+        "model_kpc": [
+          -10.239,
+          5.911,
+          0.0
+        ]
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 1500
+      }
+    },
+    {
+      "id": "gal:arm:scudo-centauro",
+      "slug": "braccio-scudo-centauro",
+      "name": "Braccio Scudo-Centauro",
+      "kind": "arm",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 30856775814913672,
+      "color": "#9fb8ff",
+      "fixed": {
+        "model_kpc": [
+          4.237,
+          -7.34,
+          0.0
+        ]
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 1500
+      }
+    },
+    {
+      "id": "gal:arm:sagittario-carena",
+      "slug": "braccio-sagittario-carena",
+      "name": "Braccio Sagittario-Carena",
+      "kind": "arm",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 30856775814913672,
+      "color": "#9fb8ff",
+      "fixed": {
+        "model_kpc": [
+          -4.457,
+          -7.719,
+          0.0
+        ]
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 1500
+      }
+    },
+    {
+      "id": "gal:arm:perseo",
+      "slug": "braccio-perseo",
+      "name": "Braccio di Perseo",
+      "kind": "arm",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 30856775814913672,
+      "color": "#9fb8ff",
+      "fixed": {
+        "model_kpc": [
+          -2.8,
+          7.693,
+          0.0
+        ]
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 1500
+      }
+    },
+    {
+      "id": "gal:arm:orione",
+      "slug": "braccio-orione",
+      "name": "Braccio di Orione (Braccio Locale)",
+      "kind": "arm",
+      "parent": "naif:10",
+      "rank": 3,
+      "radius_km": 30856775814913672,
+      "color": "#9fb8ff",
+      "fixed": {
+        "model_kpc": [
+          -7.316,
+          2.956,
+          0.0
+        ]
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 1500
+      }
+    },
+    {
+      "id": "dso:m42",
+      "slug": "nebulosa-orione",
+      "name": "Nebulosa di Orione (M42)",
+      "kind": "nebula",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 117255748096672,
+      "color": "#ff7f9e",
+      "photo": "m42",
+      "wiki": "Nebulosa di Orione",
+      "aliases": [
+        "M42",
+        "Grande Nebulosa di Orione"
+      ],
+      "fixed": {
+        "ra_deg": 83.82208,
+        "dec_deg": -5.39111,
+        "dist_pc": 400
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:m45",
+      "slug": "pleiadi",
+      "name": "Pleiadi (M45)",
+      "kind": "cluster",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 123427103259655,
+      "color": "#a9c4ff",
+      "photo": "m45",
+      "open_cluster": {"rh_pc": 4.5, "rt_pc": 11.6, "stars": 1248, "pop": "giovane"},
+      "wiki": "Pleiadi (astronomia)",
+      "aliases": [
+        "M45",
+        "Sette Sorelle"
+      ],
+      "fixed": {
+        "ra_deg": 56.75,
+        "dec_deg": 24.1167,
+        "dist_pc": 136
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:iadi",
+      "slug": "iadi",
+      "name": "Iadi",
+      "kind": "cluster",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 154283879074568,
+      "color": "#ffd9a0",
+      "open_cluster": {"rh_pc": 4.1, "rt_pc": 9.0, "stars": 364, "pop": "intermedia"},
+      "wiki": "Iadi (astronomia)",
+      "aliases": [
+        "Hyades",
+        "Melotte 25"
+      ],
+      "fixed": {
+        "ra_deg": 66.75,
+        "dec_deg": 15.87,
+        "dist_pc": 47
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:m16",
+      "slug": "nebulosa-aquila",
+      "name": "Nebulosa Aquila (M16)",
+      "kind": "nebula",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 185140654889482,
+      "color": "#ff8fa0",
+      "photo": "m16",
+      "wiki": "Nebulosa Aquila",
+      "aliases": [
+        "M16",
+        "Pilastri della Creazione"
+      ],
+      "fixed": {
+        "ra_deg": 274.7,
+        "dec_deg": -13.807,
+        "dist_pc": 1740
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:ngc3372",
+      "slug": "nebulosa-carena",
+      "name": "Nebulosa della Carena",
+      "kind": "nebula",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 555421964668446,
+      "color": "#ff8f9a",
+      "photo": "ngc3372",
+      "wiki": "Nebulosa della Carena",
+      "aliases": [
+        "NGC 3372",
+        "Eta Carinae"
+      ],
+      "fixed": {
+        "ra_deg": 161.265,
+        "dec_deg": -59.8667,
+        "dist_pc": 2350
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:ngc5139",
+      "slug": "omega-centauri",
+      "name": "Omega Centauri",
+      "kind": "cluster",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 771419395372842,
+      "color": "#ffe2b0",
+      "photo": "ngc5139",
+      "globular": {"rh_pc": 7.9, "stars": 60000},
+      "wiki": "Omega Centauri",
+      "aliases": [
+        "NGC 5139",
+        "ω Centauri"
+      ],
+      "fixed": {
+        "ra_deg": 201.697,
+        "dec_deg": -47.4795,
+        "dist_pc": 5430
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:lmc",
+      "slug": "grande-nube-magellano",
+      "name": "Grande Nube di Magellano",
+      "kind": "galaxy",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 132684136004128784,
+      "color": "#dfe3ff",
+      "photo": "lmc",
+      "cloud": {"incl_deg": 25.05, "nodes_pa_deg": 150.76, "thick_kpc": 0.4},
+      "wiki": "Grande Nube di Magellano",
+      "aliases": [
+        "LMC",
+        "Large Magellanic Cloud"
+      ],
+      "fixed": {
+        "ra_deg": 80.894,
+        "dec_deg": -69.756,
+        "dist_pc": 49590
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 800
+      }
+    },
+    {
+      "id": "dso:smc",
+      "slug": "piccola-nube-magellano",
+      "name": "Piccola Nube di Magellano",
+      "kind": "galaxy",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 86398972281758288,
+      "color": "#dfe3ff",
+      "photo": "smc",
+      "cloud": {"incl_deg": 64.4, "nodes_pa_deg": 155.3, "thick_kpc": 0.82, "mask": [[6.0236, -72.0813, 0.45], [15.8094, -70.8488, 0.15]]},
+      "wiki": "Piccola Nube di Magellano",
+      "aliases": [
+        "SMC",
+        "Small Magellanic Cloud"
+      ],
+      "fixed": {
+        "ra_deg": 13.1867,
+        "dec_deg": -72.8286,
+        "dist_pc": 62440
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 800
+      }
+    },
+    {
+      "id": "dso:m31",
+      "slug": "andromeda",
+      "name": "Galassia di Andromeda (M31)",
+      "kind": "galaxy",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 709705843743014400,
+      "color": "#e8e4ff",
+      "photo": "m31",
+      "wiki": "Galassia di Andromeda",
+      "aliases": [
+        "M31",
+        "Andromeda"
+      ],
+      "fixed": {
+        "ra_deg": 10.6847,
+        "dec_deg": 41.269,
+        "dist_pc": 765000
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20000
+      }
+    },
+    {
+      "id": "dso:m8",
+      "slug": "nebulosa-laguna",
+      "name": "Nebulosa Laguna (M8)",
+      "kind": "nebula",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 462851637223705,
+      "color": "#ff8f9a",
+      "photo": "m8",
+      "wiki": "Nebulosa Laguna",
+      "aliases": [
+        "M8",
+        "NGC 6523",
+        "Laguna"
+      ],
+      "fixed": {
+        "ra_deg": 270.9042,
+        "dec_deg": -24.3867,
+        "dist_pc": 1250
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:m20",
+      "slug": "nebulosa-trifida",
+      "name": "Nebulosa Trifida (M20)",
+      "kind": "nebula",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 185140654889482,
+      "color": "#ff9fb0",
+      "photo": "m20",
+      "wiki": "Nebulosa Trifida",
+      "aliases": [
+        "M20",
+        "NGC 6514",
+        "Trifida"
+      ],
+      "fixed": {
+        "ra_deg": 270.675,
+        "dec_deg": -22.97,
+        "dist_pc": 1250
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:m13",
+      "slug": "ammasso-ercole",
+      "name": "Ammasso globulare di Ercole (M13)",
+      "kind": "cluster",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 647992292113187,
+      "color": "#fff0d0",
+      "photo": "m13",
+      "globular": {
+        "rh_pc": 3.6,
+        "stars": 40000
+      },
+      "wiki": "Ammasso Globulare di Ercole",
+      "aliases": [
+        "M13",
+        "NGC 6205",
+        "Grande ammasso di Ercole"
+      ],
+      "fixed": {
+        "ra_deg": 250.4218,
+        "dec_deg": 36.4598,
+        "dist_pc": 7420
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "dso:m22",
+      "slug": "ammasso-m22",
+      "name": "Ammasso globulare M22",
+      "kind": "cluster",
+      "parent": "naif:10",
+      "rank": 2,
+      "radius_km": 462851637223705,
+      "color": "#ffe8c8",
+      "photo": "m22",
+      "globular": {
+        "rh_pc": 3.2,
+        "stars": 35000
+      },
+      "wiki": "M22 (astronomia)",
+      "aliases": [
+        "M22",
+        "NGC 6656"
+      ],
+      "fixed": {
+        "ra_deg": 279.0997,
+        "dec_deg": -23.9048,
+        "dist_pc": 3300
+      },
+      "show": {
+        "from": "sun",
+        "min_pc": 20
+      }
+    },
+    {
+      "id": "gal:s1",
+      "slug": "s1",
+      "name": "S1",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -3.01,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.595,
+        "e": 0.556,
+        "i_deg": 119.14,
+        "Omega_deg": 342.04,
+        "omega_deg": 122.3,
+        "tp_year": 2001.8,
+        "period_y": 166.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 166.0,
+        "eccentricity": 0.556
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s2",
+      "slug": "s2",
+      "name": "S2 (S0-2)",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 2,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -3.76,
+      "content": "s2",
+      "sky_orbit": {
+        "a_arcsec": 0.1255,
+        "e": 0.8839,
+        "i_deg": 134.18,
+        "Omega_deg": 226.94,
+        "omega_deg": 65.51,
+        "tp_year": 2002.33,
+        "period_y": 16.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 16.0,
+        "eccentricity": 0.8839
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      },
+      "aliases": [
+        "S0-2",
+        "S2"
+      ]
+    },
+    {
+      "id": "gal:s4",
+      "slug": "s4",
+      "name": "S4",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -3.31,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.357,
+        "e": 0.3905,
+        "i_deg": 80.33,
+        "Omega_deg": 258.84,
+        "omega_deg": 290.8,
+        "tp_year": 1957.4,
+        "period_y": 77.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 77.0,
+        "eccentricity": 0.3905
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s8",
+      "slug": "s8",
+      "name": "S8",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -3.21,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.4047,
+        "e": 0.8031,
+        "i_deg": 74.37,
+        "Omega_deg": 315.43,
+        "omega_deg": 346.7,
+        "tp_year": 1983.64,
+        "period_y": 92.9,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 92.9,
+        "eccentricity": 0.8031
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s9",
+      "slug": "s9",
+      "name": "S9",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -2.61,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.2724,
+        "e": 0.644,
+        "i_deg": 82.41,
+        "Omega_deg": 156.6,
+        "omega_deg": 150.6,
+        "tp_year": 1976.71,
+        "period_y": 51.3,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 51.3,
+        "eccentricity": 0.644
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s12",
+      "slug": "s12",
+      "name": "S12",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -2.21,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.2987,
+        "e": 0.8883,
+        "i_deg": 33.56,
+        "Omega_deg": 230.1,
+        "omega_deg": 317.9,
+        "tp_year": 1995.59,
+        "period_y": 58.9,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 58.9,
+        "eccentricity": 0.8883
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s13",
+      "slug": "s13",
+      "name": "S13",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.91,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.2641,
+        "e": 0.425,
+        "i_deg": 24.7,
+        "Omega_deg": 74.5,
+        "omega_deg": 245.2,
+        "tp_year": 2004.86,
+        "period_y": 49.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 49.0,
+        "eccentricity": 0.425
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s14",
+      "slug": "s14",
+      "name": "S14",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -2.01,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.2863,
+        "e": 0.9761,
+        "i_deg": 100.59,
+        "Omega_deg": 226.38,
+        "omega_deg": 334.59,
+        "tp_year": 2000.12,
+        "period_y": 55.3,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 55.3,
+        "eccentricity": 0.9761
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s17",
+      "slug": "s17",
+      "name": "S17",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 10435500,
+      "color": "#ffb878",
+      "absmag": 1.79,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.3559,
+        "e": 0.397,
+        "i_deg": 96.83,
+        "Omega_deg": 191.62,
+        "omega_deg": 326.0,
+        "tp_year": 1991.19,
+        "period_y": 76.6,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "gigante fredda di tipo K o M",
+        "period_y": 76.6,
+        "eccentricity": 0.397
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s18",
+      "slug": "s18",
+      "name": "S18",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.01,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.2379,
+        "e": 0.471,
+        "i_deg": 110.67,
+        "Omega_deg": 49.11,
+        "omega_deg": 349.46,
+        "tp_year": 1993.86,
+        "period_y": 41.9,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 41.9,
+        "eccentricity": 0.471
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s19",
+      "slug": "s19",
+      "name": "S19",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.71,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.52,
+        "e": 0.75,
+        "i_deg": 71.96,
+        "Omega_deg": 344.6,
+        "omega_deg": 155.2,
+        "tp_year": 2005.39,
+        "period_y": 135.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 135.0,
+        "eccentricity": 0.75
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s21",
+      "slug": "s21",
+      "name": "S21",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 10435500,
+      "color": "#ffb878",
+      "absmag": 3.39,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.219,
+        "e": 0.764,
+        "i_deg": 58.8,
+        "Omega_deg": 259.64,
+        "omega_deg": 166.4,
+        "tp_year": 2027.4,
+        "period_y": 37.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "gigante fredda di tipo K o M",
+        "period_y": 37.0,
+        "eccentricity": 0.764
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s22",
+      "slug": "s22",
+      "name": "S22",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.11,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 1.31,
+        "e": 0.449,
+        "i_deg": 105.76,
+        "Omega_deg": 291.7,
+        "omega_deg": 95.0,
+        "tp_year": 1996.9,
+        "period_y": 540.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 540.0,
+        "eccentricity": 0.449
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s23",
+      "slug": "s23",
+      "name": "S23",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": 0.09,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.253,
+        "e": 0.56,
+        "i_deg": 48.0,
+        "Omega_deg": 249.0,
+        "omega_deg": 39.0,
+        "tp_year": 2024.7,
+        "period_y": 45.8,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 45.8,
+        "eccentricity": 0.56
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s24",
+      "slug": "s24",
+      "name": "S24",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 10435500,
+      "color": "#ffb878",
+      "absmag": 2.09,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.944,
+        "e": 0.897,
+        "i_deg": 103.67,
+        "Omega_deg": 7.93,
+        "omega_deg": 290.0,
+        "tp_year": 2024.5,
+        "period_y": 331.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "gigante fredda di tipo K o M",
+        "period_y": 331.0,
+        "eccentricity": 0.897
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s29",
+      "slug": "s29",
+      "name": "S29",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.01,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.428,
+        "e": 0.728,
+        "i_deg": 105.8,
+        "Omega_deg": 161.96,
+        "omega_deg": 346.5,
+        "tp_year": 2025.96,
+        "period_y": 101.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 101.0,
+        "eccentricity": 0.728
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s31",
+      "slug": "s31",
+      "name": "S31",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -2.01,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.449,
+        "e": 0.5497,
+        "i_deg": 109.03,
+        "Omega_deg": 137.16,
+        "omega_deg": 308.0,
+        "tp_year": 2018.07,
+        "period_y": 108.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 108.0,
+        "eccentricity": 0.5497
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s33",
+      "slug": "s33",
+      "name": "S33",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -1.71,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.657,
+        "e": 0.608,
+        "i_deg": 60.5,
+        "Omega_deg": 100.1,
+        "omega_deg": 303.7,
+        "tp_year": 1928.0,
+        "period_y": 192.0,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 192.0,
+        "eccentricity": 0.608
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s38",
+      "slug": "s38",
+      "name": "S38",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 10435500,
+      "color": "#ffb878",
+      "absmag": 3.49,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.1416,
+        "e": 0.8201,
+        "i_deg": 171.1,
+        "Omega_deg": 101.06,
+        "omega_deg": 17.99,
+        "tp_year": 2003.19,
+        "period_y": 19.2,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "gigante fredda di tipo K o M",
+        "period_y": 19.2,
+        "eccentricity": 0.8201
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s39",
+      "slug": "s39",
+      "name": "S39",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -0.91,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.37,
+        "e": 0.9236,
+        "i_deg": 89.36,
+        "Omega_deg": 159.03,
+        "omega_deg": 23.3,
+        "tp_year": 2000.06,
+        "period_y": 81.1,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 81.1,
+        "eccentricity": 0.9236
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s55",
+      "slug": "s55",
+      "name": "S55",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -0.21,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.1078,
+        "e": 0.7209,
+        "i_deg": 150.1,
+        "Omega_deg": 325.5,
+        "omega_deg": 331.5,
+        "tp_year": 2009.34,
+        "period_y": 12.8,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 12.8,
+        "eccentricity": 0.7209
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    },
+    {
+      "id": "gal:s175",
+      "slug": "s175",
+      "name": "S175",
+      "kind": "star",
+      "parent": "gal:sgra",
+      "rank": 3,
+      "radius_km": 4174200,
+      "color": "#a8bfff",
+      "absmag": -0.21,
+      "content": "stelle-s",
+      "sky_orbit": {
+        "a_arcsec": 0.414,
+        "e": 0.9867,
+        "i_deg": 88.53,
+        "Omega_deg": 326.83,
+        "omega_deg": 68.52,
+        "tp_year": 2009.51,
+        "period_y": 96.2,
+        "dist_pc": 8275
+      },
+      "phys": {
+        "spectral": "stella giovane e massiccia di tipo B",
+        "period_y": 96.2,
+        "eccentricity": 0.9867
+      },
+      "show": {
+        "from": "self",
+        "max_pc": 0.25
+      }
+    }
+  ]
+}

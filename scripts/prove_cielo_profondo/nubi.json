@@ -1,0 +1,56 @@
+[
+ {
+  "nome": "u0",
+  "js": "const cv=document.querySelector('canvas'); for (const el of document.body.querySelectorAll('*')) { if (el!==cv && !el.contains(cv)) el.style.visibility='hidden'; } a.deselect(); P.orbit('gal:mw', 39*3.0857e16, 0.3, -1.2); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u1",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 1.2, -1); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u2",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 2.2, -1.3); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u3",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 3.3, -0.9); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u4",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 4.4, -1.2); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u5",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 5.4, -1); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u6",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 1.5, 1.1); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u7",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 3.8, 1.2); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ },
+ {
+  "nome": "u8",
+  "js": "P.orbit('gal:mw', 39*3.0857e16, 0.6, 0.6); a.view.rig.update(0.016); const rig=a.view.rig, cam=rig.camera; const mid=P.by('dso:lmc').scenePos.clone().lerp(P.by('dso:smc').scenePos,0.3); rig.startFree(); const f=mid.clone().sub(rig.camPos).normalize(); cam.up.set(1,0,0); cam.lookAt(f); cam.updateMatrixWorld(); rig.freeQuat.copy(cam.quaternion); return null;",
+  "attesa": 4000,
+  "dopo": "const L=a.view.visuals.get('dso:lmc'), S=a.view.visuals.get('dso:smc'); return {lmc:P.proj(P.by('dso:lmc').scenePos), smc:P.proj(P.by('dso:smc').scenePos), gc:P.proj(P.by('gal:sgra').scenePos), roL:L.cloud&&L.cloud.points.renderOrder, cL:L.cloud&&L.cloud.points.visible, pL:L.group.children[1]&&L.group.children[1].visible, dL:+(L.distance/3.0857e16).toFixed(1), dS:+(S.distance/3.0857e16).toFixed(1)};"
+ }
+]
