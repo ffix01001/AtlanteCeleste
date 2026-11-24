@@ -15,3 +15,10 @@ data/sources/
 # diagramma H-R calcolato dal server (si ricrea da solo)
 data/generated/stars/*/hr.json
 scripts/modelli_3d/node_modules/
+
+# file personali: foto scattate con il programma, pacchetti, copie della storia, appunti
+immagini/
+*.zip
+*.bundle
+PROSSIMA_SESSIONE.md
+.DS_Store
