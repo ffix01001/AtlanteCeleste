@@ -60,4 +60,7 @@ Dati, immagini, modelli 3D e librerie di altri autori usati dal programma restan
 loro licenze: l'elenco completo è in CREDITI.md, il testo delle licenze in LICENZE_TERZE_PARTI.txt.
 Il programma è fornito così com'è, senza alcuna garanzia.
 
-Commenti, idee e segnalazioni di errori sono benvenuti.
+Il codice sorgente completo, con la storia delle versioni, è su GitHub:
+    https://github.com/ffix01001/AtlanteCeleste
+
+Commenti, idee e segnalazioni di errori sono benvenuti, anche lì (sezione "Issues").
